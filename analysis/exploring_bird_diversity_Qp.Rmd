@@ -1,0 +1,125 @@
+---
+title: "Explorando Diversidad Dispersantes Robledal"
+date: "`r Sys.Date()`"
+output: rmdformats::robobook
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=FALSE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(here)
+library(DT)
+```
+
+```{r}
+# read data
+transectos_qp <- read_csv(here::here("/data/transectos_qp.csv")) %>% 
+  mutate(area_ha = (100*longitud)/10000) %>% dplyr::select(-id)
+
+df <- read_csv(here::here("/data/dispersantes_qp.csv")) %>% inner_join(transectos_qp)
+```
+
+## Análisis de la abundancia (ind/Km) 
+```{r}
+ab <- df %>% filter(year>2007) %>% 
+  group_by(nombre, date, specie, year, loc, area_ha) %>% 
+  summarise(abundancia = sum(numero))
+
+ab_yearly <- df %>% group_by(nombre, specie, year, loc, area_ha) %>% 
+  summarise(ab = sum(numero)) %>% 
+  mutate(abundancia = round(ab / area_ha*10, 2)) %>% 
+  dplyr::select(-area_ha)
+
+density <- ab_yearly %>% 
+  pivot_wider(names_from = year, values_from=abundancia, names_prefix = "y") %>% 
+  relocate(nombre, loc, specie, y2008, y2009, y2010, y2011, y2012, y2013, y2014, y2015, y2016, y2017, y2018)
+
+datatable(density)
+
+```
+
+```{r}
+cols <- c(
+  "CAM" = "black", 
+  "GEN" = "#a6611a",
+  "DIL" = "#dfc27d",
+  "CAN" = "gray")
+
+cols <- c(
+  "Dehesa del Camarate"  = "black", 
+  "Cortijo del Hornillo" = "#a6611a",
+  "Robledal de Dílar"   = "#dfc27d",
+  "Robledal de Cáñar"  = "gray")
+
+
+abundacia_avg <- ab_yearly %>% group_by(nombre, loc, year) %>% 
+  summarise(ab_avg = mean(abundancia), 
+            ab_sd = sd(abundancia), 
+            ab_se = ab_sd/sqrt(n())) 
+pos <- position_dodge(.9)
+abundacia_avg %>% 
+  ggplot(aes(x=as.factor(year), y=ab_avg, fill=nombre, colour=nombre)) + 
+  geom_bar(stat="identity", position = pos) + 
+  geom_errorbar(aes(ymin = ab_avg - ab_se, 
+                    ymax = ab_avg + ab_se), position = pos) +
+  scale_colour_manual(values=cols) + 
+  scale_fill_manual(values=cols) + 
+  theme_bw() + 
+  theme(
+            legend.title = element_blank(), 
+        legend.position = "top") + 
+  ylab("Abundance birds/10ha") + xlab("")
+  
+```
+
+
+
+
+## Evolución de la Riqueza total de especies 
+
+```{r}
+d <- df %>% 
+  group_by(nombre, date, specie, year, loc) %>% 
+  summarise(abundancia = sum(numero))
+
+byloc <- df %>% 
+  group_by(loc, nombre, year, specie) %>% 
+  summarise(abundancia = sum(numero)) 
+
+byloc %>% 
+  group_by(loc, nombre, year) %>% 
+  summarise(riqueza = n()) %>% 
+  ggplot(aes(x=as.factor(year), y=riqueza, 
+             fill=nombre, colour=nombre, group=nombre)) +
+  geom_line() + geom_point() +
+  theme_bw() + 
+  theme(panel.grid.minor = element_blank(), 
+        legend.title = element_blank(), 
+        legend.position = "top") +
+  ylab("Riqueza total (nº especies)") +
+  xlab("") +
+    scale_colour_manual(values=cols) + 
+  scale_fill_manual(values=cols) 
+```
+
+
+
+

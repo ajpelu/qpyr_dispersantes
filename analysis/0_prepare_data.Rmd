@@ -69,6 +69,7 @@ transectos_qp <- transectos %>%
     str_detect(nombre, "Camarate") ~ "CAM"
   )) %>% 
   dplyr::select(-habitat)
+write_csv(transectos_qp, here::here("/data/transectos_qp.csv"))
 
 # Selecciono visitas a transectos de robledal 
 visitas_qp <- visitas %>% inner_join(transectos_qp, by = c("adis_transecto_id" = "id")) %>% 
