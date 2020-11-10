@@ -1,0 +1,93 @@
+---
+title: "prepare data"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library("tidyverse")
+library("here")
+```
+
+
+```{r}
+avistamientos <- read_csv(here::here("/data/db_linaria/adis_avistamientos.csv")) %>% 
+  dplyr::select(-created_at, -updated_at, -observaciones, -the_geom, -accuracy)
+
+
+visitas <- read_csv(here::here("/data/db_linaria/adis_visitas.csv")) %>% 
+  dplyr::select(-created_at, -updated_at, -dicc_viento_id, -dicc_nube_id, -niebla)
+
+
+# Transectos 
+dicc_unidadesmuestreo <- read_csv(here::here("/data/db_linaria/dicc_unidadesmuestreos.csv")) 
+dicc_habitat <- read_csv(here::here("/data/db_linaria/dicc_habitats.csv"))
+
+dicc_unidadesmuestreo <- dicc_unidadesmuestreo %>% 
+  full_join(dicc_habitat, by=c("dicc_habitat_id"="id")) %>% 
+  dplyr::select(-dicc_habitat_id)
+  
+
+transectos <- read_csv(here::here("/data/db_linaria/adis_transectos.csv")) %>% 
+  dplyr::select(-created_at, -updated_at)
+
+transectos <- transectos %>% inner_join(dicc_unidadesmuestreo, 
+                         by = c("dicc_unidadesmuestreo_id" = "id")) %>% 
+  dplyr::select(-dicc_unidadesmuestreo_id)
+
+rm(dicc_habitat, dicc_unidadesmuestreo)
+# ---------------
+
+
+# sps 
+adis_species <- read_csv(here::here("/data/db_linaria/adis_especies_dispersantes.csv")) %>% 
+  dplyr::select(-created_at, -updated_at) 
+
+dicc_species <- read_csv(here::here("/data/db_linaria/dicc_especies.csv")) %>% 
+  dplyr::select(-created_at, -updated_at)
+
+adis_species <- adis_species %>% 
+  inner_join(dicc_species, 
+             by = c("dicc_especie_id" = "id")) %>% 
+  dplyr::select(-dicc_especie_id, -imagen, -audio)
+
+#-----------------
+
+# Selecciono los transectos de robledal 
+
+transectos_qp <- transectos %>% 
+  filter(habitat == "Robledal") %>% 
+  mutate(loc = case_when(
+    str_detect(nombre, "Cáñar") ~ "CAN", 
+    str_detect(nombre, "Dílar") ~ "DIL",
+    str_detect(nombre, "Hornillo") ~ "GEN",
+    str_detect(nombre, "Camarate") ~ "CAM"
+  )) %>% 
+  dplyr::select(-habitat)
+
+# Selecciono visitas a transectos de robledal 
+visitas_qp <- visitas %>% inner_join(transectos_qp, by = c("adis_transecto_id" = "id")) %>% 
+  mutate(date = ymd(as.Date(fechai, format="%Y-%m-%d"))) %>% 
+  dplyr::select(-adis_transecto_id, -longitud, -fechai, -fechaf) %>% 
+  mutate(year = year(date))
+
+# dataframe 
+df <- avistamientos %>% 
+  inner_join(visitas_qp, by = c("adis_visita_id" = "id")) %>% 
+  dplyr::select(-adis_visita_id) %>% 
+  inner_join((adis_species %>% dplyr::select(id, nombre_cientifico)), 
+             by = c("adis_especies_dispersante_id" = "id")) %>% 
+  dplyr::select(-adis_especies_dispersante_id, 
+                specie = nombre_cientifico) %>% 
+  relocate(id, specie, numero:desplazamiento, loc, date, year)
+
+write_csv(df, here::here("/data/dispersantes_qp.csv"))
+```
+
+
+
