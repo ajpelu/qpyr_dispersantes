@@ -1,5 +1,5 @@
 ---
-title: "Explorando Diversidad Dispersantes Robledal"
+title: "Analisis diversidad aves robledal"
 date: "`r Sys.Date()`"
 output: rmdformats::robobook
 editor_options: 
@@ -52,7 +52,7 @@ df <- read_csv(here::here("/data/dispersantes_qp.csv")) %>% inner_join(transecto
 # Datos desde 2010 
 
 disp <- df %>% 
-  filter(!specie %in% c("Valor nulo", "Accipiter gentilis", "Accipiter nisus", "Falco tinnunculus", "Athene noctua", "Alectoris rufa", "Pica pica")) %>% 
+  filter(!specie %in% c("Valor nulo", "Accipiter gentilis", "Accipiter nisus", "Falco tinnunculus", "Athene noctua", "Alectoris rufa")) %>% 
   filter(year>2009) %>% 
   filter(year < 2018)
 ```
@@ -182,7 +182,8 @@ plot_simpson + stat_compare_means(comparisons = my_comparisons) +
 
 ## Indices de disimilaridad
 
-- Computamos el índice de disimilaridad de Jaccard y de Morisita-Horn 
+- Computamos el índice de disimilaridad de Jaccard (ja) y de Morisita-Horn (ma). 
+
 
 ```{r}
 
@@ -228,207 +229,29 @@ dis_aux %>% ggplot(aes(x=loc2, y=value, fill=variable)) +
 ```
 
 
+## NMDS 
+```{r, echo=FALSE, eval=FALSE}
 
+fit <- cmdscale(vegdist(ja_aux,"bray"), eig = TRUE, k = 2)
+plot(fit)
 
 
 
 
+aux_nmds <- density %>% pivot_longer(y2010:y2017, names_to="ab") %>% 
+  group_by(sp, loc) %>% 
+  summarise(ab_avg = sum(value)) %>% 
+  pivot_wider(names_from = sp, values_from = ab_avg, values_fill = 0) %>% 
+    column_to_rownames(var = "loc")
 
-# Ojo algunas especies no están presentes ese año (añado 0 cuando es NA)
-d2010 <- density %>% dplyr::select(sp, loc, y2010) %>% 
-  pivot_wider(names_from = sp, values_from = y2010, values_fill = 0) %>% 
-  column_to_rownames(var = "loc")
+set.seed(1234)
+m1 <- metaMDS(aux_nmds, distance = "bray", k=2)
 
-h <- vegan::diversity(d2010)
-  
+plot(cmdscale(vegdist(ja_aux,"bray"))) 
+     col=as.numeric(myfungi$Habitat))
 
-matrix_ab <- ab %>% 
-  pivot_wider(!year, names_from = sp, values_from = abundancia)
 
 
-
-```
-
-
-
-
-
-
-
-```{r}
-
-ab_sp  <- ab %>% 
-  
-  
-  mutate(sp = stringr::str_replace(specie, " ", ".")) %>% 
-  dplyr::select(loc, abundancia, sp)
-
-# %>%
-  pivot_longer(!loc, names_to = "variables", values_to = "values")
-  
-
-
-
-
-```
-
-
-
-
-
-
-
-
-
-# ANOVA 
-Ec <- ab %>% filter(specie == "Emberiza cia")
-
-
-
-p <- ggboxplot(Ec, x = "loc", y = "abundancia")
-
-my_comparisons <- list( c("CAM", "CAN"), c("CAM", "DIL"), c("CAM", "GEN"), 
-                        c("CAN", "DIL"), c("CAN", "GEN"), c("DIL", "GEN"))
-
-p + stat_compare_means(comparisons = my_comparisons) +
-  stat_compare_means(label.y=50)
-
-
-
-
-ab_specie_site <- ab %>% 
-  group_by(loc, specie) %>% 
-  summarise(abundancia_avg = (mean(abundancia, na.rm = TRUE)*10))
-```
-
-
-
-
-
-
-## Análisis de la abundancia (ind/Km) 
-```{r}
-ab <- df %>% filter(year>2009) %>% 
-  group_by(loc, date, specie, year, area_ha) %>% 
-  summarise(abundancia = sum(numero))
-
-ab_yearly <- df %>% 
-  filter(year>2009) %>% 
-  group_by(nombre, specie, year, loc, area_ha) %>% 
-  summarise(ab = sum(numero)) %>% 
-  mutate(abundancia = round(ab / area_ha, 2)) %>% 
-  dplyr::select(-area_ha)
-
-density <- ab_yearly %>% 
-  pivot_wider(nombre:specie, names_from = year, values_from=abundancia, names_prefix = "y") 
-
-datatable(density)
-
-```
-
-
-
-
-## Abundancia promedio 
-
-- Abundancia promedio en todo el periodo, por especie y sitio 
-
-```{r}
-ab_yearly <- df %>% 
-  filter(year>2009) %>% 
-  group_by(loc, specie, year, area_ha) %>% 
-  summarise(ab = sum(numero)) %>% 
-  mutate(abundancia = round(ab / area_ha, 2)) %>% 
-  dplyr::select(-area_ha)
-
-ab_specie_site <- ab_yearly %>% 
-  group_by(loc, specie) %>% 
-  summarise(abundancia_avg = (mean(abundancia, na.rm = TRUE)*10))
-
-tabla_ab_avg_specie_sitio <- ab_specie_site %>% 
-  pivot_wider(names_from = loc, values_from=abundancia_avg) 
-
-```
-
-
-- Calcular diversidad alfa 
-
-```{r}
-ab_yearly <- df %>% 
-  filter(year>2009) %>% 
-  group_by(loc, specie, year, area_ha) %>% 
-  summarise(ab = sum(numero)) %>% 
-  # mutate(abundancia = round(ab / area_ha, 2)) %>% 
-  dplyr::select(-area_ha)
-
-
-```
-
-
-
-
-```{r}
-cols <- c(
-  "CAM" = "black", 
-  "GEN" = "#a6611a",
-  "DIL" = "#dfc27d",
-  "CAN" = "gray")
-
-cols <- c(
-  "Dehesa del Camarate"  = "black", 
-  "Cortijo del Hornillo" = "#a6611a",
-  "Robledal de Dílar"   = "#dfc27d",
-  "Robledal de Cáñar"  = "gray")
-
-
-abundacia_avg <- ab_yearly %>% group_by(nombre, loc, year) %>% 
-  summarise(ab_avg = mean(abundancia), 
-            ab_sd = sd(abundancia), 
-            ab_se = ab_sd/sqrt(n())) 
-pos <- position_dodge(.9)
-abundacia_avg %>% 
-  ggplot(aes(x=as.factor(year), y=ab_avg, fill=nombre, colour=nombre)) + 
-  geom_bar(stat="identity", position = pos) + 
-  geom_errorbar(aes(ymin = ab_avg - ab_se, 
-                    ymax = ab_avg + ab_se), position = pos) +
-  scale_colour_manual(values=cols) + 
-  scale_fill_manual(values=cols) + 
-  theme_bw() + 
-  theme(
-            legend.title = element_blank(), 
-        legend.position = "top") + 
-  ylab("Abundance birds/10ha") + xlab("")
-  
-```
-
-
-
-
-## Evolución de la Riqueza total de especies 
-
-```{r}
-d <- df %>% 
-  group_by(nombre, date, specie, year, loc) %>% 
-  summarise(abundancia = sum(numero))
-
-byloc <- df %>% 
-  group_by(loc, nombre, year, specie) %>% 
-  summarise(abundancia = sum(numero)) 
-
-byloc %>% 
-  group_by(loc, nombre, year) %>% 
-  summarise(riqueza = n()) %>% 
-  ggplot(aes(x=as.factor(year), y=riqueza, 
-             fill=nombre, colour=nombre, group=nombre)) +
-  geom_line() + geom_point() +
-  theme_bw() + 
-  theme(panel.grid.minor = element_blank(), 
-        legend.title = element_blank(), 
-        legend.position = "top") +
-  ylab("Riqueza total (nº especies)") +
-  xlab("") +
-    scale_colour_manual(values=cols) + 
-  scale_fill_manual(values=cols) 
 ```
 
 
