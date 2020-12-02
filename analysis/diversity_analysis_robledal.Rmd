@@ -29,6 +29,10 @@ library(DT)
 library(ggpubr)
 library(vegan)
 library(ggplot2)
+library(gtsummary)
+library(biostat)
+library(rcompanion)
+library(FSA)
 ```
 
 ## Preparar datos 
@@ -96,14 +100,76 @@ for (y in years){
 diversidad <- out_h %>% pivot_longer(!year, names_to = "loc") %>% 
   mutate(year = as.numeric(substring(year,2)))
 
-plot_diversidad <- ggboxplot(diversidad, x = "loc", y = "value") 
+# Para ordenar 
+diversidad$loc <- factor(diversidad$loc, levels = c("CAM", "GEN", "DIL", "CAN"))
+```
 
+```{r}
+# Ojo he quitado un outlier en CAM (year =2012)
+se <- function (x) sd(x, na.rm=TRUE)/sqrt(length(x))
+
+diversidad_c <- diversidad %>% 
+  filter(!(year == 2012 & loc == "CAM"))
+
+diversidad_c %>% 
+  dplyr::select(loc, Diversidad = value) %>% 
+  tbl_summary(by = loc,
+              statistic = list(all_continuous() ~ "{mean} \u00B1 {se} ({min}, {max})"), 
+              digits = list(everything() ~ 2), 
+              missing = "no")
+  # modify_header(stat_by = "**{level}**")  %>% 
+  # modify_footnote(update = everything() ~ NA)
+
+
+
+```
+
+### Analisis ANOVA no parametrico (KW) y multiple comparison (Wilcox-Test)
+
+Existen varias aproximaciones, para las comparacioens *post hoc*. Me decido por Wilcoxon test (ver [esto](http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/76-add-p-values-and-significance-levels-to-ggplots/)). Utilizamos la corrección "holm".
+
+
+```{r, echo=TRUE}
+kruskal.test(value ~ loc, data = diversidad)
+```
+
+```{r}
+knitr::kable(compare_means(value ~ loc, diversidad, p.adjust.method = "holm"))
+```
+
+```{r}
 my_comparisons <- list( c("CAM", "CAN"), c("CAM", "DIL"), c("CAM", "GEN"), 
                         c("CAN", "DIL"), c("CAN", "GEN"), c("DIL", "GEN"))
 
-plot_diversidad + stat_compare_means(comparisons = my_comparisons) +
-  stat_compare_means(label.y=3)
+plot_diversidad <- ggboxplot(diversidad_c, 
+                             x = "loc", 
+                             y = "value", palette = "jco", color = "loc") + 
+  ylab("Diversidad") + stat_compare_means(label.y=1.5, label.x = "CAM") 
+
+plot_diversidad + stat_compare_means(comparisons = my_comparisons, 
+                                     aes(label = ..p.signif..)) 
+
 ```
+
+
+```{r}
+div_letras <- 
+make_cld(
+  compare_means(value ~ loc, diversidad, p.adjust.method = "holm") %>% 
+  unite("Comparison", group1:group2, sep = " - ", remove = FALSE) %>% 
+  rename(p.adjust = p.adj) %>% 
+    as.data.frame()
+) %>% 
+  dplyr::select(loc = group, letras = cld) %>% 
+  inner_join((
+    diversidad %>% group_by(loc) %>% summarise(value = max(value))))
+
+
+plot_diversidad + geom_text(data = div_letras, 
+                            aes(y = value + 0.2, x = loc, label = letras))
+
+```
+
 
 ## Análisis de la abundancia total
 
@@ -122,17 +188,65 @@ density_ha <- aux_density %>%
 
 densidad_total <- density_ha %>% 
   group_by(loc, year) %>% 
-  summarise(ab_ha_total = sum(ab_ha))
+  summarise(ab_ha_total = sum(ab_ha)) 
+  
+  
+# Para ordenar 
+densidad_total$loc <- factor(densidad_total$loc, levels = c("CAM", "GEN", "DIL", "CAN"))
 
-p <- ggboxplot(densidad_total, x = "loc", y = "ab_ha_total") 
 
-my_comparisons <- list( c("CAM", "CAN"), c("CAM", "DIL"), c("CAM", "GEN"), 
-                        c("CAN", "DIL"), c("CAN", "GEN"), c("DIL", "GEN"))
+densidad_total_c <- densidad_total %>% 
+  filter(!(year == "y2012" & loc == "CAM"))
 
-p + stat_compare_means(comparisons = my_comparisons) +
-  stat_compare_means(label.y=400)
+densidad_total_c  %>% 
+  dplyr::select(loc, Densidad = ab_ha_total) %>% 
+  tbl_summary(by = loc,
+              statistic = list(all_continuous() ~ "{mean} \u00B1 {se} ({min}, {max})"), 
+              digits = list(everything() ~ 2), 
+              missing = "no")
+  # modify_header(stat_by = "**{level}**")  %>% 
+  # modify_footnote(update = everything() ~ NA)
+``` 
+
+
+```{r, echo=TRUE}
+kruskal.test(ab_ha_total ~ loc, data = densidad_total)
+```
+
+```{r}
+knitr::kable(compare_means(ab_ha_total ~ loc, densidad_total, p.adjust.method = "holm"))
+```
+
+
+```{r}
+plot_abundancia <- ggboxplot(densidad_total, 
+                             x = "loc", 
+                             y = "ab_ha_total", palette = "jco", color = "loc") + 
+  ylab("Densidad (n/ha * 10)") + stat_compare_means(label.y=400, label.x = "CAM") 
+
+plot_abundancia + stat_compare_means(comparisons = my_comparisons, 
+                                     aes(label = ..p.signif..)) 
 
 ```
+
+```{r}
+den_letras <- 
+make_cld(
+  compare_means(ab_ha_total ~ loc, densidad_total, p.adjust.method = "holm") %>% 
+  unite("Comparison", group1:group2, sep = " - ", remove = FALSE) %>% 
+  rename(p.adjust = p.adj) %>% 
+    as.data.frame()
+) %>% 
+  dplyr::select(loc = group, letras = cld) %>% 
+  inner_join((
+    densidad_total %>% group_by(loc) %>% summarise(ab_ha_total = max(ab_ha_total))))
+
+
+plot_abundancia + geom_text(data = den_letras, 
+                            aes(y = ab_ha_total + 10, x = loc, label = letras))
+```
+
+
 
 ## Riqueza total
 ```{r}
@@ -170,13 +284,63 @@ for (y in years){
 simpson <- out_s %>% pivot_longer(!year, names_to = "loc") %>% 
   mutate(year = as.numeric(substring(year,2)))
 
-plot_simpson <- ggboxplot(simpson, x = "loc", y = "value") 
 
-my_comparisons <- list( c("CAM", "CAN"), c("CAM", "DIL"), c("CAM", "GEN"), 
-                        c("CAN", "DIL"), c("CAN", "GEN"), c("DIL", "GEN"))
+```
 
-plot_simpson + stat_compare_means(comparisons = my_comparisons) +
-  stat_compare_means(label.y=.6)
+
+```{r}
+# Para ordenar 
+simpson$loc <- factor(simpson$loc, levels = c("CAM", "GEN", "DIL", "CAN"))
+
+simpson_c <- simpson %>% 
+  filter(!(year == 2012 & loc == "CAM"))
+
+simpson_c  %>% 
+  dplyr::select(loc, simpson = value) %>% 
+  tbl_summary(by = loc,
+              statistic = list(all_continuous() ~ "{mean} \u00B1 {se} ({min}, {max})"), 
+              digits = list(everything() ~ 2), 
+              missing = "no")
+  # modify_header(stat_by = "**{level}**")  %>% 
+  # modify_footnote(update = everything() ~ NA)
+```
+
+
+```{r, echo=TRUE}
+kruskal.test(value ~ loc, data = simpson)
+```
+
+```{r}
+knitr::kable(compare_means(value ~ loc, data = simpson, p.adjust.method = "holm"))
+```
+
+
+```{r}
+plot_simpson <- ggboxplot(simpson, 
+                             x = "loc", 
+                             y = "value", palette = "jco", color = "loc") + 
+  ylab("Indice de Simpson") + stat_compare_means(label.y=.3, label.x = "CAM") 
+
+plot_simpson + stat_compare_means(comparisons = my_comparisons, 
+                                     aes(label = ..p.signif..)) 
+
+```
+
+```{r}
+sim_letras <- 
+make_cld(
+  compare_means(value ~ loc, simpson, p.adjust.method = "holm") %>% 
+  unite("Comparison", group1:group2, sep = " - ", remove = FALSE) %>% 
+  rename(p.adjust = p.adj) %>% 
+    as.data.frame()
+) %>% 
+  dplyr::select(loc = group, letras = cld) %>% 
+  inner_join((
+    simpson %>% group_by(loc) %>% summarise(value = max(value))))
+
+
+plot_simpson + geom_text(data = sim_letras, 
+                            aes(y = value + 0.01, x = loc, label = letras))
 ```
 
 
@@ -184,9 +348,7 @@ plot_simpson + stat_compare_means(comparisons = my_comparisons) +
 
 - Computamos el índice de disimilaridad de Jaccard (ja) y de Morisita-Horn (ma). 
 
-
 ```{r}
-
 ja_aux <- density %>% pivot_longer(y2010:y2017, names_to="ab") %>% 
   group_by(sp, loc) %>% 
   summarise(ab_avg = mean(value)) %>% 
@@ -226,34 +388,10 @@ dis_aux %>% ggplot(aes(x=loc2, y=value, fill=variable)) +
   geom_bar(stat="identity", position = "dodge") + 
   facet_wrap(~loc) +
   theme_bw()
+
+
+dis_aux %>% filter(variable == "ja") %>% 
+  ggplot(aes(loc2, y = value)) + 
+  geom_bar(stat="identity") + coord_polar() + facet_wrap(~loc)
 ```
-
-
-## NMDS 
-```{r, echo=FALSE, eval=FALSE}
-
-fit <- cmdscale(vegdist(ja_aux,"bray"), eig = TRUE, k = 2)
-plot(fit)
-
-
-
-
-aux_nmds <- density %>% pivot_longer(y2010:y2017, names_to="ab") %>% 
-  group_by(sp, loc) %>% 
-  summarise(ab_avg = sum(value)) %>% 
-  pivot_wider(names_from = sp, values_from = ab_avg, values_fill = 0) %>% 
-    column_to_rownames(var = "loc")
-
-set.seed(1234)
-m1 <- metaMDS(aux_nmds, distance = "bray", k=2)
-
-plot(cmdscale(vegdist(ja_aux,"bray"))) 
-     col=as.numeric(myfungi$Habitat))
-
-
-
-```
-
-
-
 
