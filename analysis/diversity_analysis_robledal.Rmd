@@ -19,7 +19,9 @@ opts_chunk$set(echo=FALSE,
                comment=NA,
                message=FALSE,
                warning=FALSE)
-opts_knit$set(width=75)
+opts_knit$set(width=100)
+
+options(knitr.table.format = "html") 
 ```
 
 ```{r, echo=FALSE}
@@ -33,6 +35,7 @@ library(gtsummary)
 library(biostat)
 library(rcompanion)
 library(FSA)
+library(kableExtra)
 ```
 
 ## Preparar datos 
@@ -134,7 +137,7 @@ kruskal.test(value ~ loc, data = diversidad)
 ```
 
 ```{r}
-knitr::kable(compare_means(value ~ loc, diversidad, p.adjust.method = "holm"))
+knitr::kable(compare_means(value ~ loc, diversidad, p.adjust.method = "holm")) %>% kable_styling()
 ```
 
 ```{r}
@@ -214,7 +217,7 @@ kruskal.test(ab_ha_total ~ loc, data = densidad_total)
 ```
 
 ```{r}
-knitr::kable(compare_means(ab_ha_total ~ loc, densidad_total, p.adjust.method = "holm"))
+knitr::kable(compare_means(ab_ha_total ~ loc, densidad_total, p.adjust.method = "holm")) %>% kable_styling()
 ```
 
 
@@ -254,7 +257,7 @@ plot_abundancia + geom_text(data = den_letras,
 riq <- aux_density %>% 
   dplyr::select(sp, loc) %>% unique() %>% group_by(loc) %>% count()
 
-knitr::kable(riq)
+knitr::kable(riq) %>% kable_styling()
 ```
 
 ## Indice de dominancia de Simpson 
@@ -311,7 +314,7 @@ kruskal.test(value ~ loc, data = simpson)
 ```
 
 ```{r}
-knitr::kable(compare_means(value ~ loc, data = simpson, p.adjust.method = "holm"))
+knitr::kable(compare_means(value ~ loc, data = simpson, p.adjust.method = "holm")) %>% kable_styling()
 ```
 
 
@@ -395,3 +398,89 @@ dis_aux %>% filter(variable == "ja") %>%
   geom_bar(stat="identity") + coord_polar() + facet_wrap(~loc)
 ```
 
+## Analizar diferencias para cada especie entre sitios
+
+Primero analizamos cuantas especies están presentes en mas de un sitio
+
+```{r}
+# Ver las especies que están presentes en solo 1 sitio 
+sp_sitios <- density_ha %>% 
+  group_by(sp, loc) %>% 
+  count() %>% 
+  pivot_wider(names_from = loc, values_from = n) 
+
+sp_sitios$cuantos_sitios <- 4 - rowSums(is.na(sp_sitios))
+
+gghistogram(sp_sitios, x="cuantos_sitios", y = "..count..", 
+            xlab = "Localidades presentes", 
+            ylab = "Especies",
+            fill = "lightgray", color = "black") + 
+  geom_text(stat='count', aes(label=..count..), vjust=-1, hjust=.5)
+```
+
+Del total de `r nrow(sp_sitios)` analizadas encontramos que hay `r sp_sitios %>% filter(cuantos_sitios == 1) %>% nrow()` especies que están presentes solo en un sitio. 
+
+
+```{r}
+especies_kw <- sp_sitios %>% filter(cuantos_sitios > 1) %>% dplyr::select(sp)
+
+se <- function(x) sd(x, na.rm=TRUE)/sqrt(length(x))
+
+# Mean and SE values (ab_ha)
+s <- density_ha %>% 
+  group_by(sp, loc) %>% 
+  summarise(
+    mean = round(mean(ab_ha, na.rm = TRUE),3),
+    se = round(sd(ab_ha, na.rm=TRUE)/sqrt(length(ab_ha)),3)
+  ) %>% 
+  unite("ab", mean:se, sep = " ± ", na.rm = TRUE, remove = TRUE) 
+
+
+# Compute KW 
+kw <- density_ha %>% 
+  filter(sp %in% especies_kw$sp) %>% 
+  group_by(sp) %>% 
+  group_modify(
+    ~broom::tidy(kruskal.test(ab_ha ~ loc, data=.x))) %>% 
+  mutate(parameter = as.character(parameter), 
+         statistic = round(statistic, 2),
+         p.value = round(p.value, 4)) %>% 
+  dplyr::select(-method)
+
+
+# Compute differences post-hocs 
+posthoc <- density_ha %>% 
+  filter(sp %in% especies_kw$sp) %>% 
+  dplyr::select(sp, loc, ab_ha)
+
+las_especies <- especies_kw$sp
+
+out.letra <- data.frame()
+for (i in seq_along(las_especies)){
+  
+  df <- posthoc %>% filter(sp == las_especies[i])
+  
+  m <- pairwise.wilcox.test(df$ab_ha, df$loc, exact=FALSE) 
+  l <- biostat::make_cld(m) %>% 
+     dplyr::select(loc=group, letra = cld) %>% 
+    mutate(sp = las_especies[i])
+  
+  out.letra <- rbind(out.letra, l)
+}
+  
+  
+tabla_kw_sp <- s %>% left_join(out.letra) %>% 
+  unite("ab", ab:letra, sep = " ") %>% 
+  pivot_wider(names_from = loc, values_from = ab) %>% 
+  left_join(kw, by="sp") %>% 
+  relocate(sp, statistic:parameter, CAM:DIL)
+```
+
+A continuación se muestran los datos de abundancia ($\text{n ind} \cdot ha^{-1} \cdot 10$). Para cada especie se muestran los valores medios (con su error estandar) para cada población. Además se analiza para cada especie si existen diferencias entre las poblaciones (Kruskal Wallis) y posteriormente se analizan diferencias entre sitios (comparaciones múltiples, *posthoc*, usando test no paramétricos de Wilcoxon). Las diferentes letras indican para una especie diferencias entre localidades. 
+
+```{r}
+DT::datatable(tabla_kw_sp)
+```
+
+  
+  
