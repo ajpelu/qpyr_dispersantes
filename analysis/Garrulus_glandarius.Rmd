@@ -1,0 +1,91 @@
+---
+title: "Analisis arrendajo"
+date: "`r Sys.Date()`"
+output: rmdformats::robobook
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=FALSE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=100)
+
+options(knitr.table.format = "html") 
+```
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(here)
+library(sf)
+```
+
+
+# Extraer hábitats de los transectos 
+
+```{r}
+transectos <- st_read(here::here("/data/geoinfo/transectos23030.shp"))
+tqp <- read_csv(here::here("/data/transectos_qp.csv"))
+
+transectos_qp <- transectos %>% filter(id %in% tqp$id)
+transectos_qpb <- st_buffer(transectos_qp, dist = 1000, endCapStyle="ROUND")
+
+sn <- st_read("/Users/ajpelu/Google Drive/_phd/_geoinfo/ecosystems_sn/ecosystems_sn.shp")
+
+b <- st_transform(transectos_qpb, 4326)
+sn <- st_transform(sn, 4326)
+
+
+habitat <- st_intersection(b, st_make_valid(sn))
+
+habitat_df <- habitat %>% 
+  mutate(area = st_area(habitat)) %>% 
+  dplyr::select(id, nombre, dicc_habit, ecosystem, area) %>% st_drop_geometry() %>% 
+  as.data.frame() %>% 
+  mutate(aream2 = as.vector(area))
+
+
+ht <- habitat_df %>% 
+  group_by(id, nombre, ecosystem) %>% 
+  summarise(area_ha = sum(aream2/10000)) %>% 
+  mutate(loc = case_when(
+    id == 2 ~ "CAN", 
+    id == 4 ~ "DIL", 
+    id == 9 ~ "GEN",
+    id == 12 ~ "CAM"
+  )) %>% ungroup() %>% 
+  dplyr::select(loc, ecosystem, area_ha) %>% 
+  pivot_wider(names_from = loc, values_from = area_ha) %>% 
+  mutate(CANpct = CAN / sum(CAN, na.rm = TRUE)*100,
+         DILpct = DIL / sum(DIL, na.rm = TRUE)*100,
+         GENpct = GEN / sum(GEN, na.rm = TRUE)*100,
+         CAMpct = CAM / sum(CAM, na.rm = TRUE)*100)
+
+
+hts <- ht %>% dplyr::select(-CAN, -DIL, -CAM, -GEN) %>% 
+  filter(!ecosystem %in% c("Aquatic systems", "High-mountain meadows")) %>% 
+  column_to_rownames(var="ecosystem") %>% as.data.frame() %>% 
+  dplyr::select(CANpct)
+
+
+hts %>% 
+  filter(value >= 5) %>%
+  mutate(loc = gsub("pct", "", loc_pct)) %>% 
+  ggplot(aes(x=ecosystem, y = value, fill=loc)) + 
+  geom_bar(stat = "identity", position = position_dodge2(0.9, preserve = "single")) +
+  coord_flip() +
+  theme_bw() 
+
+```
+
+
