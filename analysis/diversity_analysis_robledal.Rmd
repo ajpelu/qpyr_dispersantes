@@ -44,10 +44,10 @@ library(kableExtra)
 
 ```{r}
 # read data
-transectos_qp <- read_csv(here::here("/data/transectos_qp.csv")) %>% 
+transectos_qp <- read_csv(here::here("data/transectos_qp.csv")) %>% 
   mutate(area_ha = (100*longitud)/10000) %>% dplyr::select(-id)
 
-df <- read_csv(here::here("/data/dispersantes_qp.csv")) %>% inner_join(transectos_qp) %>% 
+df <- read_csv(here::here("data/dispersantes_qp.csv")) %>% inner_join(transectos_qp) %>% 
   mutate(loc = case_when(
     str_detect(nombre, "Cáñar") ~ "CAN", 
     str_detect(nombre, "Dílar") ~ "DIL",
@@ -62,6 +62,10 @@ disp <- df %>%
   filter(!specie %in% c("Valor nulo", "Accipiter gentilis", "Accipiter nisus", "Falco tinnunculus", "Athene noctua", "Alectoris rufa")) %>% 
   filter(year>2009) %>% 
   filter(year < 2018)
+
+df %>% filter(str_detect(specie, "Garr*")) %>% 
+  write_csv(here::here("data/garrulus.csv"))
+
 ```
 
 
