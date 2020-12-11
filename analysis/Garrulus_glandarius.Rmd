@@ -28,31 +28,128 @@ options(knitr.table.format = "html")
 library(tidyverse)
 library(here)
 library(sf)
+library(lubridate)
 ```
+
+# Explorar los datos de arrendajo 
+
+- Calculamos los conteos realizados en cada fecha y en cada localidad 
+
+```{r}
+g <- read_csv("data/garrulus.csv")
+d <- g %>% group_by(loc, date, area_ha) %>% summarise(n = sum(numero))
+
+d %>% ggplot(aes(x=date, y=n)) + geom_point() + facet_wrap(~loc, ncol=1) + theme_light() 
+```
+
+- Ver las visistas en cada transecto para asignar valores 0 en aquellos transectos que se hayan realizado y no haya habido conteo de arrendajos
+
+```{r}
+# Transectos 
+dicc_unidadesmuestreo <- read_csv(here::here("data/db_linaria/dicc_unidadesmuestreos.csv")) 
+dicc_habitat <- read_csv(here::here("data/db_linaria/dicc_habitats.csv"))
+
+dicc_unidadesmuestreo <- dicc_unidadesmuestreo %>% 
+  full_join(dicc_habitat, by=c("dicc_habitat_id"="id")) %>% 
+  dplyr::select(-dicc_habitat_id)
+  
+transectos <- read_csv(here::here("data/db_linaria/adis_transectos.csv")) %>% 
+  dplyr::select(-created_at, -updated_at)
+
+transectos <- transectos %>% inner_join(dicc_unidadesmuestreo, 
+                         by = c("dicc_unidadesmuestreo_id" = "id")) %>% 
+  dplyr::select(-dicc_unidadesmuestreo_id)
+
+rm(dicc_habitat, dicc_unidadesmuestreo)
+
+
+visitas <- read_csv(here::here("data/db_linaria/adis_visitas.csv"))
+visitas_qp <- visitas %>% inner_join(transectos, by =c("adis_transecto_id"="id")) %>% 
+  filter(habitat == "Robledal") %>% 
+  mutate(loc = case_when(
+    str_detect(nombre, "Cáñar") ~ "CAN", 
+    str_detect(nombre, "Dílar") ~ "DIL",
+    str_detect(nombre, "Hornillo") ~ "GEN",
+    str_detect(nombre, "Camarate") ~ "CAM"
+  )) %>% 
+  mutate(date = ymd(as.Date(fechai, format="%Y-%m-%d"))) %>% 
+  dplyr::select(id, date, loc) 
+
+
+df <- visitas_qp %>% 
+  left_join(d, by = c("loc", "date")) %>% 
+  dplyr::select(-area_ha) %>% 
+  replace_na(list(n = 0)) %>% 
+  mutate(detected = ifelse(n > 0, "true", "false"))
+
+
+
+nvisitas_year <- df %>% 
+  group_by(year = floor_date(date, "year"), 
+           loc) %>% 
+  count() %>% 
+  mutate(date = add_with_rollback(year, months(5))) %>% 
+  rename(nvisitas = n) %>% 
+  mutate(n = 20)
+
+ggplot(df, aes(x=date, y=n)) + 
+  geom_line() + 
+  geom_point(aes(fill=detected), colour = "black", pch=21) +
+  facet_wrap(~loc, ncol=1) + 
+  scale_fill_manual(values = c("white", "black")) + 
+  theme_light() +
+  geom_text(data=nvisitas_year, 
+             aes(x=date, y=n, label = nvisitas))
+```
+
+
 
 
 # Extraer hábitats de los transectos 
 
+- Selecciono los transectos de robledal
+- Genero un buffer de 1000 m a lo largo del transecto 
+- Extraigo que ecosistemas están contenidos en el buffer, utilizando el mapa de ecosistemas de SN 
+
+- Ojo hay un problema con los datos de GEN (el mapa de ecosistemas está "limitado" a SN), así cuando se hace el buffer, no tiene la misma superficie a lo largo de todo el transecto. Solución: usar datos de ecosistemas 1:10.000 de la REDIAM. 
+
 ```{r}
-transectos <- st_read(here::here("/data/geoinfo/transectos23030.shp"))
-tqp <- read_csv(here::here("/data/transectos_qp.csv"))
+transectos <- st_read(here::here("data/geoinfo/transectos23030.shp"))
+tqp <- read_csv(here::here("data/transectos_qp.csv"))
 
 transectos_qp <- transectos %>% filter(id %in% tqp$id)
 transectos_qpb <- st_buffer(transectos_qp, dist = 1000, endCapStyle="ROUND")
+transectos_qpb2 <- st_buffer(transectos_qp, dist = 2000, endCapStyle="ROUND")
 
+# Read SN ecosystems 
 sn <- st_read("/Users/ajpelu/Google Drive/_phd/_geoinfo/ecosystems_sn/ecosystems_sn.shp")
-
 b <- st_transform(transectos_qpb, 4326)
+# b2 <- st_transform(transectos_qpb2, 4326)
 sn <- st_transform(sn, 4326)
 
+t <- st_transform(transectos_qp, 4326)
 
+# Extract 
 habitat <- st_intersection(b, st_make_valid(sn))
+# habitat2 <- st_intersection(b2, st_make_valid(sn))
+st_write(habitat, here::here("data/geoinfo/habitats_1000.shp"))
+```
+
+
+
+
 
 habitat_df <- habitat %>% 
   mutate(area = st_area(habitat)) %>% 
   dplyr::select(id, nombre, dicc_habit, ecosystem, area) %>% st_drop_geometry() %>% 
   as.data.frame() %>% 
   mutate(aream2 = as.vector(area))
+
+
+
+
+
+
 
 
 ht <- habitat_df %>% 
@@ -79,7 +176,7 @@ hts <- ht %>% dplyr::select(-CAN, -DIL, -CAM, -GEN) %>%
 
 
 hts %>% 
-  filter(value >= 5) %>%
+  dplyr::filter(value >= 5) %>%
   mutate(loc = gsub("pct", "", loc_pct)) %>% 
   ggplot(aes(x=ecosystem, y = value, fill=loc)) + 
   geom_bar(stat = "identity", position = position_dodge2(0.9, preserve = "single")) +
