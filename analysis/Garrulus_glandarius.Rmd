@@ -175,7 +175,8 @@ genil <- bind_rows(genil, genil_zamora)
   
 ggplot(genil, aes(x=year, y = ab)) + 
   geom_point() + geom_smooth(method="lm") + 
-  theme_light()
+  theme_light() +
+    ylab("Abundancia Arrendajo (n ind / 10 ha)")
 ```
 
 
