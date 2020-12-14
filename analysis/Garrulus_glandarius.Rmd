@@ -148,6 +148,37 @@ gg_avg %>%
 
 ```
 
+# Evaluar solo reproductive period (Solo datos de Mayo, Junio y Julio) 
+
+```{r}
+b <- arrendajo %>% 
+  mutate(mes = lubridate::month(date),
+         year = lubridate::year(date)) %>% 
+  dplyr::filter(mes %in% c(5,6,7)) %>% 
+  group_by(loc, year) %>% 
+  summarise(n_arrendajos = sum(n)) %>% 
+  inner_join(transectos_qp) %>% 
+  mutate(ab = n_arrendajos/area_ha*10) %>% 
+  dplyr::select(-longitud, -area_ha, -nombre) %>% 
+  filter(year < 2020) 
+
+
+genil <- b %>% dplyr::filter(loc == "GEN") 
+
+# Datos de Zamora 
+genil_zamora <- data.frame(loc = "GEN",
+                           year = 1981,
+                           n_arrendajos = NA, 
+                           ab = 6.6)
+
+genil <- bind_rows(genil, genil_zamora)
+  
+ggplot(genil, aes(x=year, y = ab)) + 
+  geom_point() + geom_smooth(method="lm") + 
+  theme_light()
+```
+
+
 
 ```{r, eval=FALSE}
 # Transectos 
