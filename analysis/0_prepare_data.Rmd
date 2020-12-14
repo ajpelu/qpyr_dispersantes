@@ -13,8 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 library("tidyverse")
 library("here")
 library("lubridate")
+library("xlsx")
 ```
 
+
+# Datos a partir de Linaria 
 
 ```{r}
 avistamientos <- read_csv(here::here("/data/db_linaria/adis_avistamientos.csv")) %>% 
@@ -89,6 +92,34 @@ df <- avistamientos %>%
   relocate(id, specie, numero:desplazamiento, loc, date, year)
 
 write_csv(df, here::here("/data/dispersantes_qp.csv"))
+```
+
+
+- Cuando hemos hecho los análisis parece que se han detectado errores: por ejemplo no están todos los transectos; para el arrendajo existen en Camarate varios años sin datos. 
+
+# Datos corregidos enviados por JMBarea 
+
+Either NULL to guess all from the spreadsheet or a character vector containing one entry per column from these options: "skip", "guess", "logical", "numeric", "date", "text" or "list". If exactly one col_type is specified, it will be recycled. The content of a cell in a skipped column is never read and that column will not appear in the data frame output. A list cell loads a column as a list of length 1 vectors, which are typed using the type guessing logic from col_types = NULL, but on a cell-by-cell basis.
+
+
+
+```{r}
+# d <- readxl::read_excel(here::here("data/Total_ aves_2019_inclusdefinitiva.xlsx")) 
+
+d <- read_delim(here::here("data/Total_ aves_2019_inclusdefinitiva.txt"), delim = "\t",   locale = locale(encoding = 'UTF-8'))
+
+aves_robledal <- d %>% 
+  filter(HABITAT == "Robledal") %>% 
+  mutate(loc = case_when(
+    grepl("Camarate", NOMBRE_TRANSECTO) ~ "CAM",
+    grepl("Hornillo", NOMBRE_TRANSECTO) ~ "GEN",
+    grepl("Robledal de D", NOMBRE_TRANSECTO) ~ "DIL",
+    grepl("Robledal de C", NOMBRE_TRANSECTO) ~ "CAN"
+  )) %>% 
+  dplyr::select(Ord, PK_VISITAS, FECHA, year = FECHA_A, loc, 
+                specie = NOMBRE_CIEN, n= No_IND,  dis = DISTANCIA, desp = DESPLAZAMIENTO) 
+
+write_csv(aves_robledal, here::here("data/dispersantes_qp_new.csv"))
 ```
 
 
