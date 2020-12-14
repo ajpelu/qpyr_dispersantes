@@ -1,844 +1,943 @@
-id,specie,numero,distancia,desplazamiento,loc,date,year,nombre,longitud,area_ha
-532,Garrulus glandarius,1,1660,45,GEN,2008-03-13,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-618,Garrulus glandarius,1,590,25,CAN,2008-03-11,2008,Robledal de Cáñar,2556.5298,25.565298
-739,Garrulus glandarius,1,460,25,DIL,2008-03-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-748,Garrulus glandarius,2,540,15,DIL,2008-03-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-755,Garrulus glandarius,2,1010,15,DIL,2008-03-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-796,Garrulus glandarius,1,2020,5,DIL,2008-03-14,2008,Robledal de Dílar,2553.5233,25.535232999999998
-801,Garrulus glandarius,1,2090,25,DIL,2008-03-14,2008,Robledal de Dílar,2553.5233,25.535232999999998
-963,Garrulus glandarius,1,450,5,CAM,2008-04-15,2008,Dehesa del Camarate,2805.2497,28.052497
-965,Garrulus glandarius,3,630,25,CAM,2008-04-15,2008,Dehesa del Camarate,2805.2497,28.052497
-967,Garrulus glandarius,1,1220,5,CAM,2008-04-15,2008,Dehesa del Camarate,2805.2497,28.052497
-1030,Garrulus glandarius,1,1920,45,CAM,2008-04-23,2008,Dehesa del Camarate,2805.2497,28.052497
-1154,Garrulus glandarius,2,1250,5,GEN,2008-04-11,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-1457,Garrulus glandarius,4,300,25,CAN,2008-04-22,2008,Robledal de Cáñar,2556.5298,25.565298
-1466,Garrulus glandarius,1,580,35,CAN,2008-04-22,2008,Robledal de Cáñar,2556.5298,25.565298
-1476,Garrulus glandarius,1,975,25,CAN,2008-04-22,2008,Robledal de Cáñar,2556.5298,25.565298
-1480,Garrulus glandarius,1,1170,45,CAN,2008-04-22,2008,Robledal de Cáñar,2556.5298,25.565298
-1589,Garrulus glandarius,1,10,45,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1624,Garrulus glandarius,1,960,5,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1625,Garrulus glandarius,1,960,25,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1630,Garrulus glandarius,1,1030,15,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1645,Garrulus glandarius,2,1510,35,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1647,Garrulus glandarius,4,1720,35,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1654,Garrulus glandarius,2,2090,45,DIL,2008-04-15,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1676,Garrulus glandarius,1,685,45,DIL,2008-04-25,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1680,Garrulus glandarius,1,790,45,DIL,2008-04-25,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1681,Garrulus glandarius,1,868,45,DIL,2008-04-25,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1699,Garrulus glandarius,3,1180,5,DIL,2008-04-25,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1704,Garrulus glandarius,2,1210,5,DIL,2008-04-25,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1722,Garrulus glandarius,1,1910,35,DIL,2008-04-25,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1763,Garrulus glandarius,1,91,25,CAN,2008-05-07,2008,Robledal de Cáñar,2556.5298,25.565298
-1766,Garrulus glandarius,1,155,35,CAN,2008-05-07,2008,Robledal de Cáñar,2556.5298,25.565298
-1779,Garrulus glandarius,1,455,5,CAN,2008-05-07,2008,Robledal de Cáñar,2556.5298,25.565298
-1799,Garrulus glandarius,1,220,35,CAN,2008-05-21,2008,Robledal de Cáñar,2556.5298,25.565298
-1923,Garrulus glandarius,1,1320,35,DIL,2008-05-12,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1932,Garrulus glandarius,1,1480,5,DIL,2008-05-12,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1953,Garrulus glandarius,1,466,35,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1961,Garrulus glandarius,1,690,5,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1965,Garrulus glandarius,1,740,15,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1975,Garrulus glandarius,2,970,15,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1981,Garrulus glandarius,1,1190,15,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1988,Garrulus glandarius,3,1350,25,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-1993,Garrulus glandarius,1,1490,5,DIL,2008-05-28,2008,Robledal de Dílar,2553.5233,25.535232999999998
-2232,Garrulus glandarius,1,1280,15,CAN,2008-05-07,2008,Robledal de Cáñar,2556.5298,25.565298
-2234,Garrulus glandarius,1,1300,5,CAN,2008-05-07,2008,Robledal de Cáñar,2556.5298,25.565298
-2289,Garrulus glandarius,2,1240,15,CAN,2008-05-21,2008,Robledal de Cáñar,2556.5298,25.565298
-2311,Garrulus glandarius,2,2030,5,CAN,2008-05-21,2008,Robledal de Cáñar,2556.5298,25.565298
-2316,Garrulus glandarius,1,2210,5,CAN,2008-05-21,2008,Robledal de Cáñar,2556.5298,25.565298
-2322,Garrulus glandarius,2,119,45,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2326,Garrulus glandarius,2,280,45,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2327,Garrulus glandarius,1,300,25,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2329,Garrulus glandarius,1,414,5,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2330,Garrulus glandarius,1,460,5,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2335,Garrulus glandarius,1,512,45,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2337,Garrulus glandarius,2,780,25,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2363,Garrulus glandarius,1,1860,5,CAM,2008-05-15,2008,Dehesa del Camarate,2805.2497,28.052497
-2377,Garrulus glandarius,1,180,5,CAM,2008-05-26,2008,Dehesa del Camarate,2805.2497,28.052497
-2381,Garrulus glandarius,2,380,25,CAM,2008-05-26,2008,Dehesa del Camarate,2805.2497,28.052497
-2393,Garrulus glandarius,1,670,5,CAM,2008-05-26,2008,Dehesa del Camarate,2805.2497,28.052497
-2394,Garrulus glandarius,1,700,5,CAM,2008-05-26,2008,Dehesa del Camarate,2805.2497,28.052497
-2395,Garrulus glandarius,2,720,5,CAM,2008-05-26,2008,Dehesa del Camarate,2805.2497,28.052497
-2398,Garrulus glandarius,1,830,5,CAM,2008-05-26,2008,Dehesa del Camarate,2805.2497,28.052497
-2612,Garrulus glandarius,1,250,15,CAM,2008-06-03,2008,Dehesa del Camarate,2805.2497,28.052497
-2616,Garrulus glandarius,1,450,5,CAM,2008-06-03,2008,Dehesa del Camarate,2805.2497,28.052497
-2620,Garrulus glandarius,2,650,5,CAM,2008-06-03,2008,Dehesa del Camarate,2805.2497,28.052497
-2635,Garrulus glandarius,1,1210,5,CAM,2008-06-03,2008,Dehesa del Camarate,2805.2497,28.052497
-2676,Garrulus glandarius,1,400,15,CAM,2008-06-16,2008,Dehesa del Camarate,2805.2497,28.052497
-2696,Garrulus glandarius,1,1530,45,CAM,2008-06-16,2008,Dehesa del Camarate,2805.2497,28.052497
-2712,Garrulus glandarius,1,2060,5,CAM,2008-06-16,2008,Dehesa del Camarate,2805.2497,28.052497
-2912,Garrulus glandarius,1,160,35,GEN,2008-06-16,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-2919,Garrulus glandarius,1,551,45,GEN,2008-06-16,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-2976,Garrulus glandarius,1,63,45,DIL,2008-06-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-2981,Garrulus glandarius,1,292,25,DIL,2008-06-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-3003,Garrulus glandarius,1,975,15,DIL,2008-06-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-3062,Garrulus glandarius,1,1160,35,DIL,2008-06-27,2008,Robledal de Dílar,2553.5233,25.535232999999998
-3063,Garrulus glandarius,1,1170,5,DIL,2008-06-27,2008,Robledal de Dílar,2553.5233,25.535232999999998
-3069,Garrulus glandarius,1,1280,5,DIL,2008-06-27,2008,Robledal de Dílar,2553.5233,25.535232999999998
-3076,Garrulus glandarius,2,2000,45,DIL,2008-06-27,2008,Robledal de Dílar,2553.5233,25.535232999999998
-3268,Garrulus glandarius,1,371,25,CAN,2008-06-04,2008,Robledal de Cáñar,2556.5298,25.565298
-3280,Garrulus glandarius,1,975,25,CAN,2008-06-04,2008,Robledal de Cáñar,2556.5298,25.565298
-3321,Garrulus glandarius,1,2320,15,CAN,2008-06-04,2008,Robledal de Cáñar,2556.5298,25.565298
-3328,Garrulus glandarius,1,2420,5,CAN,2008-06-04,2008,Robledal de Cáñar,2556.5298,25.565298
-3346,Garrulus glandarius,1,840,45,CAN,2008-06-18,2008,Robledal de Cáñar,2556.5298,25.565298
-3352,Garrulus glandarius,2,1160,45,CAN,2008-06-18,2008,Robledal de Cáñar,2556.5298,25.565298
-3362,Garrulus glandarius,1,1680,35,CAN,2008-06-18,2008,Robledal de Cáñar,2556.5298,25.565298
-3368,Garrulus glandarius,2,2140,5,CAN,2008-06-18,2008,Robledal de Cáñar,2556.5298,25.565298
-3589,Garrulus glandarius,1,50,5,CAM,2008-07-01,2008,Dehesa del Camarate,2805.2497,28.052497
-3592,Garrulus glandarius,1,180,5,CAM,2008-07-01,2008,Dehesa del Camarate,2805.2497,28.052497
-3594,Garrulus glandarius,1,320,5,CAM,2008-07-01,2008,Dehesa del Camarate,2805.2497,28.052497
-3599,Garrulus glandarius,1,770,5,CAM,2008-07-01,2008,Dehesa del Camarate,2805.2497,28.052497
-3615,Garrulus glandarius,1,1750,15,CAM,2008-07-01,2008,Dehesa del Camarate,2805.2497,28.052497
-3950,Garrulus glandarius,1,398,25,GEN,2008-07-02,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-3952,Garrulus glandarius,1,505,5,GEN,2008-07-02,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-3966,Garrulus glandarius,3,1800,5,GEN,2008-07-02,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-3967,Garrulus glandarius,1,1860,45,GEN,2008-07-02,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-3992,Garrulus glandarius,1,1800,5,CAN,2008-07-14,2008,Robledal de Cáñar,2556.5298,25.565298
-4000,Garrulus glandarius,1,390,45,DIL,2008-07-11,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4007,Garrulus glandarius,1,1300,5,DIL,2008-07-11,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4083,Garrulus glandarius,1,1520,15,DIL,2008-08-29,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4085,Garrulus glandarius,1,1870,5,DIL,2008-08-29,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4089,Garrulus glandarius,1,120,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4095,Garrulus glandarius,1,540,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4100,Garrulus glandarius,2,760,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4102,Garrulus glandarius,1,930,15,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4103,Garrulus glandarius,1,950,25,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4104,Garrulus glandarius,1,1020,15,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4110,Garrulus glandarius,1,1450,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4112,Garrulus glandarius,1,1530,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4113,Garrulus glandarius,1,1620,15,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4120,Garrulus glandarius,1,2170,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4124,Garrulus glandarius,2,2210,5,CAM,2008-08-20,2008,Dehesa del Camarate,2805.2497,28.052497
-4155,Garrulus glandarius,1,367,15,GEN,2008-08-01,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4159,Garrulus glandarius,1,1290,25,GEN,2008-08-01,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4165,Garrulus glandarius,1,1990,35,GEN,2008-08-01,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4174,Garrulus glandarius,2,2280,45,GEN,2008-08-01,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4175,Garrulus glandarius,1,2390,25,GEN,2008-08-01,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4177,Garrulus glandarius,1,350,5,GEN,2008-08-13,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4196,Garrulus glandarius,1,2200,5,GEN,2008-08-13,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4197,Garrulus glandarius,1,2250,35,GEN,2008-08-13,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4307,Garrulus glandarius,1,310,15,DIL,2008-09-12,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4331,Garrulus glandarius,1,1260,5,DIL,2008-09-12,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4337,Garrulus glandarius,1,1340,35,DIL,2008-09-12,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4357,Garrulus glandarius,6,30,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4365,Garrulus glandarius,1,610,35,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4367,Garrulus glandarius,1,760,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4368,Garrulus glandarius,1,790,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4370,Garrulus glandarius,1,780,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4371,Garrulus glandarius,1,810,15,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4373,Garrulus glandarius,1,1100,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4374,Garrulus glandarius,2,1120,15,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4375,Garrulus glandarius,1,1140,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4377,Garrulus glandarius,1,1210,15,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4386,Garrulus glandarius,3,1400,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4388,Garrulus glandarius,1,1480,5,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4397,Garrulus glandarius,1,1650,15,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4414,Garrulus glandarius,1,2350,25,CAM,2008-09-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4467,Garrulus glandarius,1,1660,35,GEN,2008-09-12,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4479,Garrulus glandarius,1,2370,5,GEN,2008-09-12,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4521,Garrulus glandarius,1,500,5,DIL,2008-10-29,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4531,Garrulus glandarius,2,30,45,CAM,2008-10-29,2008,Dehesa del Camarate,2805.2497,28.052497
-4532,Garrulus glandarius,1,140,5,CAM,2008-10-29,2008,Dehesa del Camarate,2805.2497,28.052497
-4600,Garrulus glandarius,1,680,5,CAM,2008-10-07,2008,Dehesa del Camarate,2805.2497,28.052497
-4601,Garrulus glandarius,2,720,5,CAM,2008-10-07,2008,Dehesa del Camarate,2805.2497,28.052497
-4609,Garrulus glandarius,2,1090,25,CAM,2008-10-07,2008,Dehesa del Camarate,2805.2497,28.052497
-4618,Garrulus glandarius,1,1370,5,CAM,2008-10-07,2008,Dehesa del Camarate,2805.2497,28.052497
-4674,Garrulus glandarius,1,410,5,DIL,2008-10-08,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4675,Garrulus glandarius,1,510,15,DIL,2008-10-08,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4681,Garrulus glandarius,1,1230,5,DIL,2008-10-08,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4687,Garrulus glandarius,1,1450,45,DIL,2008-10-08,2008,Robledal de Dílar,2553.5233,25.535232999999998
-4745,Garrulus glandarius,1,294,5,GEN,2008-10-08,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4770,Garrulus glandarius,2,2120,35,GEN,2008-10-08,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4773,Garrulus glandarius,1,2280,25,GEN,2008-10-08,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4777,Garrulus glandarius,1,240,35,GEN,2008-10-21,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4797,Garrulus glandarius,2,2030,45,GEN,2008-10-21,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4864,Garrulus glandarius,4,25,5,CAM,2008-11-09,2008,Dehesa del Camarate,2805.2497,28.052497
-4870,Garrulus glandarius,2,270,5,CAM,2008-11-09,2008,Dehesa del Camarate,2805.2497,28.052497
-4874,Garrulus glandarius,1,500,45,CAM,2008-11-09,2008,Dehesa del Camarate,2805.2497,28.052497
-4902,Garrulus glandarius,1,1340,5,CAM,2008-11-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4904,Garrulus glandarius,1,1420,15,CAM,2008-11-19,2008,Dehesa del Camarate,2805.2497,28.052497
-4916,Garrulus glandarius,4,221,5,GEN,2008-11-03,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4918,Garrulus glandarius,2,300,45,GEN,2008-11-03,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4924,Garrulus glandarius,1,1060,15,GEN,2008-11-03,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4932,Garrulus glandarius,1,283,5,GEN,2008-11-24,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-4933,Garrulus glandarius,1,383,5,GEN,2008-11-24,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-5031,Garrulus glandarius,1,81,45,CAM,2008-12-10,2008,Dehesa del Camarate,2805.2497,28.052497
-5032,Garrulus glandarius,2,80,35,CAM,2008-12-10,2008,Dehesa del Camarate,2805.2497,28.052497
-5041,Garrulus glandarius,2,1320,5,CAM,2008-12-10,2008,Dehesa del Camarate,2805.2497,28.052497
-5064,Garrulus glandarius,1,1720,45,DIL,2008-01-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5065,Garrulus glandarius,1,1900,15,DIL,2008-01-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5066,Garrulus glandarius,2,2000,35,DIL,2008-01-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5071,Garrulus glandarius,1,2050,35,DIL,2008-01-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5076,Garrulus glandarius,2,2130,45,DIL,2008-01-10,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5136,Garrulus glandarius,1,1285,15,CAN,2008-08-11,2008,Robledal de Cáñar,2556.5298,25.565298
-5142,Garrulus glandarius,1,2325,5,CAN,2008-08-11,2008,Robledal de Cáñar,2556.5298,25.565298
-5232,Garrulus glandarius,2,1180,5,CAN,2008-09-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5355,Garrulus glandarius,2,105,15,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5357,Garrulus glandarius,1,165,5,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5361,Garrulus glandarius,1,322,25,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5367,Garrulus glandarius,1,525,35,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5372,Garrulus glandarius,1,735,25,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5375,Garrulus glandarius,1,900,25,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5382,Garrulus glandarius,0,1220,35,CAN,2008-10-17,2008,Robledal de Cáñar,2556.5298,25.565298
-5540,Garrulus glandarius,1,106,5,CAN,2008-11-06,2008,Robledal de Cáñar,2556.5298,25.565298
-5544,Garrulus glandarius,1,193,5,CAN,2008-11-06,2008,Robledal de Cáñar,2556.5298,25.565298
-5562,Garrulus glandarius,1,1980,5,CAN,2008-11-06,2008,Robledal de Cáñar,2556.5298,25.565298
-5565,Garrulus glandarius,2,2090,15,CAN,2008-11-06,2008,Robledal de Cáñar,2556.5298,25.565298
-5603,Garrulus glandarius,1,290,5,DIL,2008-11-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5609,Garrulus glandarius,1,460,45,DIL,2008-11-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5611,Garrulus glandarius,2,548,35,DIL,2008-11-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5629,Garrulus glandarius,2,1570,35,DIL,2008-11-03,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5634,Garrulus glandarius,1,600,15,DIL,2008-11-18,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5635,Garrulus glandarius,1,650,5,DIL,2008-11-18,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5638,Garrulus glandarius,1,740,15,DIL,2008-11-18,2008,Robledal de Dílar,2553.5233,25.535232999999998
-5656,Garrulus glandarius,1,106,5,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5657,Garrulus glandarius,3,148,25,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5662,Garrulus glandarius,3,320,5,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5664,Garrulus glandarius,1,440,5,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5666,Garrulus glandarius,1,627,15,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5667,Garrulus glandarius,1,660,5,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5678,Garrulus glandarius,1,2080,15,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5680,Garrulus glandarius,3,2200,15,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5688,Garrulus glandarius,1,660,15,CAN,2008-12-10,2008,Robledal de Cáñar,2556.5298,25.565298
-5691,Garrulus glandarius,1,124,35,CAN,2008-12-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5692,Garrulus glandarius,1,358,45,CAN,2008-12-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5696,Garrulus glandarius,1,790,45,CAN,2008-12-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5697,Garrulus glandarius,1,962,45,CAN,2008-12-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5704,Garrulus glandarius,2,1660,5,CAN,2008-12-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5711,Garrulus glandarius,1,2280,35,CAN,2008-12-24,2008,Robledal de Cáñar,2556.5298,25.565298
-5723,Garrulus glandarius,2,145,5,GEN,2008-12-12,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-5742,Garrulus glandarius,1,1550,35,CAN,2009-01-28,2009,Robledal de Cáñar,2556.5298,25.565298
-5856,Garrulus glandarius,1,1140,5,CAN,2009-02-04,2009,Robledal de Cáñar,2556.5298,25.565298
-5874,Garrulus glandarius,1,740,0,CAN,2009-02-18,2009,Robledal de Cáñar,2556.5298,25.565298
-5880,Garrulus glandarius,1,1080,0,CAN,2009-02-18,2009,Robledal de Cáñar,2556.5298,25.565298
-5895,Garrulus glandarius,1,159,5,GEN,2009-02-23,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-5986,Garrulus glandarius,1,270,15,CAM,2009-02-09,2009,Dehesa del Camarate,2805.2497,28.052497
-6020,Garrulus glandarius,1,1711,45,CAM,2009-02-09,2009,Dehesa del Camarate,2805.2497,28.052497
-6159,Garrulus glandarius,2,50,45,CAM,2009-03-10,2009,Dehesa del Camarate,2805.2497,28.052497
-6207,Garrulus glandarius,9,84,15,CAM,2009-03-16,2009,Dehesa del Camarate,2805.2497,28.052497
-6216,Garrulus glandarius,4,434,35,CAM,2009-03-16,2009,Dehesa del Camarate,2805.2497,28.052497
-6343,Garrulus glandarius,4,2200,45,GEN,2009-03-17,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-6423,Garrulus glandarius,1,600,25,CAM,2009-04-14,2009,Dehesa del Camarate,2805.2497,28.052497
-6516,Garrulus glandarius,1,294,5,GEN,2009-04-02,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-6530,Garrulus glandarius,1,1050,5,GEN,2009-04-02,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-6619,Garrulus glandarius,1,920,45,CAN,2009-04-03,2009,Robledal de Cáñar,2556.5298,25.565298
-6660,Garrulus glandarius,1,905,15,CAN,2009-04-20,2009,Robledal de Cáñar,2556.5298,25.565298
-6663,Garrulus glandarius,1,1130,45,CAN,2009-04-20,2009,Robledal de Cáñar,2556.5298,25.565298
-6677,Garrulus glandarius,2,1420,15,CAN,2009-04-20,2009,Robledal de Cáñar,2556.5298,25.565298
-6680,Garrulus glandarius,1,1580,15,CAN,2009-04-20,2009,Robledal de Cáñar,2556.5298,25.565298
-6732,Garrulus glandarius,1,1770,45,DIL,2009-04-20,2009,Robledal de Dílar,2553.5233,25.535232999999998
-6855,Garrulus glandarius,1,260,5,CAM,2009-05-13,2009,Dehesa del Camarate,2805.2497,28.052497
-6866,Garrulus glandarius,1,730,5,CAM,2009-05-13,2009,Dehesa del Camarate,2805.2497,28.052497
-7180,Garrulus glandarius,1,735,35,DIL,2009-05-22,2009,Robledal de Dílar,2553.5233,25.535232999999998
-7237,Garrulus glandarius,1,1770,45,CAN,2009-05-18,2009,Robledal de Cáñar,2556.5298,25.565298
-7257,Garrulus glandarius,1,452,45,DIL,2009-05-15,2009,Robledal de Dílar,2553.5233,25.535232999999998
-7294,Garrulus glandarius,1,870,35,CAN,2009-05-06,2009,Robledal de Cáñar,2556.5298,25.565298
-7321,Garrulus glandarius,2,2150,15,CAN,2009-05-06,2009,Robledal de Cáñar,2556.5298,25.565298
-7410,Garrulus glandarius,1,137,5,CAM,2009-06-30,2009,Dehesa del Camarate,2805.2497,28.052497
-7411,Garrulus glandarius,1,247,5,CAM,2009-06-30,2009,Dehesa del Camarate,2805.2497,28.052497
-7417,Garrulus glandarius,1,924,25,CAM,2009-06-30,2009,Dehesa del Camarate,2805.2497,28.052497
-7421,Garrulus glandarius,1,998,35,CAM,2009-06-30,2009,Dehesa del Camarate,2805.2497,28.052497
-7430,Garrulus glandarius,1,1490,5,CAM,2009-06-30,2009,Dehesa del Camarate,2805.2497,28.052497
-7435,Garrulus glandarius,1,1920,5,CAM,2009-06-30,2009,Dehesa del Camarate,2805.2497,28.052497
-7493,Garrulus glandarius,1,330,5,CAN,2009-06-03,2009,Robledal de Cáñar,2556.5298,25.565298
-7526,Garrulus glandarius,1,1390,35,CAN,2009-06-03,2009,Robledal de Cáñar,2556.5298,25.565298
-7626,Garrulus glandarius,1,2020,5,DIL,2009-06-27,2009,Robledal de Dílar,2553.5233,25.535232999999998
-7729,Garrulus glandarius,1,657,45,GEN,2009-06-15,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-7786,Garrulus glandarius,1,5,15,CAM,2009-07-27,2009,Dehesa del Camarate,2805.2497,28.052497
-7788,Garrulus glandarius,2,45,5,CAM,2009-07-27,2009,Dehesa del Camarate,2805.2497,28.052497
-7805,Garrulus glandarius,1,1190,45,CAM,2009-07-27,2009,Dehesa del Camarate,2805.2497,28.052497
-7809,Garrulus glandarius,1,1560,0,CAM,2009-07-27,2009,Dehesa del Camarate,2805.2497,28.052497
-7810,Garrulus glandarius,1,1640,0,CAM,2009-07-27,2009,Dehesa del Camarate,2805.2497,28.052497
-7817,Garrulus glandarius,1,201,45,GEN,2009-07-22,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-7820,Garrulus glandarius,1,1250,45,GEN,2009-07-22,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-7938,Garrulus glandarius,1,1920,45,DIL,2009-07-21,2009,Robledal de Dílar,2553.5233,25.535232999999998
-7942,Garrulus glandarius,2,301,15,CAN,2009-07-21,2009,Robledal de Cáñar,2556.5298,25.565298
-8165,Garrulus glandarius,1,593,25,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8166,Garrulus glandarius,1,723,5,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8167,Garrulus glandarius,1,1190,35,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8170,Garrulus glandarius,1,1220,25,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8171,Garrulus glandarius,1,1250,5,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8174,Garrulus glandarius,1,1310,5,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8177,Garrulus glandarius,3,1400,15,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8180,Garrulus glandarius,1,1560,15,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8181,Garrulus glandarius,1,1630,15,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8189,Garrulus glandarius,1,2350,5,CAM,2009-08-13,2009,Dehesa del Camarate,2805.2497,28.052497
-8235,Garrulus glandarius,2,190,10,CAM,2009-09-24,2009,Dehesa del Camarate,2805.2497,28.052497
-8240,Garrulus glandarius,2,820,5,CAM,2009-09-24,2009,Dehesa del Camarate,2805.2497,28.052497
-8243,Garrulus glandarius,1,950,45,CAM,2009-09-24,2009,Dehesa del Camarate,2805.2497,28.052497
-8249,Garrulus glandarius,2,1230,15,CAM,2009-09-24,2009,Dehesa del Camarate,2805.2497,28.052497
-8391,Garrulus glandarius,1,50,35,CAM,2009-09-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8398,Garrulus glandarius,1,180,15,CAM,2009-09-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8401,Garrulus glandarius,1,870,25,CAM,2009-09-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8402,Garrulus glandarius,1,870,25,CAM,2009-09-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8419,Garrulus glandarius,1,1810,15,CAM,2009-09-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8454,Garrulus glandarius,1,902,5,GEN,2009-09-15,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8489,Garrulus glandarius,1,76,45,GEN,2009-09-22,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8493,Garrulus glandarius,1,532,5,GEN,2009-09-22,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8501,Garrulus glandarius,1,2230,25,GEN,2009-09-22,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8528,Garrulus glandarius,1,395,25,GEN,2009-10-01,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8534,Garrulus glandarius,1,687,35,GEN,2009-10-01,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8546,Garrulus glandarius,1,1590,15,GEN,2009-10-01,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8547,Garrulus glandarius,2,1690,45,GEN,2009-10-01,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-8593,Garrulus glandarius,2,45,45,CAM,2009-10-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8606,Garrulus glandarius,2,754,5,CAM,2009-10-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8607,Garrulus glandarius,1,899,15,CAM,2009-10-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8608,Garrulus glandarius,2,909,35,CAM,2009-10-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8618,Garrulus glandarius,1,1640,5,CAM,2009-10-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8621,Garrulus glandarius,1,1930,5,CAM,2009-10-17,2009,Dehesa del Camarate,2805.2497,28.052497
-8753,Garrulus glandarius,1,1420,35,CAM,2009-12-01,2009,Dehesa del Camarate,2805.2497,28.052497
-8873,Garrulus glandarius,1,507,5,DIL,2009-08-09,2009,Robledal de Dílar,2553.5233,25.535232999999998
-8885,Garrulus glandarius,1,1190,15,DIL,2009-08-09,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9031,Garrulus glandarius,1,270,15,CAN,2009-09-11,2009,Robledal de Cáñar,2556.5298,25.565298
-9104,Garrulus glandarius,2,725,15,DIL,2009-09-25,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9117,Garrulus glandarius,2,1920,5,DIL,2009-09-25,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9228,Garrulus glandarius,2,580,15,DIL,2009-10-23,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9235,Garrulus glandarius,1,864,25,DIL,2009-10-23,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9248,Garrulus glandarius,2,1720,45,DIL,2009-10-23,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9259,Garrulus glandarius,1,380,45,CAN,2009-10-26,2009,Robledal de Cáñar,2556.5298,25.565298
-9341,Garrulus glandarius,1,300,45,CAN,2009-11-09,2009,Robledal de Cáñar,2556.5298,25.565298
-9344,Garrulus glandarius,1,319,5,CAN,2009-11-09,2009,Robledal de Cáñar,2556.5298,25.565298
-9350,Garrulus glandarius,1,744,25,CAN,2009-11-09,2009,Robledal de Cáñar,2556.5298,25.565298
-9370,Garrulus glandarius,1,2100,35,CAN,2009-11-09,2009,Robledal de Cáñar,2556.5298,25.565298
-9411,Garrulus glandarius,1,540,35,DIL,2009-11-16,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9419,Garrulus glandarius,1,1140,45,DIL,2009-11-16,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9424,Garrulus glandarius,1,1470,5,DIL,2009-11-16,2009,Robledal de Dílar,2553.5233,25.535232999999998
-9640,Garrulus glandarius,1,1690,35,GEN,2010-03-11,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-9713,Garrulus glandarius,1,577,25,DIL,2010-03-10,2010,Robledal de Dílar,2553.5233,25.535232999999998
-9744,Garrulus glandarius,1,1020,35,CAN,2010-03-16,2010,Robledal de Cáñar,2556.5298,25.565298
-9959,Garrulus glandarius,1,1490,35,DIL,2010-04-20,2010,Robledal de Dílar,2553.5233,25.535232999999998
-9972,Garrulus glandarius,1,367,5,CAN,2010-04-19,2010,Robledal de Cáñar,2556.5298,25.565298
-10003,Garrulus glandarius,1,1630,5,CAN,2010-04-19,2010,Robledal de Cáñar,2556.5298,25.565298
-10034,Garrulus glandarius,2,693,25,GEN,2010-04-18,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-10337,Garrulus glandarius,1,1170,45,GEN,2010-05-10,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-10344,Garrulus glandarius,1,1810,5,GEN,2010-05-10,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-10603,Garrulus glandarius,1,170,15,CAM,2010-05-18,2010,Dehesa del Camarate,2805.2497,28.052497
-10624,Garrulus glandarius,1,651,25,CAM,2010-05-18,2010,Dehesa del Camarate,2805.2497,28.052497
-10661,Garrulus glandarius,2,2191,25,CAM,2010-05-18,2010,Dehesa del Camarate,2805.2497,28.052497
-10673,Garrulus glandarius,1,615,45,CAN,2010-06-08,2010,Robledal de Cáñar,2556.5298,25.565298
-10757,Garrulus glandarius,1,400,5,GEN,2010-06-09,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-10767,Garrulus glandarius,1,630,25,GEN,2010-06-09,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-10793,Garrulus glandarius,1,2250,5,GEN,2010-06-09,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-10801,Garrulus glandarius,1,389,5,DIL,2010-06-14,2010,Robledal de Dílar,2553.5233,25.535232999999998
-10832,Garrulus glandarius,1,1210,45,DIL,2010-06-14,2010,Robledal de Dílar,2553.5233,25.535232999999998
-10842,Garrulus glandarius,2,1530,25,DIL,2010-06-14,2010,Robledal de Dílar,2553.5233,25.535232999999998
-11100,Garrulus glandarius,1,144,25,CAM,2010-06-23,2010,Dehesa del Camarate,2805.2497,28.052497
-11124,Garrulus glandarius,2,1088,5,CAM,2010-06-23,2010,Dehesa del Camarate,2805.2497,28.052497
-11151,Garrulus glandarius,1,2218,25,CAM,2010-06-23,2010,Dehesa del Camarate,2805.2497,28.052497
-11276,Garrulus glandarius,1,575,5,DIL,2010-07-09,2010,Robledal de Dílar,2553.5233,25.535232999999998
-11279,Garrulus glandarius,1,785,35,DIL,2010-07-09,2010,Robledal de Dílar,2553.5233,25.535232999999998
-11525,Garrulus glandarius,2,263,15,CAM,2010-07-12,2010,Dehesa del Camarate,2805.2497,28.052497
-9815,Garrulus glandarius,1,65,15,CAM,2010-04-21,2010,Dehesa del Camarate,2805.2497,28.052497
-9821,Garrulus glandarius,1,80,35,CAM,2010-04-21,2010,Dehesa del Camarate,2805.2497,28.052497
-9854,Garrulus glandarius,1,440,35,CAM,2010-04-21,2010,Dehesa del Camarate,2805.2497,28.052497
-11732,Garrulus glandarius,2,170,5,GEN,2010-08-24,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-11741,Garrulus glandarius,1,655,35,GEN,2010-08-24,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12079,Garrulus glandarius,1,612,15,CAM,2010-09-16,2010,Dehesa del Camarate,2805.2497,28.052497
-12107,Garrulus glandarius,1,1871,35,CAM,2010-09-16,2010,Dehesa del Camarate,2805.2497,28.052497
-12198,Garrulus glandarius,1,700,35,DIL,2010-10-06,2010,Robledal de Dílar,2553.5233,25.535232999999998
-12279,Garrulus glandarius,1,170,45,CAN,2010-10-16,2010,Robledal de Cáñar,2556.5298,25.565298
-12496,Garrulus glandarius,1,770,45,DIL,2010-11-04,2010,Robledal de Dílar,2553.5233,25.535232999999998
-12536,Garrulus glandarius,1,1360,25,DIL,2010-11-12,2010,Robledal de Dílar,2553.5233,25.535232999999998
-12540,Garrulus glandarius,2,417,5,DIL,2010-11-12,2010,Robledal de Dílar,2553.5233,25.535232999999998
-12542,Garrulus glandarius,1,1000,45,DIL,2010-11-12,2010,Robledal de Dílar,2553.5233,25.535232999999998
-12545,Garrulus glandarius,1,1420,45,DIL,2010-11-12,2010,Robledal de Dílar,2553.5233,25.535232999999998
-12574,Garrulus glandarius,1,540,45,GEN,2010-11-26,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12593,Garrulus glandarius,1,2400,45,GEN,2010-12-27,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12597,Garrulus glandarius,2,605,5,GEN,2010-12-27,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12600,Garrulus glandarius,1,990,45,GEN,2010-12-27,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12608,Garrulus glandarius,1,1160,5,GEN,2010-12-27,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12609,Garrulus glandarius,2,730,25,GEN,2010-12-27,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-12615,Garrulus glandarius,1,1125,35,CAN,2010-12-02,2010,Robledal de Cáñar,2556.5298,25.565298
-12639,Garrulus glandarius,1,725,35,CAN,2010-12-04,2010,Robledal de Cáñar,2556.5298,25.565298
-12777,Garrulus glandarius,1,510,35,GEN,2011-01-25,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12778,Garrulus glandarius,3,256,5,GEN,2011-01-25,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12779,Garrulus glandarius,1,196,5,GEN,2011-01-25,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12785,Garrulus glandarius,1,2200,35,GEN,2011-01-25,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12953,Garrulus glandarius,2,280,5,GEN,2011-03-16,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12956,Garrulus glandarius,1,222,5,GEN,2011-03-16,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12958,Garrulus glandarius,2,2550,25,GEN,2011-03-16,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12967,Garrulus glandarius,2,2450,5,GEN,2011-03-16,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-12993,Garrulus glandarius,1,610,45,CAN,2011-03-01,2011,Robledal de Cáñar,2556.5298,25.565298
-13223,Garrulus glandarius,1,965,5,GEN,2011-04-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13228,Garrulus glandarius,4,115,5,GEN,2011-04-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13240,Garrulus glandarius,1,460,15,GEN,2011-04-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13243,Garrulus glandarius,1,390,15,GEN,2011-04-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13294,Garrulus glandarius,1,780,35,CAN,2011-04-11,2011,Robledal de Cáñar,2556.5298,25.565298
-13330,Garrulus glandarius,1,130,45,CAN,2011-04-11,2011,Robledal de Cáñar,2556.5298,25.565298
-13341,Garrulus glandarius,2,1305,25,CAN,2011-04-11,2011,Robledal de Cáñar,2556.5298,25.565298
-13441,Garrulus glandarius,1,245,15,GEN,2011-05-06,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13534,Garrulus glandarius,1,3580,15,GEN,2011-06-20,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13643,Garrulus glandarius,2,1110,5,GEN,2011-07-27,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13655,Garrulus glandarius,2,1010,5,GEN,2011-07-27,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13661,Garrulus glandarius,1,1616,25,GEN,2011-07-27,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13666,Garrulus glandarius,3,2360,25,GEN,2011-08-25,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13680,Garrulus glandarius,2,1950,25,GEN,2011-08-25,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13714,Garrulus glandarius,1,1390,5,GEN,2011-09-22,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13719,Garrulus glandarius,2,140,15,GEN,2011-09-22,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13757,Garrulus glandarius,1,80,15,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13759,Garrulus glandarius,2,2070,25,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13760,Garrulus glandarius,1,510,45,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13765,Garrulus glandarius,1,340,5,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13784,Garrulus glandarius,1,15,5,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13793,Garrulus glandarius,1,140,5,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-13799,Garrulus glandarius,1,2390,5,GEN,2011-10-18,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-6953,Garrulus glandarius,2,2340,5,GEN,2009-05-13,2009,Cortijo del Hornillo,3044.1891,30.441891000000002
-2888,Garrulus glandarius,1,1870,25,GEN,2008-06-05,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-2892,Garrulus glandarius,1,1960,15,GEN,2008-06-05,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-2032,Garrulus glandarius,1,1550,5,GEN,2008-05-13,2008,Cortijo del Hornillo,3044.1891,30.441891000000002
-26049,Garrulus glandarius,1,1900,5,CAN,2013-09-27,2013,Robledal de Cáñar,2556.5298,25.565298
-26052,Garrulus glandarius,1,900,5,CAN,2013-09-27,2013,Robledal de Cáñar,2556.5298,25.565298
-14234,Garrulus glandarius,2,2380,15,GEN,2012-07-20,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-14358,Garrulus glandarius,1,1157,45,CAN,2012-01-20,2012,Robledal de Cáñar,2556.5298,25.565298
-14457,Garrulus glandarius,3,280,45,CAN,2012-02-20,2012,Robledal de Cáñar,2556.5298,25.565298
-14549,Garrulus glandarius,1,320,15,GEN,2012-03-12,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-14578,Garrulus glandarius,1,90,15,GEN,2012-03-12,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-14907,Garrulus glandarius,1,1303,45,DIL,2012-03-26,2012,Robledal de Dílar,2553.5233,25.535232999999998
-14916,Garrulus glandarius,1,1203,45,DIL,2012-03-26,2012,Robledal de Dílar,2553.5233,25.535232999999998
-15129,Garrulus glandarius,1,1405,15,CAN,2012-04-23,2012,Robledal de Cáñar,2556.5298,25.565298
-15131,Garrulus glandarius,1,80,35,CAN,2012-04-23,2012,Robledal de Cáñar,2556.5298,25.565298
-15176,Garrulus glandarius,1,235,5,CAN,2012-04-23,2012,Robledal de Cáñar,2556.5298,25.565298
-15186,Garrulus glandarius,1,690,25,CAN,2012-04-23,2012,Robledal de Cáñar,2556.5298,25.565298
-15190,Garrulus glandarius,1,805,15,CAN,2012-04-23,2012,Robledal de Cáñar,2556.5298,25.565298
-15256,Garrulus glandarius,1,603,45,DIL,2012-04-23,2012,Robledal de Dílar,2553.5233,25.535232999999998
-15272,Garrulus glandarius,1,2093,35,DIL,2012-04-23,2012,Robledal de Dílar,2553.5233,25.535232999999998
-15392,Garrulus glandarius,1,94,15,CAN,2012-05-07,2012,Robledal de Cáñar,2556.5298,25.565298
-15396,Garrulus glandarius,2,290,15,CAN,2012-05-07,2012,Robledal de Cáñar,2556.5298,25.565298
-16015,Garrulus glandarius,1,1145,5,DIL,2012-06-07,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16041,Garrulus glandarius,1,1785,45,DIL,2012-06-07,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16057,Garrulus glandarius,2,1405,5,DIL,2012-06-07,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16071,Garrulus glandarius,2,1915,5,DIL,2012-06-07,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16192,Garrulus glandarius,1,1643,5,CAN,2012-06-18,2012,Robledal de Cáñar,2556.5298,25.565298
-16203,Garrulus glandarius,1,143,45,CAN,2012-06-18,2012,Robledal de Cáñar,2556.5298,25.565298
-16477,Garrulus glandarius,1,366,5,DIL,2012-07-05,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16513,Garrulus glandarius,1,855,5,DIL,2012-07-05,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16572,Garrulus glandarius,1,2125,35,CAN,2012-07-21,2012,Robledal de Cáñar,2556.5298,25.565298
-16598,Garrulus glandarius,1,150,35,CAN,2012-07-21,2012,Robledal de Cáñar,2556.5298,25.565298
-16917,Garrulus glandarius,1,1557,5,DIL,2012-08-06,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16918,Garrulus glandarius,2,1397,5,DIL,2012-08-06,2012,Robledal de Dílar,2553.5233,25.535232999999998
-16941,Garrulus glandarius,2,1557,25,DIL,2012-08-06,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17070,Garrulus glandarius,1,1040,45,GEN,2012-08-28,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17223,Garrulus glandarius,1,1230,15,CAN,2012-08-23,2012,Robledal de Cáñar,2556.5298,25.565298
-17240,Garrulus glandarius,1,1025,25,CAN,2012-08-23,2012,Robledal de Cáñar,2556.5298,25.565298
-17341,Garrulus glandarius,2,570,15,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17350,Garrulus glandarius,1,190,25,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17353,Garrulus glandarius,1,2050,5,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17354,Garrulus glandarius,1,2000,5,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17359,Garrulus glandarius,2,2150,5,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17367,Garrulus glandarius,2,1400,5,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17373,Garrulus glandarius,1,710,25,CAN,2012-09-27,2012,Robledal de Cáñar,2556.5298,25.565298
-17396,Garrulus glandarius,1,160,25,GEN,2012-09-24,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17407,Garrulus glandarius,2,2280,45,GEN,2012-09-24,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17425,Garrulus glandarius,2,1150,5,GEN,2012-09-24,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17443,Garrulus glandarius,1,2390,15,DIL,2012-09-18,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17445,Garrulus glandarius,1,2140,35,DIL,2012-09-18,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17476,Garrulus glandarius,1,1045,35,DIL,2012-09-18,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17477,Garrulus glandarius,1,315,35,DIL,2012-09-18,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17481,Garrulus glandarius,1,845,45,DIL,2012-09-18,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17483,Garrulus glandarius,1,1930,25,DIL,2012-09-18,2012,Robledal de Dílar,2553.5233,25.535232999999998
-17744,Garrulus glandarius,1,2130,5,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17753,Garrulus glandarius,1,870,15,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17755,Garrulus glandarius,1,240,15,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17756,Garrulus glandarius,2,2220,15,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17760,Garrulus glandarius,1,650,15,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17765,Garrulus glandarius,2,300,5,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17768,Garrulus glandarius,1,1670,5,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17773,Garrulus glandarius,2,1400,5,GEN,2012-10-29,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-11386,Garrulus glandarius,1,1380,25,GEN,2010-07-22,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-11397,Garrulus glandarius,1,2260,45,GEN,2010-07-22,2010,Cortijo del Hornillo,3044.1891,30.441891000000002
-17814,Garrulus glandarius,1,2280,25,GEN,2011-12-13,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-17850,Garrulus glandarius,1,250,5,GEN,2011-02-17,2011,Cortijo del Hornillo,3044.1891,30.441891000000002
-17891,Garrulus glandarius,1,268,15,GEN,2012-11-23,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-17893,Garrulus glandarius,3,376,15,GEN,2012-11-23,2012,Cortijo del Hornillo,3044.1891,30.441891000000002
-10427,Garrulus glandarius,1,405,15,DIL,2010-05-21,2010,Robledal de Dílar,2553.5233,25.535232999999998
-10454,Garrulus glandarius,2,1330,45,DIL,2010-05-21,2010,Robledal de Dílar,2553.5233,25.535232999999998
-17918,Garrulus glandarius,1,517,45,CAN,2010-08-16,2010,Robledal de Cáñar,2556.5298,25.565298
-18000,Garrulus glandarius,1,575,5,DIL,2010-08-20,2010,Robledal de Dílar,2553.5233,25.535232999999998
-18005,Garrulus glandarius,2,1500,15,DIL,2010-08-20,2010,Robledal de Dílar,2553.5233,25.535232999999998
-18024,Garrulus glandarius,1,1920,25,DIL,2010-08-20,2010,Robledal de Dílar,2553.5233,25.535232999999998
-18068,Garrulus glandarius,1,462,25,CAM,2010-08-25,2010,Dehesa del Camarate,2805.2497,28.052497
-18088,Garrulus glandarius,2,769,25,CAM,2010-08-25,2010,Dehesa del Camarate,2805.2497,28.052497
-18219,Garrulus glandarius,1,666,25,CAM,2011-03-22,2011,Dehesa del Camarate,2805.2497,28.052497
-18247,Garrulus glandarius,1,1570,25,CAM,2011-03-22,2011,Dehesa del Camarate,2805.2497,28.052497
-18298,Garrulus glandarius,1,1330,15,CAM,2011-04-25,2011,Dehesa del Camarate,2805.2497,28.052497
-18306,Garrulus glandarius,1,612,25,CAM,2011-04-25,2011,Dehesa del Camarate,2805.2497,28.052497
-18310,Garrulus glandarius,1,2238,25,CAM,2011-04-25,2011,Dehesa del Camarate,2805.2497,28.052497
-18357,Garrulus glandarius,3,520,5,DIL,2011-04-14,2011,Robledal de Dílar,2553.5233,25.535232999999998
-18386,Garrulus glandarius,1,1562,35,DIL,2011-04-14,2011,Robledal de Dílar,2553.5233,25.535232999999998
-18398,Garrulus glandarius,3,430,45,DIL,2011-04-14,2011,Robledal de Dílar,2553.5233,25.535232999999998
-18473,Garrulus glandarius,2,650,25,CAM,2011-05-22,2011,Dehesa del Camarate,2805.2497,28.052497
-18482,Garrulus glandarius,1,2204,25,CAM,2011-05-22,2011,Dehesa del Camarate,2805.2497,28.052497
-18582,Garrulus glandarius,1,325,35,CAN,2011-05-12,2011,Robledal de Cáñar,2556.5298,25.565298
-18597,Garrulus glandarius,1,425,15,CAN,2011-05-12,2011,Robledal de Cáñar,2556.5298,25.565298
-18875,Garrulus glandarius,2,150,5,DIL,2011-06-28,2011,Robledal de Dílar,2553.5233,25.535232999999998
-18893,Garrulus glandarius,2,1155,35,DIL,2011-06-28,2011,Robledal de Dílar,2553.5233,25.535232999999998
-19012,Garrulus glandarius,1,700,35,CAN,2011-06-10,2011,Robledal de Cáñar,2556.5298,25.565298
-19039,Garrulus glandarius,1,1806,5,CAN,2011-06-10,2011,Robledal de Cáñar,2556.5298,25.565298
-19093,Garrulus glandarius,1,537,35,DIL,2011-06-06,2011,Robledal de Dílar,2553.5233,25.535232999999998
-19298,Garrulus glandarius,1,358,25,CAM,2011-07-08,2011,Dehesa del Camarate,2805.2497,28.052497
-19669,Garrulus glandarius,1,0,45,CAN,2011-08-04,2011,Robledal de Cáñar,2556.5298,25.565298
-19748,Garrulus glandarius,1,1143,35,CAM,2011-08-26,2011,Dehesa del Camarate,2805.2497,28.052497
-19765,Garrulus glandarius,1,563,25,CAM,2011-08-26,2011,Dehesa del Camarate,2805.2497,28.052497
-19830,Garrulus glandarius,1,900,5,DIL,2011-08-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-19834,Garrulus glandarius,1,953,5,DIL,2011-08-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-19863,Garrulus glandarius,1,2090,5,DIL,2011-08-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20180,Garrulus glandarius,1,1850,35,CAM,2011-09-10,2011,Dehesa del Camarate,2805.2497,28.052497
-20209,Garrulus glandarius,1,205,25,CAN,2011-09-07,2011,Robledal de Cáñar,2556.5298,25.565298
-20221,Garrulus glandarius,1,180,35,CAN,2011-09-07,2011,Robledal de Cáñar,2556.5298,25.565298
-20241,Garrulus glandarius,2,464,5,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20245,Garrulus glandarius,1,620,45,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20249,Garrulus glandarius,1,1297,15,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20255,Garrulus glandarius,1,864,45,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20262,Garrulus glandarius,1,1159,45,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20278,Garrulus glandarius,1,2154,35,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20280,Garrulus glandarius,1,2500,45,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20284,Garrulus glandarius,2,2052,25,DIL,2011-09-16,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20583,Garrulus glandarius,1,2215,15,DIL,2011-10-04,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20597,Garrulus glandarius,1,2115,15,DIL,2011-10-04,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20599,Garrulus glandarius,2,1995,25,DIL,2011-10-04,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20629,Garrulus glandarius,1,800,25,DIL,2011-10-04,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20648,Garrulus glandarius,1,2008,35,CAM,2011-10-25,2011,Dehesa del Camarate,2805.2497,28.052497
-20664,Garrulus glandarius,1,255,5,CAN,2011-10-11,2011,Robledal de Cáñar,2556.5298,25.565298
-20676,Garrulus glandarius,2,473,45,CAN,2011-10-11,2011,Robledal de Cáñar,2556.5298,25.565298
-20681,Garrulus glandarius,1,255,25,CAN,2011-10-11,2011,Robledal de Cáñar,2556.5298,25.565298
-20691,Garrulus glandarius,1,1706,35,CAN,2011-10-11,2011,Robledal de Cáñar,2556.5298,25.565298
-20695,Garrulus glandarius,1,933,25,CAN,2011-10-11,2011,Robledal de Cáñar,2556.5298,25.565298
-20712,Garrulus glandarius,1,1661,5,CAN,2011-10-11,2011,Robledal de Cáñar,2556.5298,25.565298
-20814,Garrulus glandarius,1,1000,25,CAM,2011-11-23,2011,Dehesa del Camarate,2805.2497,28.052497
-20830,Garrulus glandarius,1,2203,45,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20832,Garrulus glandarius,1,1704,45,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20835,Garrulus glandarius,1,2259,25,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20842,Garrulus glandarius,1,777,5,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20852,Garrulus glandarius,1,1239,5,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20855,Garrulus glandarius,1,1934,5,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20856,Garrulus glandarius,1,1432,45,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20861,Garrulus glandarius,1,1051,5,DIL,2011-11-08,2011,Robledal de Dílar,2553.5233,25.535232999999998
-20950,Garrulus glandarius,1,750,5,CAN,2011-11-29,2011,Robledal de Cáñar,2556.5298,25.565298
-20954,Garrulus glandarius,1,210,5,CAN,2011-11-29,2011,Robledal de Cáñar,2556.5298,25.565298
-20960,Garrulus glandarius,1,920,35,CAN,2011-11-29,2011,Robledal de Cáñar,2556.5298,25.565298
-21073,Garrulus glandarius,1,1012,25,CAM,2011-12-18,2011,Dehesa del Camarate,2805.2497,28.052497
-21074,Garrulus glandarius,1,235,25,CAM,2011-12-18,2011,Dehesa del Camarate,2805.2497,28.052497
-21113,Garrulus glandarius,1,1011,45,DIL,2011-12-19,2011,Robledal de Dílar,2553.5233,25.535232999999998
-21117,Garrulus glandarius,1,593,25,DIL,2011-12-19,2011,Robledal de Dílar,2553.5233,25.535232999999998
-21120,Garrulus glandarius,1,2153,45,DIL,2011-12-19,2011,Robledal de Dílar,2553.5233,25.535232999999998
-21126,Garrulus glandarius,1,1842,25,DIL,2011-12-19,2011,Robledal de Dílar,2553.5233,25.535232999999998
-21127,Garrulus glandarius,1,1842,5,DIL,2011-12-19,2011,Robledal de Dílar,2553.5233,25.535232999999998
-21135,Garrulus glandarius,1,423,35,DIL,2011-12-19,2011,Robledal de Dílar,2553.5233,25.535232999999998
-21177,Garrulus glandarius,2,147,5,CAN,2012-10-01,2012,Robledal de Cáñar,2556.5298,25.565298
-21208,Garrulus glandarius,1,847,5,CAN,2012-10-01,2012,Robledal de Cáñar,2556.5298,25.565298
-21327,Garrulus glandarius,1,2347,5,DIL,2012-11-13,2012,Robledal de Dílar,2553.5233,25.535232999999998
-21328,Garrulus glandarius,2,1550,45,DIL,2012-11-13,2012,Robledal de Dílar,2553.5233,25.535232999999998
-21370,Garrulus glandarius,1,1550,45,CAN,2012-11-19,2012,Robledal de Cáñar,2556.5298,25.565298
-21380,Garrulus glandarius,1,380,35,CAN,2012-11-19,2012,Robledal de Cáñar,2556.5298,25.565298
-21381,Garrulus glandarius,1,332,15,CAN,2012-11-19,2012,Robledal de Cáñar,2556.5298,25.565298
-21384,Garrulus glandarius,1,1230,5,CAN,2012-11-19,2012,Robledal de Cáñar,2556.5298,25.565298
-21592,Garrulus glandarius,2,300,45,CAN,2012-12-18,2012,Robledal de Cáñar,2556.5298,25.565298
-21678,Garrulus glandarius,1,1385,35,DIL,2012-10-04,2012,Robledal de Dílar,2553.5233,25.535232999999998
-21681,Garrulus glandarius,1,590,35,DIL,2012-10-04,2012,Robledal de Dílar,2553.5233,25.535232999999998
-21699,Garrulus glandarius,1,2115,45,DIL,2012-10-04,2012,Robledal de Dílar,2553.5233,25.535232999999998
-21754,Garrulus glandarius,1,1660,15,GEN,2013-03-22,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-21756,Garrulus glandarius,1,1040,45,GEN,2013-03-22,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-26068,Garrulus glandarius,1,1180,5,CAN,2013-09-27,2013,Robledal de Cáñar,2556.5298,25.565298
-21773,Garrulus glandarius,1,281,5,GEN,2013-02-08,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-21775,Garrulus glandarius,2,281,45,GEN,2013-02-08,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-21819,Garrulus glandarius,2,650,25,GEN,2013-04-22,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-21944,Garrulus glandarius,1,301,45,GEN,2013-06-07,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-21982,Garrulus glandarius,1,532,35,GEN,2013-08-20,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-22000,Garrulus glandarius,2,398,25,GEN,2013-09-20,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-22005,Garrulus glandarius,2,2120,25,GEN,2013-09-20,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-22013,Garrulus glandarius,1,137,25,GEN,2013-10-21,2013,Cortijo del Hornillo,3044.1891,30.441891000000002
-22104,Garrulus glandarius,7,1500,5,DIL,2013-04-19,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22113,Garrulus glandarius,4,1486,45,DIL,2013-04-19,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22117,Garrulus glandarius,1,1711,35,DIL,2013-04-19,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22124,Garrulus glandarius,2,2035,45,DIL,2013-04-19,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22235,Garrulus glandarius,1,1180,35,DIL,2013-06-13,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22277,Garrulus glandarius,1,573,5,DIL,2013-07-12,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22281,Garrulus glandarius,1,1030,35,DIL,2013-07-12,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22283,Garrulus glandarius,1,1220,45,DIL,2013-07-12,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22298,Garrulus glandarius,1,1032,45,DIL,2013-08-07,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22299,Garrulus glandarius,1,2088,5,DIL,2013-08-07,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22304,Garrulus glandarius,1,495,5,DIL,2013-08-07,2013,Robledal de Dílar,2553.5233,25.535232999999998
-22348,Garrulus glandarius,6,225,5,CAN,2013-02-13,2013,Robledal de Cáñar,2556.5298,25.565298
-22353,Garrulus glandarius,1,294,45,CAN,2013-02-13,2013,Robledal de Cáñar,2556.5298,25.565298
-22355,Garrulus glandarius,3,720,45,CAN,2013-02-13,2013,Robledal de Cáñar,2556.5298,25.565298
-22366,Garrulus glandarius,1,1074,45,CAN,2013-02-13,2013,Robledal de Cáñar,2556.5298,25.565298
-22405,Garrulus glandarius,1,620,25,CAN,2013-03-21,2013,Robledal de Cáñar,2556.5298,25.565298
-22414,Garrulus glandarius,1,1070,15,CAN,2013-03-21,2013,Robledal de Cáñar,2556.5298,25.565298
-22436,Garrulus glandarius,1,1760,45,CAN,2013-03-21,2013,Robledal de Cáñar,2556.5298,25.565298
-22439,Garrulus glandarius,1,1070,25,CAN,2013-03-21,2013,Robledal de Cáñar,2556.5298,25.565298
-22486,Garrulus glandarius,1,2116,35,CAN,2013-04-02,2013,Robledal de Cáñar,2556.5298,25.565298
-22524,Garrulus glandarius,1,1550,15,CAN,2013-05-30,2013,Robledal de Cáñar,2556.5298,25.565298
-22551,Garrulus glandarius,1,341,35,CAN,2013-06-28,2013,Robledal de Cáñar,2556.5298,25.565298
-22563,Garrulus glandarius,1,2400,15,CAN,2013-06-28,2013,Robledal de Cáñar,2556.5298,25.565298
-22574,Garrulus glandarius,1,1440,25,CAN,2013-06-28,2013,Robledal de Cáñar,2556.5298,25.565298
-22595,Garrulus glandarius,1,820,25,CAN,2013-07-24,2013,Robledal de Cáñar,2556.5298,25.565298
-22605,Garrulus glandarius,2,17,35,CAN,2013-07-24,2013,Robledal de Cáñar,2556.5298,25.565298
-22611,Garrulus glandarius,1,820,15,CAN,2013-07-24,2013,Robledal de Cáñar,2556.5298,25.565298
-22640,Garrulus glandarius,1,1500,5,CAN,2013-08-09,2013,Robledal de Cáñar,2556.5298,25.565298
-22669,Garrulus glandarius,1,900,5,CAN,2013-09-27,2013,Robledal de Cáñar,2556.5298,25.565298
-22677,Garrulus glandarius,1,1180,5,CAN,2013-09-27,2013,Robledal de Cáñar,2556.5298,25.565298
-22686,Garrulus glandarius,1,1900,5,CAN,2013-09-27,2013,Robledal de Cáñar,2556.5298,25.565298
-22701,Garrulus glandarius,2,518,5,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22703,Garrulus glandarius,1,60,25,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22707,Garrulus glandarius,1,2384,25,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22708,Garrulus glandarius,1,857,15,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22716,Garrulus glandarius,1,719,45,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22718,Garrulus glandarius,1,719,5,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22722,Garrulus glandarius,1,873,5,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22724,Garrulus glandarius,1,1030,25,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22725,Garrulus glandarius,1,216,5,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-22729,Garrulus glandarius,1,216,45,CAN,2013-10-18,2013,Robledal de Cáñar,2556.5298,25.565298
-24913,Garrulus glandarius,1,660,25,CAM,2013-01-16,2013,Dehesa del Camarate,2805.2497,28.052497
-24921,Garrulus glandarius,1,225,25,CAM,2013-01-16,2013,Dehesa del Camarate,2805.2497,28.052497
-24946,Garrulus glandarius,1,1320,15,CAM,2013-01-16,2013,Dehesa del Camarate,2805.2497,28.052497
-24969,Garrulus glandarius,1,1540,15,CAM,2013-02-07,2013,Dehesa del Camarate,2805.2497,28.052497
-24971,Garrulus glandarius,2,910,15,CAM,2013-02-07,2013,Dehesa del Camarate,2805.2497,28.052497
-24978,Garrulus glandarius,4,100,15,CAM,2013-02-07,2013,Dehesa del Camarate,2805.2497,28.052497
-24981,Garrulus glandarius,1,360,15,CAM,2013-02-07,2013,Dehesa del Camarate,2805.2497,28.052497
-25005,Garrulus glandarius,3,940,25,CAM,2013-03-07,2013,Dehesa del Camarate,2805.2497,28.052497
-25015,Garrulus glandarius,2,1490,25,CAM,2013-03-07,2013,Dehesa del Camarate,2805.2497,28.052497
-25096,Garrulus glandarius,1,220,15,CAM,2013-05-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25114,Garrulus glandarius,2,710,15,CAM,2013-05-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25196,Garrulus glandarius,1,2170,15,CAM,2013-06-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25215,Garrulus glandarius,2,310,15,CAM,2013-07-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25272,Garrulus glandarius,1,1870,15,CAM,2013-07-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25275,Garrulus glandarius,1,510,15,CAM,2013-08-08,2013,Dehesa del Camarate,2805.2497,28.052497
-25277,Garrulus glandarius,1,150,15,CAM,2013-08-08,2013,Dehesa del Camarate,2805.2497,28.052497
-25311,Garrulus glandarius,1,870,5,CAM,2013-08-08,2013,Dehesa del Camarate,2805.2497,28.052497
-25363,Garrulus glandarius,1,500,25,CAM,2013-09-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25365,Garrulus glandarius,1,1560,35,CAM,2013-09-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25372,Garrulus glandarius,1,2310,15,CAM,2013-09-10,2013,Dehesa del Camarate,2805.2497,28.052497
-25409,Garrulus glandarius,1,130,15,CAM,2013-10-05,2013,Dehesa del Camarate,2805.2497,28.052497
-25430,Garrulus glandarius,1,1420,25,CAM,2013-10-05,2013,Dehesa del Camarate,2805.2497,28.052497
-25474,Garrulus glandarius,1,51,15,CAM,2013-11-06,2013,Dehesa del Camarate,2805.2497,28.052497
-25477,Garrulus glandarius,1,310,5,CAM,2013-11-06,2013,Dehesa del Camarate,2805.2497,28.052497
-25481,Garrulus glandarius,1,820,25,CAM,2013-11-06,2013,Dehesa del Camarate,2805.2497,28.052497
-25515,Garrulus glandarius,1,570,25,CAM,2013-12-04,2013,Dehesa del Camarate,2805.2497,28.052497
-25517,Garrulus glandarius,1,40,35,CAM,2013-12-04,2013,Dehesa del Camarate,2805.2497,28.052497
-26092,Garrulus glandarius,3,2140,45,DIL,2013-10-10,2013,Robledal de Dílar,2553.5233,25.535232999999998
-26098,Garrulus glandarius,1,1300,5,DIL,2013-10-10,2013,Robledal de Dílar,2553.5233,25.535232999999998
-26129,Garrulus glandarius,1,1550,45,DIL,2013-10-10,2013,Robledal de Dílar,2553.5233,25.535232999999998
-26244,Garrulus glandarius,1,895,35,CAN,2013-11-23,2013,Robledal de Cáñar,2556.5298,25.565298
-26294,Garrulus glandarius,1,2391,5,DIL,2013-11-26,2013,Robledal de Dílar,2553.5233,25.535232999999998
-26300,Garrulus glandarius,1,577,15,DIL,2013-11-26,2013,Robledal de Dílar,2553.5233,25.535232999999998
-26312,Garrulus glandarius,2,1195,45,DIL,2013-11-26,2013,Robledal de Dílar,2553.5233,25.535232999999998
-26561,Garrulus glandarius,1,198,45,CAN,2014-02-06,2014,Robledal de Cáñar,2556.5298,25.565298
-26573,Garrulus glandarius,1,250,45,CAN,2014-02-06,2014,Robledal de Cáñar,2556.5298,25.565298
-26577,Garrulus glandarius,2,650,25,CAN,2014-04-10,2014,Robledal de Cáñar,2556.5298,25.565298
-26610,Garrulus glandarius,3,800,5,CAN,2014-04-10,2014,Robledal de Cáñar,2556.5298,25.565298
-26703,Garrulus glandarius,2,1057,45,GEN,2014-04-14,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-26867,Garrulus glandarius,3,2130,45,GEN,2014-05-08,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-26893,Garrulus glandarius,1,1298,5,DIL,2014-05-14,2014,Robledal de Dílar,2553.5233,25.535232999999998
-26894,Garrulus glandarius,2,1723,35,DIL,2014-05-14,2014,Robledal de Dílar,2553.5233,25.535232999999998
-26898,Garrulus glandarius,1,1240,15,DIL,2014-05-14,2014,Robledal de Dílar,2553.5233,25.535232999999998
-26927,Garrulus glandarius,1,1403,5,DIL,2014-05-14,2014,Robledal de Dílar,2553.5233,25.535232999999998
-27304,Garrulus glandarius,2,533,35,GEN,2014-06-24,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-27450,Garrulus glandarius,2,1500,15,DIL,2014-06-27,2014,Robledal de Dílar,2553.5233,25.535232999999998
-27473,Garrulus glandarius,2,1200,5,DIL,2014-06-27,2014,Robledal de Dílar,2553.5233,25.535232999999998
-27484,Garrulus glandarius,2,2000,35,DIL,2014-06-27,2014,Robledal de Dílar,2553.5233,25.535232999999998
-27491,Garrulus glandarius,1,2500,45,CAN,2014-07-01,2014,Robledal de Cáñar,2556.5298,25.565298
-27529,Garrulus glandarius,1,1098,35,CAN,2014-07-01,2014,Robledal de Cáñar,2556.5298,25.565298
-27535,Garrulus glandarius,1,1747,45,CAN,2014-07-01,2014,Robledal de Cáñar,2556.5298,25.565298
-27674,Garrulus glandarius,1,1840,35,DIL,2014-07-24,2014,Robledal de Dílar,2553.5233,25.535232999999998
-27693,Garrulus glandarius,1,1840,25,DIL,2014-07-24,2014,Robledal de Dílar,2553.5233,25.535232999999998
-27804,Garrulus glandarius,1,130,15,GEN,2014-03-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-27905,Garrulus glandarius,1,250,25,CAN,2014-12-11,2014,Robledal de Cáñar,2556.5298,25.565298
-28058,Garrulus glandarius,1,1180,45,GEN,2014-08-29,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28208,Garrulus glandarius,2,40,35,CAN,2014-09-13,2014,Robledal de Cáñar,2556.5298,25.565298
-28219,Garrulus glandarius,2,668,25,CAN,2014-09-13,2014,Robledal de Cáñar,2556.5298,25.565298
-28256,Garrulus glandarius,2,1982,35,CAN,2014-09-13,2014,Robledal de Cáñar,2556.5298,25.565298
-28294,Garrulus glandarius,1,1952,5,CAN,2014-09-13,2014,Robledal de Cáñar,2556.5298,25.565298
-28317,Garrulus glandarius,1,2220,45,GEN,2014-09-17,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28323,Garrulus glandarius,1,2360,45,GEN,2014-09-17,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28384,Garrulus glandarius,2,1970,45,DIL,2014-09-25,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28401,Garrulus glandarius,2,1140,45,DIL,2014-09-25,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28410,Garrulus glandarius,2,1400,5,DIL,2014-09-25,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28425,Garrulus glandarius,1,600,45,DIL,2014-09-25,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28432,Garrulus glandarius,1,1300,25,DIL,2014-09-25,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28713,Garrulus glandarius,2,2270,15,GEN,2014-10-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28722,Garrulus glandarius,1,195,45,GEN,2014-10-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28728,Garrulus glandarius,1,263,35,GEN,2014-10-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28741,Garrulus glandarius,1,7,35,GEN,2014-10-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28742,Garrulus glandarius,1,121,25,GEN,2014-10-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28749,Garrulus glandarius,1,121,35,GEN,2014-10-27,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-28879,Garrulus glandarius,1,1375,25,DIL,2014-04-10,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28888,Garrulus glandarius,2,1375,45,DIL,2014-04-10,2014,Robledal de Dílar,2553.5233,25.535232999999998
-28897,Garrulus glandarius,1,1425,45,DIL,2014-04-10,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29040,Garrulus glandarius,1,2500,5,CAN,2014-06-05,2014,Robledal de Cáñar,2556.5298,25.565298
-29044,Garrulus glandarius,1,1986,25,CAN,2014-06-05,2014,Robledal de Cáñar,2556.5298,25.565298
-29046,Garrulus glandarius,1,2156,45,CAN,2014-06-05,2014,Robledal de Cáñar,2556.5298,25.565298
-29058,Garrulus glandarius,2,2179,35,CAN,2014-06-05,2014,Robledal de Cáñar,2556.5298,25.565298
-29090,Garrulus glandarius,1,2198,5,CAN,2014-06-05,2014,Robledal de Cáñar,2556.5298,25.565298
-29112,Garrulus glandarius,1,460,35,CAN,2014-11-24,2014,Robledal de Cáñar,2556.5298,25.565298
-29153,Garrulus glandarius,2,717,45,CAN,2014-11-24,2014,Robledal de Cáñar,2556.5298,25.565298
-29203,Garrulus glandarius,2,986,45,GEN,2014-12-09,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29215,Garrulus glandarius,3,0,35,GEN,2014-12-09,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29218,Garrulus glandarius,2,1500,45,GEN,2014-12-09,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29345,Garrulus glandarius,2,1026,45,GEN,2014-07-24,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29358,Garrulus glandarius,1,2063,45,GEN,2014-07-24,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29365,Garrulus glandarius,1,98,15,GEN,2014-07-24,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29491,Garrulus glandarius,1,2032,5,CAN,2014-10-07,2014,Robledal de Cáñar,2556.5298,25.565298
-29493,Garrulus glandarius,1,2032,15,CAN,2014-10-07,2014,Robledal de Cáñar,2556.5298,25.565298
-29503,Garrulus glandarius,1,137,25,CAN,2014-10-07,2014,Robledal de Cáñar,2556.5298,25.565298
-29505,Garrulus glandarius,1,98,35,CAN,2014-10-07,2014,Robledal de Cáñar,2556.5298,25.565298
-29532,Garrulus glandarius,2,1020,35,CAN,2014-10-07,2014,Robledal de Cáñar,2556.5298,25.565298
-29610,Garrulus glandarius,2,1355,45,DIL,2014-10-28,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29615,Garrulus glandarius,1,1465,15,DIL,2014-10-28,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29632,Garrulus glandarius,1,621,45,DIL,2014-10-28,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29634,Garrulus glandarius,1,497,35,DIL,2014-10-28,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29643,Garrulus glandarius,1,1651,5,DIL,2014-10-28,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29658,Garrulus glandarius,1,1683,15,DIL,2014-10-28,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29703,Garrulus glandarius,2,200,35,GEN,2014-11-26,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29712,Garrulus glandarius,1,200,5,GEN,2014-11-26,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29730,Garrulus glandarius,1,1605,45,GEN,2014-11-26,2014,Cortijo del Hornillo,3044.1891,30.441891000000002
-29762,Garrulus glandarius,2,588,45,DIL,2014-12-03,2014,Robledal de Dílar,2553.5233,25.535232999999998
-29921,Garrulus glandarius,2,493,35,CAN,2015-02-26,2015,Robledal de Cáñar,2556.5298,25.565298
-29952,Garrulus glandarius,1,1500,15,CAN,2015-02-26,2015,Robledal de Cáñar,2556.5298,25.565298
-30047,Garrulus glandarius,3,560,25,CAM,2014-02-15,2014,Dehesa del Camarate,2805.2497,28.052497
-30060,Garrulus glandarius,3,1310,25,CAM,2014-02-15,2014,Dehesa del Camarate,2805.2497,28.052497
-30104,Garrulus glandarius,2,690,15,CAM,2014-03-10,2014,Dehesa del Camarate,2805.2497,28.052497
-30176,Garrulus glandarius,2,770,5,CAM,2014-08-08,2014,Dehesa del Camarate,2805.2497,28.052497
-30233,Garrulus glandarius,2,20,15,CAM,2014-06-10,2014,Dehesa del Camarate,2805.2497,28.052497
-30269,Garrulus glandarius,1,80,15,CAM,2014-07-12,2014,Dehesa del Camarate,2805.2497,28.052497
-30296,Garrulus glandarius,1,490,25,CAM,2014-08-18,2014,Dehesa del Camarate,2805.2497,28.052497
-30366,Garrulus glandarius,1,290,5,CAM,2014-11-20,2014,Dehesa del Camarate,2805.2497,28.052497
-30379,Garrulus glandarius,1,320,15,CAM,2014-12-06,2014,Dehesa del Camarate,2805.2497,28.052497
-30821,Garrulus glandarius,1,434,15,CAN,2015-03-26,2015,Robledal de Cáñar,2556.5298,25.565298
-31114,Garrulus glandarius,1,304,20,CAN,2015-04-13,2015,Robledal de Cáñar,2556.5298,25.565298
-31121,Garrulus glandarius,1,1041,40,CAN,2015-04-13,2015,Robledal de Cáñar,2556.5298,25.565298
-31389,Garrulus glandarius,1,2057,40,GEN,2015-05-20,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-31434,Garrulus glandarius,1,1193,40,GEN,2015-05-20,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-31602,Garrulus glandarius,1,1770,40,DIL,2015-06-03,2015,Robledal de Dílar,2553.5233,25.535232999999998
-31610,Garrulus glandarius,1,1450,5,DIL,2015-04-29,2015,Robledal de Dílar,2553.5233,25.535232999999998
-31664,Garrulus glandarius,2,970,5,DIL,2015-04-29,2015,Robledal de Dílar,2553.5233,25.535232999999998
-32256,Garrulus glandarius,2,2179,20,CAN,2015-08-04,2015,Robledal de Cáñar,2556.5298,25.565298
-32284,Garrulus glandarius,2,2179,5,CAN,2015-08-04,2015,Robledal de Cáñar,2556.5298,25.565298
-32465,Garrulus glandarius,2,2280,40,GEN,2015-07-29,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-32484,Garrulus glandarius,1,2400,5,GEN,2015-07-29,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-32662,Garrulus glandarius,1,2105,40,CAN,2015-09-10,2015,Robledal de Cáñar,2556.5298,25.565298
-32680,Garrulus glandarius,1,750,40,CAN,2015-09-10,2015,Robledal de Cáñar,2556.5298,25.565298
-32690,Garrulus glandarius,3,1406,40,CAN,2015-09-10,2015,Robledal de Cáñar,2556.5298,25.565298
-32698,Garrulus glandarius,1,1090,20,CAN,2015-09-10,2015,Robledal de Cáñar,2556.5298,25.565298
-32700,Garrulus glandarius,1,2195,40,CAN,2015-09-10,2015,Robledal de Cáñar,2556.5298,25.565298
-32707,Garrulus glandarius,1,2195,5,CAN,2015-09-10,2015,Robledal de Cáñar,2556.5298,25.565298
-32801,Garrulus glandarius,2,1370,20,CAN,2015-01-28,2015,Robledal de Cáñar,2556.5298,25.565298
-32813,Garrulus glandarius,2,1300,40,CAN,2015-01-28,2015,Robledal de Cáñar,2556.5298,25.565298
-32927,Garrulus glandarius,1,945,40,DIL,2015-05-07,2015,Robledal de Dílar,2553.5233,25.535232999999998
-32936,Garrulus glandarius,1,1997,40,DIL,2015-05-07,2015,Robledal de Dílar,2553.5233,25.535232999999998
-32954,Garrulus glandarius,1,1997,20,DIL,2015-05-07,2015,Robledal de Dílar,2553.5233,25.535232999999998
-33107,Garrulus glandarius,1,950,20,CAN,2015-07-09,2015,Robledal de Cáñar,2556.5298,25.565298
-33116,Garrulus glandarius,1,358,20,CAN,2015-07-09,2015,Robledal de Cáñar,2556.5298,25.565298
-33119,Garrulus glandarius,1,2221,20,CAN,2015-07-09,2015,Robledal de Cáñar,2556.5298,25.565298
-33148,Garrulus glandarius,1,1830,5,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33158,Garrulus glandarius,1,1553,20,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33160,Garrulus glandarius,1,1960,5,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33166,Garrulus glandarius,1,495,40,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33171,Garrulus glandarius,1,195,5,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33173,Garrulus glandarius,1,624,20,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33187,Garrulus glandarius,1,589,40,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33197,Garrulus glandarius,2,380,40,GEN,2015-08-19,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33480,Garrulus glandarius,1,140,20,GEN,2015-06-30,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-33781,Garrulus glandarius,1,1461,40,DIL,2015-09-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-33784,Garrulus glandarius,2,112,5,DIL,2015-09-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-33787,Garrulus glandarius,1,1242,40,DIL,2015-09-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-33796,Garrulus glandarius,2,1320,5,DIL,2015-09-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-33798,Garrulus glandarius,1,79,5,DIL,2015-09-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-34003,Garrulus glandarius,2,2270,25,CAN,2015-10-27,2015,Robledal de Cáñar,2556.5298,25.565298
-34014,Garrulus glandarius,1,1815,20,CAN,2015-10-27,2015,Robledal de Cáñar,2556.5298,25.565298
-34020,Garrulus glandarius,3,264,40,CAN,2015-10-27,2015,Robledal de Cáñar,2556.5298,25.565298
-34052,Garrulus glandarius,4,410,5,DIL,2015-10-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-34055,Garrulus glandarius,1,736,5,DIL,2015-10-30,2015,Robledal de Dílar,2553.5233,25.535232999999998
-34743,Garrulus glandarius,1,550,5,CAM,2015-01-15,2015,Dehesa del Camarate,2805.2497,28.052497
-34765,Garrulus glandarius,1,440,15,CAM,2015-02-10,2015,Dehesa del Camarate,2805.2497,28.052497
-34797,Garrulus glandarius,1,890,25,CAM,2015-03-16,2015,Dehesa del Camarate,2805.2497,28.052497
-34807,Garrulus glandarius,1,1680,15,CAM,2015-03-16,2015,Dehesa del Camarate,2805.2497,28.052497
-34815,Garrulus glandarius,1,50,25,CAM,2015-03-16,2015,Dehesa del Camarate,2805.2497,28.052497
-34827,Garrulus glandarius,1,1820,15,CAM,2015-04-08,2015,Dehesa del Camarate,2805.2497,28.052497
-34916,Garrulus glandarius,1,350,25,CAM,2015-06-08,2015,Dehesa del Camarate,2805.2497,28.052497
-34918,Garrulus glandarius,1,1590,5,CAM,2015-06-08,2015,Dehesa del Camarate,2805.2497,28.052497
-34946,Garrulus glandarius,1,1060,25,CAM,2015-06-08,2015,Dehesa del Camarate,2805.2497,28.052497
-34960,Garrulus glandarius,2,1070,25,CAM,2015-07-10,2015,Dehesa del Camarate,2805.2497,28.052497
-34983,Garrulus glandarius,2,250,25,CAM,2015-07-10,2015,Dehesa del Camarate,2805.2497,28.052497
-35011,Garrulus glandarius,1,140,NA,CAM,2015-08-05,2015,Dehesa del Camarate,2805.2497,28.052497
-35020,Garrulus glandarius,1,420,15,CAM,2015-09-10,2015,Dehesa del Camarate,2805.2497,28.052497
-35074,Garrulus glandarius,1,1880,15,CAM,2015-10-20,2015,Dehesa del Camarate,2805.2497,28.052497
-35119,Garrulus glandarius,1,1010,25,CAM,2015-11-20,2015,Dehesa del Camarate,2805.2497,28.052497
-35128,Garrulus glandarius,1,40,25,CAM,2015-11-20,2015,Dehesa del Camarate,2805.2497,28.052497
-35140,Garrulus glandarius,2,1150,5,CAM,2015-05-10,2015,Dehesa del Camarate,2805.2497,28.052497
-35151,Garrulus glandarius,1,640,15,CAM,2015-05-10,2015,Dehesa del Camarate,2805.2497,28.052497
-35152,Garrulus glandarius,2,240,25,CAM,2015-05-10,2015,Dehesa del Camarate,2805.2497,28.052497
-35202,Garrulus glandarius,1,317,45,GEN,2015-11-20,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-35244,Garrulus glandarius,1,242,35,GEN,2016-01-21,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35254,Garrulus glandarius,1,158,45,GEN,2016-01-21,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35335,Garrulus glandarius,1,710,40,CAN,2015-12-05,2015,Robledal de Cáñar,2556.5298,25.565298
-35397,Garrulus glandarius,1,610,5,DIL,2016-01-22,2016,Robledal de Dílar,2553.5233,25.535232999999998
-35402,Garrulus glandarius,3,1175,40,DIL,2016-01-22,2016,Robledal de Dílar,2553.5233,25.535232999999998
-35440,Garrulus glandarius,1,1297,40,CAN,2016-02-24,2016,Robledal de Cáñar,2556.5298,25.565298
-35571,Garrulus glandarius,1,1875,40,CAN,2016-03-04,2016,Robledal de Cáñar,2556.5298,25.565298
-35673,Garrulus glandarius,1,1740,35,GEN,2016-03-11,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35674,Garrulus glandarius,1,1670,25,GEN,2016-03-11,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35677,Garrulus glandarius,1,816,15,GEN,2016-03-11,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35696,Garrulus glandarius,1,262,5,GEN,2016-03-11,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35707,Garrulus glandarius,1,450,45,GEN,2016-04-25,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35735,Garrulus glandarius,2,580,35,GEN,2016-04-25,2016,Cortijo del Hornillo,3044.1891,30.441891000000002
-35978,Garrulus glandarius,1,25,5,GEN,2015-10-27,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-35982,Garrulus glandarius,1,365,20,GEN,2015-10-27,2015,Cortijo del Hornillo,3044.1891,30.441891000000002
-36061,Garrulus glandarius,3,1880,40,DIL,2015-11-18,2015,Robledal de Dílar,2553.5233,25.535232999999998
-36102,Garrulus glandarius,2,1385,5,DIL,2015-12-04,2015,Robledal de Dílar,2553.5233,25.535232999999998
-36113,Garrulus glandarius,4,2040,40,DIL,2015-12-04,2015,Robledal de Dílar,2553.5233,25.535232999999998
-36124,Garrulus glandarius,2,1121,40,DIL,2015-12-04,2015,Robledal de Dílar,2553.5233,25.535232999999998
-36258,Garrulus glandarius,2,305,40,CAN,2016-01-27,2016,Robledal de Cáñar,2556.5298,25.565298
-36651,Garrulus glandarius,1,2150,40,DIL,2016-02-04,2016,Robledal de Dílar,2553.5233,25.535232999999998
-36660,Garrulus glandarius,2,2000,40,DIL,2016-02-04,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37020,Garrulus glandarius,1,1190,30,CAN,2016-07-26,2016,Robledal de Cáñar,2556.5298,25.565298
-37052,Garrulus glandarius,3,2080,30,CAN,2016-08-14,2016,Robledal de Cáñar,2556.5298,25.565298
-37075,Garrulus glandarius,1,260,10,CAN,2016-09-30,2016,Robledal de Cáñar,2556.5298,25.565298
-37091,Garrulus glandarius,1,630,0,CAN,2016-10-28,2016,Robledal de Cáñar,2556.5298,25.565298
-37279,Garrulus glandarius,1,2070,40,DIL,2016-03-31,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37356,Garrulus glandarius,1,450,20,DIL,2016-06-29,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37419,Garrulus glandarius,1,1320,40,DIL,2016-06-29,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37450,Garrulus glandarius,1,1478,5,DIL,2016-04-26,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37479,Garrulus glandarius,1,1478,40,DIL,2016-04-26,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37481,Garrulus glandarius,2,2077,20,DIL,2016-04-26,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37495,Garrulus glandarius,1,1452,40,DIL,2016-04-26,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37499,Garrulus glandarius,1,1442,20,DIL,2016-04-26,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37811,Garrulus glandarius,1,775,40,DIL,2016-07-07,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37831,Garrulus glandarius,1,1825,40,DIL,2016-07-07,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37963,Garrulus glandarius,2,140,5,DIL,2016-09-16,2016,Robledal de Dílar,2553.5233,25.535232999999998
-37971,Garrulus glandarius,1,1593,40,DIL,2016-09-16,2016,Robledal de Dílar,2553.5233,25.535232999999998
-38193,Garrulus glandarius,1,1589,40,DIL,2016-10-28,2016,Robledal de Dílar,2553.5233,25.535232999999998
-38228,Garrulus glandarius,1,1246,5,DIL,2016-10-28,2016,Robledal de Dílar,2553.5233,25.535232999999998
-38256,Garrulus glandarius,1,602,20,DIL,2016-12-13,2016,Robledal de Dílar,2553.5233,25.535232999999998
-39265,Garrulus glandarius,1,895,40,DIL,2017-06-16,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39288,Garrulus glandarius,1,1587,40,DIL,2017-06-16,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39300,Garrulus glandarius,1,1364,40,DIL,2017-06-16,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39322,Garrulus glandarius,1,854,40,DIL,2017-06-16,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39347,Garrulus glandarius,1,808,20,GEN,2017-07-03,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-39487,Garrulus glandarius,2,2215,20,DIL,2017-03-30,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39488,Garrulus glandarius,3,1540,40,DIL,2017-03-30,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39500,Garrulus glandarius,4,1705,40,DIL,2017-03-30,2017,Robledal de Dílar,2553.5233,25.535232999999998
-39684,Garrulus glandarius,1,906,20,DIL,2016-08-11,2016,Robledal de Dílar,2553.5233,25.535232999999998
-40104,Garrulus glandarius,3,10,NA,DIL,2017-07-11,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40109,Garrulus glandarius,9,0,NA,DIL,2017-07-11,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40118,Garrulus glandarius,1,30,NA,DIL,2017-07-26,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40140,Garrulus glandarius,1,0,NA,DIL,2017-08-09,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40155,Garrulus glandarius,3,10,NA,DIL,2017-09-05,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40173,Garrulus glandarius,1,0,NA,DIL,2017-09-05,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40186,Garrulus glandarius,1,10,NA,DIL,2017-11-14,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40192,Garrulus glandarius,1,0,NA,DIL,2017-11-14,2017,Robledal de Dílar,2553.5233,25.535232999999998
-40221,Garrulus glandarius,1,1078,40,GEN,2017-09-28,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-40233,Garrulus glandarius,1,270,40,GEN,2017-09-28,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-40236,Garrulus glandarius,1,1390,5,GEN,2017-09-28,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-40243,Garrulus glandarius,1,1434,5,GEN,2017-09-28,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-40430,Garrulus glandarius,6,10,NA,DIL,2018-01-31,2018,Robledal de Dílar,2553.5233,25.535232999999998
-40451,Garrulus glandarius,2,10,NA,CAM,2018-02-16,2018,Dehesa del Camarate,2805.2497,28.052497
-40452,Garrulus glandarius,9,0,NA,CAM,2018-02-16,2018,Dehesa del Camarate,2805.2497,28.052497
-41345,Garrulus glandarius,8,1143,30,GEN,2017-10-27,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-41362,Garrulus glandarius,1,1953,0,GEN,2017-10-27,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-41848,Garrulus glandarius,1,174,10,GEN,2017-08-16,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-41864,Garrulus glandarius,1,1784,30,GEN,2017-08-16,2017,Cortijo del Hornillo,3044.1891,30.441891000000002
-42403,Garrulus glandarius,1,1023,10,DIL,2016-11-15,2016,Robledal de Dílar,2553.5233,25.535232999999998
-42405,Garrulus glandarius,1,2115,30,DIL,2016-11-15,2016,Robledal de Dílar,2553.5233,25.535232999999998
-42407,Garrulus glandarius,1,1023,30,DIL,2016-11-15,2016,Robledal de Dílar,2553.5233,25.535232999999998
-42414,Garrulus glandarius,2,220,0,DIL,2016-11-15,2016,Robledal de Dílar,2553.5233,25.535232999999998
-42415,Garrulus glandarius,1,2500,30,DIL,2016-11-15,2016,Robledal de Dílar,2553.5233,25.535232999999998
+Ord,PK_VISITAS,FECHA,year,loc,specie,n,dis,desp
+26,1721,01/09/2020,2020,DIL,Garrulus glandarius,2,0,.
+52,1695,12/28/2019,2019,GEN,Garrulus glandarius,1,0,.
+119,1754,11/29/2019,2019,CAM,Garrulus glandarius,2,0,.
+191,1764,10/25/2019,2019,DIL,Garrulus glandarius,3,0,.
+320,1759,09/27/2019,2019,CAN,Garrulus glandarius,3,0,.
+328,1729,09/26/2019,2019,DIL,Garrulus glandarius,2,0,.
+378,1662,09/12/2019,2019,GEN,Garrulus glandarius,3,0,.
+411,1762,08/30/2019,2019,CAN,Garrulus glandarius,3,0,.
+417,1749,08/30/2019,2019,GEN,Garrulus glandarius,1,0,.
+522,1732,08/13/2019,2019,DIL,Garrulus glandarius,1,0,.
+580,1758,07/21/2019,2019,CAN,Garrulus glandarius,1,0,.
+602,1736,07/17/2019,2019,DIL,Garrulus glandarius,4,0,.
+621,1702,07/11/2019,2019,GEN,Garrulus glandarius,3,0,.
+658,1740,07/04/2019,2019,CAM,Garrulus glandarius,10,0,.
+736,1697,06/28/2019,2019,GEN,Garrulus glandarius,1,0,.
+788,1756,06/11/2019,2019,CAN,Garrulus glandarius,1,0,.
+928,1720,04/30/2019,2019,GEN,Garrulus glandarius,1,0,.
+945,1760,04/30/2019,2019,CAN,Garrulus glandarius,3,0,.
+1045,1741,04/02/2019,2019,DIL,Garrulus glandarius,3,0,.
+1094,1726,03/19/2019,2019,CAM,Garrulus glandarius,3,0,.
+1139,1757,03/13/2019,2019,CAN,Garrulus glandarius,2,0,.
+1165,1727,03/12/2019,2019,DIL,Garrulus glandarius,2,0,.
+1257,1742,02/14/2019,2019,CAM,Garrulus glandarius,2,0,.
+1267,1744,02/07/2019,2019,DIL,Garrulus glandarius,1,0,.
+1319,1745,01/18/2019,2019,DIL,Garrulus glandarius,3,0,.
+1448,1537,12/18/2018,2018,DIL,Garrulus glandarius,3,1977,10
+1615,1536,11/16/2018,2018,DIL,Garrulus glandarius,1,1699,0
+1617,1536,11/16/2018,2018,DIL,Garrulus glandarius,1,723,0
+1618,1536,11/16/2018,2018,DIL,Garrulus glandarius,2,2427,10
+1629,1571,11/15/2018,2018,CAM,Garrulus glandarius,2,2793,10
+1771,1584,10/25/2018,2018,GEN,Garrulus glandarius,1,174,0
+1797,1569,10/23/2018,2018,CAM,Garrulus glandarius,2,333,0
+1806,1569,10/23/2018,2018,CAM,Garrulus glandarius,3,1376,10
+1893,1535,10/15/2018,2018,DIL,Garrulus glandarius,1,120,0
+2022,1594,09/25/2018,2018,GEN,Garrulus glandarius,1,1317,0
+2042,1594,09/25/2018,2018,GEN,Garrulus glandarius,1,171,10
+2052,1594,09/25/2018,2018,GEN,Garrulus glandarius,1,2210,10
+2061,1594,09/25/2018,2018,GEN,Garrulus glandarius,1,2409,30
+2124,1565,09/15/2018,2018,CAM,Garrulus glandarius,3,2307,10
+2127,1565,09/15/2018,2018,CAM,Garrulus glandarius,3,2951,10
+2131,1565,09/15/2018,2018,CAM,Garrulus glandarius,1,497,0
+2137,1565,09/15/2018,2018,CAM,Garrulus glandarius,2,2521,10
+2150,1565,09/15/2018,2018,CAM,Garrulus glandarius,2,420,10
+2158,1565,09/15/2018,2018,CAM,Garrulus glandarius,1,2977,10
+2185,1534,09/12/2018,2018,DIL,Garrulus glandarius,1,2712,0
+2188,1534,09/12/2018,2018,DIL,Garrulus glandarius,3,247,0
+2195,1534,09/12/2018,2018,DIL,Garrulus glandarius,2,391,10
+2262,1585,08/30/2018,2018,GEN,Garrulus glandarius,1,1457,30
+2307,1532,08/14/2018,2018,DIL,Garrulus glandarius,1,725,10
+2315,1532,08/14/2018,2018,DIL,Garrulus glandarius,1,2236,10
+2397,1562,08/09/2018,2018,CAM,Garrulus glandarius,1,2835,0
+2405,1562,08/09/2018,2018,CAM,Garrulus glandarius,1,2911,0
+2409,1562,08/09/2018,2018,CAM,Garrulus glandarius,1,2575,10
+2414,1562,08/09/2018,2018,CAM,Garrulus glandarius,1,2987,0
+2519,1533,07/31/2018,2018,DIL,Garrulus glandarius,2,2914,0
+2521,1533,07/31/2018,2018,DIL,Garrulus glandarius,2,763,10
+2588,1570,07/30/2018,2018,GEN,Garrulus glandarius,1,185,10
+2595,1570,07/30/2018,2018,GEN,Garrulus glandarius,1,811,10
+2608,1570,07/30/2018,2018,GEN,Garrulus glandarius,1,1538,10
+2667,1564,07/24/2018,2018,CAM,Garrulus glandarius,3,2220,10
+2673,1564,07/24/2018,2018,CAM,Garrulus glandarius,3,1810,10
+2676,1564,07/24/2018,2018,CAM,Garrulus glandarius,3,2100,10
+2688,1564,07/24/2018,2018,CAM,Garrulus glandarius,1,500,10
+2845,1578,06/26/2018,2018,GEN,Garrulus glandarius,1,2487,0
+3176,1572,04/26/2018,2018,GEN,Garrulus glandarius,3,2475,10
+3212,1568,04/21/2018,2018,CAN,Garrulus glandarius,1,1520,30
+3254,1531,04/20/2018,2018,DIL,Garrulus glandarius,1,1997,0
+3260,1531,04/20/2018,2018,DIL,Garrulus glandarius,1,25,10
+3282,1531,04/20/2018,2018,DIL,Garrulus glandarius,1,2017,10
+3508,1453,02/16/2018,2018,CAM,Garrulus glandarius,2,10,.
+3509,1453,02/16/2018,2018,CAM,Garrulus glandarius,9,0,.
+3615,1451,01/31/2018,2018,DIL,Garrulus glandarius,6,10,.
+3909,1443,11/14/2017,2017,DIL,Garrulus glandarius,1,10,.
+3915,1443,11/14/2017,2017,DIL,Garrulus glandarius,1,0,.
+4028,1485,10/27/2017,2017,GEN,Garrulus glandarius,8,1143,30
+4045,1485,10/27/2017,2017,GEN,Garrulus glandarius,1,1953,0
+4263,1445,09/28/2017,2017,GEN,Garrulus glandarius,1,1078,40
+4275,1445,09/28/2017,2017,GEN,Garrulus glandarius,1,270,40
+4278,1445,09/28/2017,2017,GEN,Garrulus glandarius,1,1390,5
+4285,1445,09/28/2017,2017,GEN,Garrulus glandarius,1,1434,5
+4385,1442,09/05/2017,2017,DIL,Garrulus glandarius,3,10,.
+4403,1442,09/05/2017,2017,DIL,Garrulus glandarius,1,0,.
+4666,1499,08/16/2017,2017,GEN,Garrulus glandarius,1,174,10
+4682,1499,08/16/2017,2017,GEN,Garrulus glandarius,1,1784,30
+4719,1441,08/09/2017,2017,DIL,Garrulus glandarius,1,0,.
+4817,1440,07/26/2017,2017,DIL,Garrulus glandarius,1,30,.
+4943,1439,07/11/2017,2017,DIL,Garrulus glandarius,3,10,.
+4948,1439,07/11/2017,2017,DIL,Garrulus glandarius,9,0,.
+5071,1403,07/03/2017,2017,GEN,Garrulus glandarius,1,808,20
+5290,1401,06/16/2017,2017,DIL,Garrulus glandarius,1,895,40
+5313,1401,06/16/2017,2017,DIL,Garrulus glandarius,1,1587,40
+5325,1401,06/16/2017,2017,DIL,Garrulus glandarius,1,1364,40
+5347,1401,06/16/2017,2017,DIL,Garrulus glandarius,1,854,40
+6156,1412,03/30/2017,2017,DIL,Garrulus glandarius,2,2215,20
+6157,1412,03/30/2017,2017,DIL,Garrulus glandarius,3,1540,40
+6169,1412,03/30/2017,2017,DIL,Garrulus glandarius,4,1705,40
+6903,1367,12/13/2016,2016,DIL,Garrulus glandarius,1,602,20
+7001,1522,11/15/2016,2016,DIL,Garrulus glandarius,1,1023,10
+7003,1522,11/15/2016,2016,DIL,Garrulus glandarius,1,2115,30
+7005,1522,11/15/2016,2016,DIL,Garrulus glandarius,1,1023,30
+7012,1522,11/15/2016,2016,DIL,Garrulus glandarius,2,220,0
+7013,1522,11/15/2016,2016,DIL,Garrulus glandarius,1,2500,30
+7284,1364,10/28/2016,2016,DIL,Garrulus glandarius,1,1589,40
+7319,1364,10/28/2016,2016,DIL,Garrulus glandarius,1,1246,5
+7330,1329,10/28/2016,2016,CAN,Garrulus glandarius,1,630,0
+7512,1328,09/30/2016,2016,CAN,Garrulus glandarius,1,260,10
+7681,1351,09/16/2016,2016,DIL,Garrulus glandarius,2,140,5
+7689,1351,09/16/2016,2016,DIL,Garrulus glandarius,1,1593,40
+7955,1327,08/14/2016,2016,CAN,Garrulus glandarius,3,2080,30
+7972,1417,08/11/2016,2016,DIL,Garrulus glandarius,1,906,20
+8218,1326,07/26/2016,2016,CAN,Garrulus glandarius,1,1190,30
+8298,1347,07/07/2016,2016,DIL,Garrulus glandarius,1,775,40
+8318,1347,07/07/2016,2016,DIL,Garrulus glandarius,1,1825,40
+8518,1339,06/29/2016,2016,DIL,Garrulus glandarius,1,450,20
+8531,1339,06/29/2016,2016,DIL,Garrulus glandarius,1,1320,40
+9511,1341,04/26/2016,2016,DIL,Garrulus glandarius,1,1478,5
+9540,1341,04/26/2016,2016,DIL,Garrulus glandarius,1,1478,40
+9542,1341,04/26/2016,2016,DIL,Garrulus glandarius,2,2077,20
+9556,1341,04/26/2016,2016,DIL,Garrulus glandarius,1,1452,40
+9560,1341,04/26/2016,2016,DIL,Garrulus glandarius,1,1442,20
+9612,1279,04/25/2016,2016,GEN,Garrulus glandarius,1,450,45
+9640,1279,04/25/2016,2016,GEN,Garrulus glandarius,2,580,35
+9769,1336,03/31/2016,2016,DIL,Garrulus glandarius,1,2070,40
+9954,1278,03/11/2016,2016,GEN,Garrulus glandarius,1,1740,35
+9955,1278,03/11/2016,2016,GEN,Garrulus glandarius,1,1670,25
+9958,1278,03/11/2016,2016,GEN,Garrulus glandarius,1,816,15
+9977,1278,03/11/2016,2016,GEN,Garrulus glandarius,1,262,5
+10028,1274,03/04/2016,2016,CAN,Garrulus glandarius,1,1875,40
+10142,1272,02/24/2016,2016,CAN,Garrulus glandarius,1,1297,40
+10279,1315,02/04/2016,2016,DIL,Garrulus glandarius,1,2150,40
+10288,1315,02/04/2016,2016,DIL,Garrulus glandarius,2,2000,40
+10424,1300,01/27/2016,2016,CAN,Garrulus glandarius,2,305,40
+10523,1271,01/22/2016,2016,DIL,Garrulus glandarius,1,610,5
+10528,1271,01/22/2016,2016,DIL,Garrulus glandarius,3,1175,40
+10615,1260,01/21/2016,2016,GEN,Garrulus glandarius,1,242,35
+10625,1260,01/21/2016,2016,GEN,Garrulus glandarius,1,158,45
+10800,1269,12/05/2015,2015,CAN,Garrulus glandarius,1,710,40
+10831,1295,12/04/2015,2015,DIL,Garrulus glandarius,2,1385,5
+10842,1295,12/04/2015,2015,DIL,Garrulus glandarius,4,2040,40
+10853,1295,12/04/2015,2015,DIL,Garrulus glandarius,2,1121,40
+10962,1257,11/20/2015,2015,GEN,Garrulus glandarius,1,317,45
+11000,1253,11/20/2015,2015,CAM,Garrulus glandarius,1,1010,25
+11009,1253,11/20/2015,2015,CAM,Garrulus glandarius,1,40,25
+11031,1291,11/18/2015,2015,DIL,Garrulus glandarius,3,1880,40
+11180,1222,10/30/2015,2015,DIL,Garrulus glandarius,4,410,5
+11183,1222,10/30/2015,2015,DIL,Garrulus glandarius,1,736,5
+11224,1288,10/27/2015,2015,GEN,Garrulus glandarius,1,25,5
+11228,1288,10/27/2015,2015,GEN,Garrulus glandarius,1,365,20
+11254,1220,10/27/2015,2015,CAN,Garrulus glandarius,2,2270,25
+11265,1220,10/27/2015,2015,CAN,Garrulus glandarius,1,1815,20
+11271,1220,10/27/2015,2015,CAN,Garrulus glandarius,3,264,40
+11409,1252,10/20/2015,2015,CAM,Garrulus glandarius,1,1880,15
+11579,1213,09/30/2015,2015,DIL,Garrulus glandarius,1,1461,40
+11582,1213,09/30/2015,2015,DIL,Garrulus glandarius,2,112,5
+11585,1213,09/30/2015,2015,DIL,Garrulus glandarius,1,1242,40
+11594,1213,09/30/2015,2015,DIL,Garrulus glandarius,2,1320,5
+11596,1213,09/30/2015,2015,DIL,Garrulus glandarius,1,79,5
+11941,1179,09/10/2015,2015,CAN,Garrulus glandarius,1,2105,40
+11959,1179,09/10/2015,2015,CAN,Garrulus glandarius,1,750,40
+11969,1179,09/10/2015,2015,CAN,Garrulus glandarius,3,1406,40
+11977,1179,09/10/2015,2015,CAN,Garrulus glandarius,1,1090,20
+11979,1179,09/10/2015,2015,CAN,Garrulus glandarius,1,2195,40
+11986,1179,09/10/2015,2015,CAN,Garrulus glandarius,1,2195,5
+11998,1251,09/10/2015,2015,CAM,Garrulus glandarius,1,420,15
+12104,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,1830,5
+12114,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,1553,20
+12116,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,1960,5
+12122,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,495,40
+12127,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,195,5
+12129,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,624,20
+12143,1192,08/19/2015,2015,GEN,Garrulus glandarius,1,589,40
+12153,1192,08/19/2015,2015,GEN,Garrulus glandarius,2,380,40
+12390,1250,08/05/2015,2015,CAM,Garrulus glandarius,1,140,.
+12440,1165,08/04/2015,2015,CAN,Garrulus glandarius,2,2179,20
+12468,1165,08/04/2015,2015,CAN,Garrulus glandarius,2,2179,5
+12542,1171,07/29/2015,2015,GEN,Garrulus glandarius,2,2280,40
+12561,1171,07/29/2015,2015,GEN,Garrulus glandarius,1,2400,5
+12874,1249,07/10/2015,2015,CAM,Garrulus glandarius,2,1070,25
+12897,1249,07/10/2015,2015,CAM,Garrulus glandarius,2,250,25
+12915,1191,07/09/2015,2015,CAN,Garrulus glandarius,1,950,20
+12924,1191,07/09/2015,2015,CAN,Garrulus glandarius,1,358,20
+12927,1191,07/09/2015,2015,CAN,Garrulus glandarius,1,2221,20
+13065,1200,06/30/2015,2015,GEN,Garrulus glandarius,1,140,20
+13424,1248,06/08/2015,2015,CAM,Garrulus glandarius,1,350,25
+13426,1248,06/08/2015,2015,CAM,Garrulus glandarius,1,1590,5
+13454,1248,06/08/2015,2015,CAM,Garrulus glandarius,1,1060,25
+13682,1149,06/03/2015,2015,DIL,Garrulus glandarius,1,1770,40
+13998,1147,05/20/2015,2015,GEN,Garrulus glandarius,1,2057,40
+14043,1147,05/20/2015,2015,GEN,Garrulus glandarius,1,1193,40
+14245,1254,05/10/2015,2015,CAM,Garrulus glandarius,2,1150,5
+14256,1254,05/10/2015,2015,CAM,Garrulus glandarius,1,640,15
+14257,1254,05/10/2015,2015,CAM,Garrulus glandarius,2,240,25
+14348,1184,05/07/2015,2015,DIL,Garrulus glandarius,1,945,40
+14357,1184,05/07/2015,2015,DIL,Garrulus glandarius,1,1997,40
+14375,1184,05/07/2015,2015,DIL,Garrulus glandarius,1,1997,20
+14393,1150,04/29/2015,2015,DIL,Garrulus glandarius,1,1450,5
+14447,1150,04/29/2015,2015,DIL,Garrulus glandarius,2,970,5
+14662,1142,04/13/2015,2015,CAN,Garrulus glandarius,1,304,20
+14669,1142,04/13/2015,2015,CAN,Garrulus glandarius,1,1041,40
+14855,1246,04/08/2015,2015,CAM,Garrulus glandarius,1,1820,15
+15009,1113,03/26/2015,2015,CAN,Garrulus glandarius,1,434,15
+15139,1245,03/16/2015,2015,CAM,Garrulus glandarius,1,890,25
+15149,1245,03/16/2015,2015,CAM,Garrulus glandarius,1,1680,15
+15157,1245,03/16/2015,2015,CAM,Garrulus glandarius,1,50,25
+15351,1112,02/26/2015,2015,CAN,Garrulus glandarius,2,493,35
+15382,1112,02/26/2015,2015,CAN,Garrulus glandarius,1,1500,15
+15427,1244,02/10/2015,2015,CAM,Garrulus glandarius,1,440,15
+15454,1182,01/28/2015,2015,CAN,Garrulus glandarius,2,1370,20
+15466,1182,01/28/2015,2015,CAN,Garrulus glandarius,2,1300,40
+15486,1243,01/15/2015,2015,CAM,Garrulus glandarius,1,550,5
+15534,1049,12/11/2014,2014,CAN,Garrulus glandarius,1,250,25
+15591,1088,12/09/2014,2014,GEN,Garrulus glandarius,2,986,45
+15603,1088,12/09/2014,2014,GEN,Garrulus glandarius,3,0,35
+15606,1088,12/09/2014,2014,GEN,Garrulus glandarius,2,1500,45
+15617,1123,12/06/2014,2014,CAM,Garrulus glandarius,1,320,15
+15691,1106,12/03/2014,2014,DIL,Garrulus glandarius,2,588,45
+15735,1105,11/26/2014,2014,GEN,Garrulus glandarius,2,200,35
+15744,1105,11/26/2014,2014,GEN,Garrulus glandarius,1,200,5
+15762,1105,11/26/2014,2014,GEN,Garrulus glandarius,1,1605,45
+15803,1084,11/24/2014,2014,CAN,Garrulus glandarius,1,460,35
+15844,1084,11/24/2014,2014,CAN,Garrulus glandarius,2,717,45
+15887,1122,11/20/2014,2014,CAM,Garrulus glandarius,1,290,5
+16069,1103,10/28/2014,2014,DIL,Garrulus glandarius,2,1355,45
+16074,1103,10/28/2014,2014,DIL,Garrulus glandarius,1,1465,15
+16091,1103,10/28/2014,2014,DIL,Garrulus glandarius,1,621,45
+16093,1103,10/28/2014,2014,DIL,Garrulus glandarius,1,497,35
+16102,1103,10/28/2014,2014,DIL,Garrulus glandarius,1,1651,5
+16117,1103,10/28/2014,2014,DIL,Garrulus glandarius,1,1683,15
+16125,1072,10/27/2014,2014,GEN,Garrulus glandarius,2,2270,15
+16134,1072,10/27/2014,2014,GEN,Garrulus glandarius,1,195,45
+16140,1072,10/27/2014,2014,GEN,Garrulus glandarius,1,263,35
+16153,1072,10/27/2014,2014,GEN,Garrulus glandarius,1,7,35
+16154,1072,10/27/2014,2014,GEN,Garrulus glandarius,1,121,25
+16161,1072,10/27/2014,2014,GEN,Garrulus glandarius,1,121,35
+16359,1100,10/07/2014,2014,CAN,Garrulus glandarius,1,2032,5
+16361,1100,10/07/2014,2014,CAN,Garrulus glandarius,1,2032,15
+16371,1100,10/07/2014,2014,CAN,Garrulus glandarius,1,137,25
+16373,1100,10/07/2014,2014,CAN,Garrulus glandarius,1,98,35
+16400,1100,10/07/2014,2014,CAN,Garrulus glandarius,2,1020,35
+16592,1061,09/25/2014,2014,DIL,Garrulus glandarius,2,1970,45
+16609,1061,09/25/2014,2014,DIL,Garrulus glandarius,2,1140,45
+16618,1061,09/25/2014,2014,DIL,Garrulus glandarius,2,1400,5
+16633,1061,09/25/2014,2014,DIL,Garrulus glandarius,1,600,45
+16640,1061,09/25/2014,2014,DIL,Garrulus glandarius,1,1300,25
+16744,1059,09/17/2014,2014,GEN,Garrulus glandarius,1,2220,45
+16750,1059,09/17/2014,2014,GEN,Garrulus glandarius,1,2360,45
+16770,1058,09/13/2014,2014,CAN,Garrulus glandarius,2,40,35
+16781,1058,09/13/2014,2014,CAN,Garrulus glandarius,2,668,25
+16818,1058,09/13/2014,2014,CAN,Garrulus glandarius,2,1982,35
+16856,1058,09/13/2014,2014,CAN,Garrulus glandarius,1,1952,5
+16941,1054,08/29/2014,2014,GEN,Garrulus glandarius,1,1180,45
+17109,1121,08/18/2014,2014,CAM,Garrulus glandarius,1,490,25
+17244,1118,08/08/2014,2014,CAM,Garrulus glandarius,2,770,5
+17375,1094,07/24/2014,2014,GEN,Garrulus glandarius,2,1026,45
+17388,1094,07/24/2014,2014,GEN,Garrulus glandarius,1,2063,45
+17395,1094,07/24/2014,2014,GEN,Garrulus glandarius,1,98,15
+17421,1038,07/24/2014,2014,DIL,Garrulus glandarius,1,1840,35
+17440,1038,07/24/2014,2014,DIL,Garrulus glandarius,1,1840,25
+17529,1120,07/12/2014,2014,CAM,Garrulus glandarius,1,80,15
+17769,1034,07/01/2014,2014,CAN,Garrulus glandarius,1,2500,45
+17807,1034,07/01/2014,2014,CAN,Garrulus glandarius,1,1098,35
+17813,1034,07/01/2014,2014,CAN,Garrulus glandarius,1,1747,45
+17958,1032,06/27/2014,2014,DIL,Garrulus glandarius,2,1500,15
+17981,1032,06/27/2014,2014,DIL,Garrulus glandarius,2,1200,5
+17992,1032,06/27/2014,2014,DIL,Garrulus glandarius,2,2000,35
+18054,1029,06/24/2014,2014,GEN,Garrulus glandarius,2,533,35
+18357,1119,06/10/2014,2014,CAM,Garrulus glandarius,2,20,15
+18458,1083,06/05/2014,2014,CAN,Garrulus glandarius,1,2500,5
+18462,1083,06/05/2014,2014,CAN,Garrulus glandarius,1,1986,25
+18464,1083,06/05/2014,2014,CAN,Garrulus glandarius,1,2156,45
+18476,1083,06/05/2014,2014,CAN,Garrulus glandarius,2,2179,35
+18508,1083,06/05/2014,2014,CAN,Garrulus glandarius,1,2198,5
+18741,1021,05/14/2014,2014,DIL,Garrulus glandarius,1,1298,5
+18742,1021,05/14/2014,2014,DIL,Garrulus glandarius,2,1723,35
+18746,1021,05/14/2014,2014,DIL,Garrulus glandarius,1,1240,15
+18775,1021,05/14/2014,2014,DIL,Garrulus glandarius,1,1403,5
+19019,1019,05/08/2014,2014,GEN,Garrulus glandarius,3,2130,45
+19329,1013,04/14/2014,2014,GEN,Garrulus glandarius,2,1057,45
+19350,1011,04/10/2014,2014,CAN,Garrulus glandarius,2,650,25
+19383,1011,04/10/2014,2014,CAN,Garrulus glandarius,3,800,5
+19412,1078,04/10/2014,2014,DIL,Garrulus glandarius,1,1375,25
+19421,1078,04/10/2014,2014,DIL,Garrulus glandarius,2,1375,45
+19430,1078,04/10/2014,2014,DIL,Garrulus glandarius,1,1425,45
+19631,1044,03/27/2014,2014,GEN,Garrulus glandarius,1,130,15
+19894,1116,03/10/2014,2014,CAM,Garrulus glandarius,2,690,15
+19939,1115,02/15/2014,2014,CAM,Garrulus glandarius,3,560,25
+19952,1115,02/15/2014,2014,CAM,Garrulus glandarius,3,1310,25
+19996,1010,02/06/2014,2014,CAN,Garrulus glandarius,1,198,45
+20008,1010,02/06/2014,2014,CAN,Garrulus glandarius,1,250,45
+20118,965,12/04/2013,2013,CAM,Garrulus glandarius,1,570,25
+20120,965,12/04/2013,2013,CAM,Garrulus glandarius,1,40,35
+20197,1000,11/26/2013,2013,DIL,Garrulus glandarius,1,2391,5
+20203,1000,11/26/2013,2013,DIL,Garrulus glandarius,1,577,15
+20215,1000,11/26/2013,2013,DIL,Garrulus glandarius,2,1195,45
+20262,997,11/23/2013,2013,CAN,Garrulus glandarius,1,895,35
+20363,964,11/06/2013,2013,CAM,Garrulus glandarius,1,51,15
+20366,964,11/06/2013,2013,CAM,Garrulus glandarius,1,310,5
+20370,964,11/06/2013,2013,CAM,Garrulus glandarius,1,820,25
+20488,857,10/21/2013,2013,GEN,Garrulus glandarius,1,137,25
+20510,873,10/18/2013,2013,CAN,Garrulus glandarius,2,518,5
+20512,873,10/18/2013,2013,CAN,Garrulus glandarius,1,60,25
+20516,873,10/18/2013,2013,CAN,Garrulus glandarius,1,2384,25
+20517,873,10/18/2013,2013,CAN,Garrulus glandarius,1,857,15
+20525,873,10/18/2013,2013,CAN,Garrulus glandarius,1,719,45
+20527,873,10/18/2013,2013,CAN,Garrulus glandarius,1,719,5
+20531,873,10/18/2013,2013,CAN,Garrulus glandarius,1,873,5
+20533,873,10/18/2013,2013,CAN,Garrulus glandarius,1,1030,25
+20534,873,10/18/2013,2013,CAN,Garrulus glandarius,1,216,5
+20538,873,10/18/2013,2013,CAN,Garrulus glandarius,1,216,45
+20653,989,10/10/2013,2013,DIL,Garrulus glandarius,3,2140,45
+20659,989,10/10/2013,2013,DIL,Garrulus glandarius,1,1300,5
+20690,989,10/10/2013,2013,DIL,Garrulus glandarius,1,1550,45
+20771,963,10/05/2013,2013,CAM,Garrulus glandarius,1,130,15
+20792,963,10/05/2013,2013,CAM,Garrulus glandarius,1,1420,25
+20919,988,09/27/2013,2013,CAN,Garrulus glandarius,1,1900,5
+20922,988,09/27/2013,2013,CAN,Garrulus glandarius,1,900,5
+20938,988,09/27/2013,2013,CAN,Garrulus glandarius,1,1180,5
+20942,872,09/27/2013,2013,CAN,Garrulus glandarius,1,900,5
+20950,872,09/27/2013,2013,CAN,Garrulus glandarius,1,1180,5
+20959,872,09/27/2013,2013,CAN,Garrulus glandarius,1,1900,5
+21023,856,09/20/2013,2013,GEN,Garrulus glandarius,2,398,25
+21028,856,09/20/2013,2013,GEN,Garrulus glandarius,2,2120,25
+21185,962,09/10/2013,2013,CAM,Garrulus glandarius,1,500,25
+21187,962,09/10/2013,2013,CAM,Garrulus glandarius,1,1560,35
+21194,962,09/10/2013,2013,CAM,Garrulus glandarius,1,2310,15
+21381,855,08/20/2013,2013,GEN,Garrulus glandarius,1,532,35
+21434,871,08/09/2013,2013,CAN,Garrulus glandarius,1,1500,5
+21463,961,08/08/2013,2013,CAM,Garrulus glandarius,1,510,15
+21465,961,08/08/2013,2013,CAM,Garrulus glandarius,1,150,15
+21499,961,08/08/2013,2013,CAM,Garrulus glandarius,1,870,5
+21546,863,08/07/2013,2013,DIL,Garrulus glandarius,1,1032,45
+21547,863,08/07/2013,2013,DIL,Garrulus glandarius,1,2088,5
+21552,863,08/07/2013,2013,DIL,Garrulus glandarius,1,495,5
+21823,870,07/24/2013,2013,CAN,Garrulus glandarius,1,820,25
+21833,870,07/24/2013,2013,CAN,Garrulus glandarius,2,17,35
+21839,870,07/24/2013,2013,CAN,Garrulus glandarius,1,820,15
+21972,862,07/12/2013,2013,DIL,Garrulus glandarius,1,573,5
+21976,862,07/12/2013,2013,DIL,Garrulus glandarius,1,1030,35
+21978,862,07/12/2013,2013,DIL,Garrulus glandarius,1,1220,45
+21989,960,07/10/2013,2013,CAM,Garrulus glandarius,2,310,15
+22046,960,07/10/2013,2013,CAM,Garrulus glandarius,1,1870,15
+22230,869,06/28/2013,2013,CAN,Garrulus glandarius,1,341,35
+22241,869,06/28/2013,2013,CAN,Garrulus glandarius,1,2400,15
+22252,869,06/28/2013,2013,CAN,Garrulus glandarius,1,1440,25
+22482,861,06/13/2013,2013,DIL,Garrulus glandarius,1,1180,35
+22645,959,06/10/2013,2013,CAM,Garrulus glandarius,1,2170,15
+22739,853,06/07/2013,2013,GEN,Garrulus glandarius,1,301,45
+22847,868,05/30/2013,2013,CAN,Garrulus glandarius,1,1550,15
+23202,958,05/10/2013,2013,CAM,Garrulus glandarius,1,220,15
+23220,958,05/10/2013,2013,CAM,Garrulus glandarius,2,710,15
+23496,851,04/22/2013,2013,GEN,Garrulus glandarius,2,650,25
+23612,859,04/19/2013,2013,DIL,Garrulus glandarius,7,1500,5
+23621,859,04/19/2013,2013,DIL,Garrulus glandarius,4,1486,45
+23625,859,04/19/2013,2013,DIL,Garrulus glandarius,1,1711,35
+23631,859,04/19/2013,2013,DIL,Garrulus glandarius,2,2035,45
+23924,867,04/02/2013,2013,CAN,Garrulus glandarius,1,2116,35
+23967,849,03/22/2013,2013,GEN,Garrulus glandarius,1,1660,15
+23969,849,03/22/2013,2013,GEN,Garrulus glandarius,1,1040,45
+24025,866,03/21/2013,2013,CAN,Garrulus glandarius,1,620,25
+24034,866,03/21/2013,2013,CAN,Garrulus glandarius,1,1070,15
+24056,866,03/21/2013,2013,CAN,Garrulus glandarius,1,1760,45
+24059,866,03/21/2013,2013,CAN,Garrulus glandarius,1,1070,25
+24158,956,03/07/2013,2013,CAM,Garrulus glandarius,3,940,25
+24168,956,03/07/2013,2013,CAM,Garrulus glandarius,2,1490,25
+24188,865,02/13/2013,2013,CAN,Garrulus glandarius,6,225,5
+24193,865,02/13/2013,2013,CAN,Garrulus glandarius,1,294,45
+24195,865,02/13/2013,2013,CAN,Garrulus glandarius,3,720,45
+24206,865,02/13/2013,2013,CAN,Garrulus glandarius,1,1074,45
+24282,850,02/08/2013,2013,GEN,Garrulus glandarius,1,281,5
+24284,850,02/08/2013,2013,GEN,Garrulus glandarius,2,281,45
+24309,955,02/07/2013,2013,CAM,Garrulus glandarius,1,1540,15
+24311,955,02/07/2013,2013,CAM,Garrulus glandarius,2,910,15
+24318,955,02/07/2013,2013,CAM,Garrulus glandarius,4,100,15
+24321,955,02/07/2013,2013,CAM,Garrulus glandarius,1,360,15
+24387,954,01/16/2013,2013,CAM,Garrulus glandarius,1,660,25
+24395,954,01/16/2013,2013,CAM,Garrulus glandarius,1,225,25
+24420,954,01/16/2013,2013,CAM,Garrulus glandarius,1,1320,15
+24566,842,12/18/2012,2012,CAN,Garrulus glandarius,2,300,45
+24754,714,11/23/2012,2012,GEN,Garrulus glandarius,1,268,15
+24756,714,11/23/2012,2012,GEN,Garrulus glandarius,3,376,15
+24802,834,11/19/2012,2012,CAN,Garrulus glandarius,1,1550,45
+24812,834,11/19/2012,2012,CAN,Garrulus glandarius,1,380,35
+24813,834,11/19/2012,2012,CAN,Garrulus glandarius,1,332,15
+24816,834,11/19/2012,2012,CAN,Garrulus glandarius,1,1230,5
+24892,830,11/13/2012,2012,DIL,Garrulus glandarius,1,2347,5
+24893,830,11/13/2012,2012,DIL,Garrulus glandarius,2,1550,45
+24949,705,10/29/2012,2012,GEN,Garrulus glandarius,1,2130,5
+24958,705,10/29/2012,2012,GEN,Garrulus glandarius,1,870,15
+24960,705,10/29/2012,2012,GEN,Garrulus glandarius,1,240,15
+24961,705,10/29/2012,2012,GEN,Garrulus glandarius,2,2220,15
+24965,705,10/29/2012,2012,GEN,Garrulus glandarius,1,650,15
+24970,705,10/29/2012,2012,GEN,Garrulus glandarius,2,300,5
+24973,705,10/29/2012,2012,GEN,Garrulus glandarius,1,1670,5
+24978,705,10/29/2012,2012,GEN,Garrulus glandarius,2,1400,5
+25111,844,10/04/2012,2012,DIL,Garrulus glandarius,1,1385,35
+25114,844,10/04/2012,2012,DIL,Garrulus glandarius,1,590,35
+25132,844,10/04/2012,2012,DIL,Garrulus glandarius,1,2115,45
+25157,824,10/01/2012,2012,CAN,Garrulus glandarius,2,147,5
+25188,824,10/01/2012,2012,CAN,Garrulus glandarius,1,847,5
+25219,692,09/27/2012,2012,CAN,Garrulus glandarius,2,570,15
+25228,692,09/27/2012,2012,CAN,Garrulus glandarius,1,190,25
+25231,692,09/27/2012,2012,CAN,Garrulus glandarius,1,2050,5
+25232,692,09/27/2012,2012,CAN,Garrulus glandarius,1,2000,5
+25237,692,09/27/2012,2012,CAN,Garrulus glandarius,2,2150,5
+25245,692,09/27/2012,2012,CAN,Garrulus glandarius,2,1400,5
+25251,692,09/27/2012,2012,CAN,Garrulus glandarius,1,710,25
+25329,693,09/24/2012,2012,GEN,Garrulus glandarius,1,160,25
+25340,693,09/24/2012,2012,GEN,Garrulus glandarius,2,2280,45
+25358,693,09/24/2012,2012,GEN,Garrulus glandarius,2,1150,5
+25520,695,09/18/2012,2012,DIL,Garrulus glandarius,1,2390,15
+25522,695,09/18/2012,2012,DIL,Garrulus glandarius,1,2140,35
+25553,695,09/18/2012,2012,DIL,Garrulus glandarius,1,1045,35
+25554,695,09/18/2012,2012,DIL,Garrulus glandarius,1,315,35
+25558,695,09/18/2012,2012,DIL,Garrulus glandarius,1,845,45
+25560,695,09/18/2012,2012,DIL,Garrulus glandarius,1,1930,25
+25638,683,08/28/2012,2012,GEN,Garrulus glandarius,1,1040,45
+25700,688,08/23/2012,2012,CAN,Garrulus glandarius,1,1230,15
+25717,688,08/23/2012,2012,CAN,Garrulus glandarius,1,1025,25
+25952,678,08/06/2012,2012,DIL,Garrulus glandarius,1,1557,5
+25953,678,08/06/2012,2012,DIL,Garrulus glandarius,2,1397,5
+25976,678,08/06/2012,2012,DIL,Garrulus glandarius,2,1557,25
+26280,666,07/21/2012,2012,CAN,Garrulus glandarius,1,2125,35
+26306,666,07/21/2012,2012,CAN,Garrulus glandarius,1,150,35
+26313,600,07/20/2012,2012,GEN,Garrulus glandarius,2,2380,15
+26477,664,07/05/2012,2012,DIL,Garrulus glandarius,1,366,5
+26513,664,07/05/2012,2012,DIL,Garrulus glandarius,1,855,5
+26664,655,06/18/2012,2012,CAN,Garrulus glandarius,1,1643,5
+26675,655,06/18/2012,2012,CAN,Garrulus glandarius,1,143,45
+27032,651,06/07/2012,2012,DIL,Garrulus glandarius,1,1145,5
+27058,651,06/07/2012,2012,DIL,Garrulus glandarius,1,1785,45
+27074,651,06/07/2012,2012,DIL,Garrulus glandarius,2,1405,5
+27088,651,06/07/2012,2012,DIL,Garrulus glandarius,2,1915,5
+27669,636,05/07/2012,2012,CAN,Garrulus glandarius,1,94,15
+27673,636,05/07/2012,2012,CAN,Garrulus glandarius,2,290,15
+27971,631,04/23/2012,2012,DIL,Garrulus glandarius,1,603,45
+27987,631,04/23/2012,2012,DIL,Garrulus glandarius,1,2093,35
+28007,630,04/23/2012,2012,CAN,Garrulus glandarius,1,1405,15
+28009,630,04/23/2012,2012,CAN,Garrulus glandarius,1,80,35
+28054,630,04/23/2012,2012,CAN,Garrulus glandarius,1,235,5
+28064,630,04/23/2012,2012,CAN,Garrulus glandarius,1,690,25
+28068,630,04/23/2012,2012,CAN,Garrulus glandarius,1,805,15
+28243,624,03/26/2012,2012,DIL,Garrulus glandarius,1,1303,45
+28252,624,03/26/2012,2012,DIL,Garrulus glandarius,1,1203,45
+28580,614,03/12/2012,2012,GEN,Garrulus glandarius,1,320,15
+28609,614,03/12/2012,2012,GEN,Garrulus glandarius,1,90,15
+28722,611,02/20/2012,2012,CAN,Garrulus glandarius,3,280,45
+28810,607,01/20/2012,2012,CAN,Garrulus glandarius,1,1157,45
+28910,821,12/19/2011,2011,DIL,Garrulus glandarius,1,1011,45
+28914,821,12/19/2011,2011,DIL,Garrulus glandarius,1,593,25
+28917,821,12/19/2011,2011,DIL,Garrulus glandarius,1,2153,45
+28923,821,12/19/2011,2011,DIL,Garrulus glandarius,1,1842,25
+28924,821,12/19/2011,2011,DIL,Garrulus glandarius,1,1842,5
+28932,821,12/19/2011,2011,DIL,Garrulus glandarius,1,423,35
+28960,818,12/18/2011,2011,CAM,Garrulus glandarius,1,1012,25
+28961,818,12/18/2011,2011,CAM,Garrulus glandarius,1,235,25
+28994,710,12/13/2011,2011,GEN,Garrulus glandarius,1,2280,25
+29135,811,11/29/2011,2011,CAN,Garrulus glandarius,1,750,5
+29139,811,11/29/2011,2011,CAN,Garrulus glandarius,1,210,5
+29145,811,11/29/2011,2011,CAN,Garrulus glandarius,1,920,35
+29192,805,11/23/2011,2011,CAM,Garrulus glandarius,1,1000,25
+29244,806,11/08/2011,2011,DIL,Garrulus glandarius,1,2203,45
+29246,806,11/08/2011,2011,DIL,Garrulus glandarius,1,1704,45
+29249,806,11/08/2011,2011,DIL,Garrulus glandarius,1,2259,25
+29256,806,11/08/2011,2011,DIL,Garrulus glandarius,1,777,5
+29266,806,11/08/2011,2011,DIL,Garrulus glandarius,1,1239,5
+29269,806,11/08/2011,2011,DIL,Garrulus glandarius,1,1934,5
+29270,806,11/08/2011,2011,DIL,Garrulus glandarius,1,1432,45
+29275,806,11/08/2011,2011,DIL,Garrulus glandarius,1,1051,5
+29369,798,10/25/2011,2011,CAM,Garrulus glandarius,1,2008,35
+29539,572,10/18/2011,2011,GEN,Garrulus glandarius,1,80,15
+29541,572,10/18/2011,2011,GEN,Garrulus glandarius,2,2070,25
+29542,572,10/18/2011,2011,GEN,Garrulus glandarius,1,510,45
+29547,572,10/18/2011,2011,GEN,Garrulus glandarius,1,340,5
+29566,572,10/18/2011,2011,GEN,Garrulus glandarius,1,15,5
+29575,572,10/18/2011,2011,GEN,Garrulus glandarius,1,140,5
+29581,572,10/18/2011,2011,GEN,Garrulus glandarius,1,2390,5
+29705,800,10/11/2011,2011,CAN,Garrulus glandarius,1,255,5
+29717,800,10/11/2011,2011,CAN,Garrulus glandarius,2,473,45
+29722,800,10/11/2011,2011,CAN,Garrulus glandarius,1,255,25
+29732,800,10/11/2011,2011,CAN,Garrulus glandarius,1,1706,35
+29736,800,10/11/2011,2011,CAN,Garrulus glandarius,1,933,25
+29753,800,10/11/2011,2011,CAN,Garrulus glandarius,1,1661,5
+29791,797,10/04/2011,2011,DIL,Garrulus glandarius,1,2215,15
+29805,797,10/04/2011,2011,DIL,Garrulus glandarius,1,2115,15
+29807,797,10/04/2011,2011,DIL,Garrulus glandarius,2,1995,25
+29837,797,10/04/2011,2011,DIL,Garrulus glandarius,1,800,25
+29993,570,09/22/2011,2011,GEN,Garrulus glandarius,1,1390,5
+29998,570,09/22/2011,2011,GEN,Garrulus glandarius,2,140,15
+30100,784,09/16/2011,2011,DIL,Garrulus glandarius,2,464,5
+30104,784,09/16/2011,2011,DIL,Garrulus glandarius,1,620,45
+30108,784,09/16/2011,2011,DIL,Garrulus glandarius,1,1297,15
+30114,784,09/16/2011,2011,DIL,Garrulus glandarius,1,864,45
+30121,784,09/16/2011,2011,DIL,Garrulus glandarius,1,1159,45
+30137,784,09/16/2011,2011,DIL,Garrulus glandarius,1,2154,35
+30139,784,09/16/2011,2011,DIL,Garrulus glandarius,1,2500,45
+30143,784,09/16/2011,2011,DIL,Garrulus glandarius,2,2052,25
+30180,782,09/10/2011,2011,CAM,Garrulus glandarius,1,1850,35
+30209,783,09/07/2011,2011,CAN,Garrulus glandarius,1,205,25
+30221,783,09/07/2011,2011,CAN,Garrulus glandarius,1,180,35
+30227,769,08/26/2011,2011,CAM,Garrulus glandarius,1,1143,35
+30244,769,08/26/2011,2011,CAM,Garrulus glandarius,1,563,25
+30270,568,08/25/2011,2011,GEN,Garrulus glandarius,3,2360,25
+30284,568,08/25/2011,2011,GEN,Garrulus glandarius,2,1950,25
+30346,772,08/16/2011,2011,DIL,Garrulus glandarius,1,900,5
+30350,772,08/16/2011,2011,DIL,Garrulus glandarius,1,953,5
+30379,772,08/16/2011,2011,DIL,Garrulus glandarius,1,2090,5
+30682,765,08/04/2011,2011,CAN,Garrulus glandarius,1,0,45
+30700,567,07/27/2011,2011,GEN,Garrulus glandarius,2,1110,5
+30712,567,07/27/2011,2011,GEN,Garrulus glandarius,2,1010,5
+30718,567,07/27/2011,2011,GEN,Garrulus glandarius,1,1616,25
+30997,756,07/08/2011,2011,CAM,Garrulus glandarius,1,358,25
+31225,743,06/28/2011,2011,DIL,Garrulus glandarius,2,150,5
+31243,743,06/28/2011,2011,DIL,Garrulus glandarius,2,1155,35
+31494,564,06/20/2011,2011,GEN,Garrulus glandarius,1,3580,15
+31627,748,06/10/2011,2011,CAN,Garrulus glandarius,1,700,35
+31654,748,06/10/2011,2011,CAN,Garrulus glandarius,1,1806,5
+31739,750,06/06/2011,2011,DIL,Garrulus glandarius,1,537,35
+31928,734,05/22/2011,2011,CAM,Garrulus glandarius,2,650,25
+31937,734,05/22/2011,2011,CAM,Garrulus glandarius,1,2204,25
+32063,736,05/12/2011,2011,CAN,Garrulus glandarius,1,325,35
+32078,736,05/12/2011,2011,CAN,Garrulus glandarius,1,425,15
+32177,563,05/06/2011,2011,GEN,Garrulus glandarius,1,245,15
+32297,729,04/25/2011,2011,CAM,Garrulus glandarius,1,1330,15
+32305,729,04/25/2011,2011,CAM,Garrulus glandarius,1,612,25
+32309,729,04/25/2011,2011,CAM,Garrulus glandarius,1,2238,25
+32417,557,04/18/2011,2011,GEN,Garrulus glandarius,1,965,5
+32422,557,04/18/2011,2011,GEN,Garrulus glandarius,4,115,5
+32434,557,04/18/2011,2011,GEN,Garrulus glandarius,1,460,15
+32437,557,04/18/2011,2011,GEN,Garrulus glandarius,1,390,15
+32494,731,04/14/2011,2011,DIL,Garrulus glandarius,3,520,5
+32523,731,04/14/2011,2011,DIL,Garrulus glandarius,1,1562,35
+32535,731,04/14/2011,2011,DIL,Garrulus glandarius,3,430,45
+32592,559,04/11/2011,2011,CAN,Garrulus glandarius,1,780,35
+32628,559,04/11/2011,2011,CAN,Garrulus glandarius,1,130,45
+32639,559,04/11/2011,2011,CAN,Garrulus glandarius,2,1305,25
+32768,726,03/22/2011,2011,CAM,Garrulus glandarius,1,666,25
+32796,726,03/22/2011,2011,CAM,Garrulus glandarius,1,1570,25
+32828,550,03/16/2011,2011,GEN,Garrulus glandarius,2,280,5
+32831,550,03/16/2011,2011,GEN,Garrulus glandarius,1,222,5
+32833,550,03/16/2011,2011,GEN,Garrulus glandarius,2,2550,25
+32842,550,03/16/2011,2011,GEN,Garrulus glandarius,2,2450,5
+32943,551,03/01/2011,2011,CAN,Garrulus glandarius,1,610,45
+32952,712,02/17/2011,2011,GEN,Garrulus glandarius,1,250,5
+33052,543,01/25/2011,2011,GEN,Garrulus glandarius,1,510,35
+33053,543,01/25/2011,2011,GEN,Garrulus glandarius,3,256,5
+33054,543,01/25/2011,2011,GEN,Garrulus glandarius,1,196,5
+33060,543,01/25/2011,2011,GEN,Garrulus glandarius,1,2200,35
+33145,532,12/27/2010,2010,GEN,Garrulus glandarius,1,2400,45
+33149,532,12/27/2010,2010,GEN,Garrulus glandarius,2,605,5
+33152,532,12/27/2010,2010,GEN,Garrulus glandarius,1,990,45
+33160,532,12/27/2010,2010,GEN,Garrulus glandarius,1,1160,5
+33161,532,12/27/2010,2010,GEN,Garrulus glandarius,2,730,25
+33293,534,12/04/2010,2010,CAN,Garrulus glandarius,1,725,35
+33315,533,12/02/2010,2010,CAN,Garrulus glandarius,1,1125,35
+33333,531,11/26/2010,2010,GEN,Garrulus glandarius,1,540,45
+33363,527,11/12/2010,2010,DIL,Garrulus glandarius,1,1360,25
+33367,527,11/12/2010,2010,DIL,Garrulus glandarius,2,417,5
+33369,527,11/12/2010,2010,DIL,Garrulus glandarius,1,1000,45
+33372,527,11/12/2010,2010,DIL,Garrulus glandarius,1,1420,45
+33427,525,11/04/2010,2010,DIL,Garrulus glandarius,1,770,45
+33627,518,10/16/2010,2010,CAN,Garrulus glandarius,1,170,45
+33723,514,10/06/2010,2010,DIL,Garrulus glandarius,1,700,35
+33904,510,09/16/2010,2010,CAM,Garrulus glandarius,1,612,15
+33930,510,09/16/2010,2010,CAM,Garrulus glandarius,1,1871,35
+34118,721,08/25/2010,2010,CAM,Garrulus glandarius,1,462,25
+34138,721,08/25/2010,2010,CAM,Garrulus glandarius,2,769,25
+34148,496,08/24/2010,2010,GEN,Garrulus glandarius,2,170,5
+34157,496,08/24/2010,2010,GEN,Garrulus glandarius,1,655,35
+34243,719,08/20/2010,2010,DIL,Garrulus glandarius,1,575,5
+34248,719,08/20/2010,2010,DIL,Garrulus glandarius,2,1500,15
+34267,719,08/20/2010,2010,DIL,Garrulus glandarius,1,1920,25
+34327,716,08/16/2010,2010,CAN,Garrulus glandarius,1,517,45
+34611,485,07/22/2010,2010,GEN,Garrulus glandarius,1,1380,25
+34622,485,07/22/2010,2010,GEN,Garrulus glandarius,1,2260,45
+34758,490,07/12/2010,2010,CAM,Garrulus glandarius,2,263,15
+34819,482,07/09/2010,2010,DIL,Garrulus glandarius,1,575,5
+34822,482,07/09/2010,2010,DIL,Garrulus glandarius,1,785,35
+35064,478,06/23/2010,2010,CAM,Garrulus glandarius,1,144,25
+35088,478,06/23/2010,2010,CAM,Garrulus glandarius,2,1088,5
+35115,478,06/23/2010,2010,CAM,Garrulus glandarius,1,2218,25
+35260,470,06/14/2010,2010,DIL,Garrulus glandarius,1,389,5
+35291,470,06/14/2010,2010,DIL,Garrulus glandarius,1,1210,45
+35301,470,06/14/2010,2010,DIL,Garrulus glandarius,2,1530,25
+35322,469,06/09/2010,2010,GEN,Garrulus glandarius,1,400,5
+35332,469,06/09/2010,2010,GEN,Garrulus glandarius,1,630,25
+35358,469,06/09/2010,2010,GEN,Garrulus glandarius,1,2250,5
+35416,467,06/08/2010,2010,CAN,Garrulus glandarius,1,615,45
+35727,461,05/21/2010,2010,DIL,Garrulus glandarius,1,405,15
+35754,461,05/21/2010,2010,DIL,Garrulus glandarius,2,1330,45
+35773,466,05/18/2010,2010,CAM,Garrulus glandarius,1,170,15
+35794,466,05/18/2010,2010,CAM,Garrulus glandarius,1,651,25
+35831,466,05/18/2010,2010,CAM,Garrulus glandarius,2,2191,25
+35899,458,05/10/2010,2010,GEN,Garrulus glandarius,1,1170,45
+35906,458,05/10/2010,2010,GEN,Garrulus glandarius,1,1810,5
+36092,445,04/21/2010,2010,CAM,Garrulus glandarius,1,65,15
+36098,445,04/21/2010,2010,CAM,Garrulus glandarius,1,80,35
+36131,445,04/21/2010,2010,CAM,Garrulus glandarius,1,440,35
+36200,447,04/20/2010,2010,DIL,Garrulus glandarius,1,1490,35
+36249,448,04/19/2010,2010,CAN,Garrulus glandarius,1,367,5
+36280,448,04/19/2010,2010,CAN,Garrulus glandarius,1,1630,5
+36311,449,04/18/2010,2010,GEN,Garrulus glandarius,2,693,25
+36472,441,03/16/2010,2010,CAN,Garrulus glandarius,1,1020,35
+36525,435,03/11/2010,2010,GEN,Garrulus glandarius,1,1690,35
+36546,438,03/10/2010,2010,DIL,Garrulus glandarius,1,577,25
+36789,383,12/01/2009,2009,CAM,Garrulus glandarius,1,1420,35
+36876,421,11/16/2009,2009,DIL,Garrulus glandarius,1,540,35
+36884,421,11/16/2009,2009,DIL,Garrulus glandarius,1,1140,45
+36889,421,11/16/2009,2009,DIL,Garrulus glandarius,1,1470,5
+36923,418,11/09/2009,2009,CAN,Garrulus glandarius,1,300,45
+36926,418,11/09/2009,2009,CAN,Garrulus glandarius,1,319,5
+36932,418,11/09/2009,2009,CAN,Garrulus glandarius,1,744,25
+36952,418,11/09/2009,2009,CAN,Garrulus glandarius,1,2100,35
+37041,414,10/26/2009,2009,CAN,Garrulus glandarius,1,380,45
+37070,413,10/23/2009,2009,DIL,Garrulus glandarius,2,580,15
+37077,413,10/23/2009,2009,DIL,Garrulus glandarius,1,864,25
+37090,413,10/23/2009,2009,DIL,Garrulus glandarius,2,1720,45
+37099,376,10/17/2009,2009,CAM,Garrulus glandarius,2,45,45
+37112,376,10/17/2009,2009,CAM,Garrulus glandarius,2,754,5
+37113,376,10/17/2009,2009,CAM,Garrulus glandarius,1,899,15
+37114,376,10/17/2009,2009,CAM,Garrulus glandarius,2,909,35
+37124,376,10/17/2009,2009,CAM,Garrulus glandarius,1,1640,5
+37127,376,10/17/2009,2009,CAM,Garrulus glandarius,1,1930,5
+37253,372,10/01/2009,2009,GEN,Garrulus glandarius,1,395,25
+37259,372,10/01/2009,2009,GEN,Garrulus glandarius,1,687,35
+37271,372,10/01/2009,2009,GEN,Garrulus glandarius,1,1590,15
+37272,372,10/01/2009,2009,GEN,Garrulus glandarius,2,1690,45
+37316,406,09/25/2009,2009,DIL,Garrulus glandarius,2,725,15
+37329,406,09/25/2009,2009,DIL,Garrulus glandarius,2,1920,5
+37362,359,09/24/2009,2009,CAM,Garrulus glandarius,2,190,10
+37367,359,09/24/2009,2009,CAM,Garrulus glandarius,2,820,5
+37370,359,09/24/2009,2009,CAM,Garrulus glandarius,1,950,45
+37376,359,09/24/2009,2009,CAM,Garrulus glandarius,2,1230,15
+37480,369,09/22/2009,2009,GEN,Garrulus glandarius,1,76,45
+37484,369,09/22/2009,2009,GEN,Garrulus glandarius,1,532,5
+37492,369,09/22/2009,2009,GEN,Garrulus glandarius,1,2230,25
+37542,364,09/17/2009,2009,CAM,Garrulus glandarius,1,50,35
+37549,364,09/17/2009,2009,CAM,Garrulus glandarius,1,180,15
+37552,364,09/17/2009,2009,CAM,Garrulus glandarius,1,870,25
+37553,364,09/17/2009,2009,CAM,Garrulus glandarius,1,870,25
+37570,364,09/17/2009,2009,CAM,Garrulus glandarius,1,1810,15
+37579,366,09/15/2009,2009,GEN,Garrulus glandarius,1,902,5
+37620,402,09/11/2009,2009,CAN,Garrulus glandarius,1,270,15
+37778,356,08/13/2009,2009,CAM,Garrulus glandarius,1,593,25
+37779,356,08/13/2009,2009,CAM,Garrulus glandarius,1,723,5
+37780,356,08/13/2009,2009,CAM,Garrulus glandarius,1,1190,35
+37783,356,08/13/2009,2009,CAM,Garrulus glandarius,1,1220,25
+37784,356,08/13/2009,2009,CAM,Garrulus glandarius,1,1250,5
+37787,356,08/13/2009,2009,CAM,Garrulus glandarius,1,1310,5
+37790,356,08/13/2009,2009,CAM,Garrulus glandarius,3,1400,15
+37793,356,08/13/2009,2009,CAM,Garrulus glandarius,1,1560,15
+37794,356,08/13/2009,2009,CAM,Garrulus glandarius,1,1630,15
+37802,356,08/13/2009,2009,CAM,Garrulus glandarius,1,2350,5
+37890,392,08/09/2009,2009,DIL,Garrulus glandarius,1,507,5
+37902,392,08/09/2009,2009,DIL,Garrulus glandarius,1,1190,15
+38003,334,07/27/2009,2009,CAM,Garrulus glandarius,1,5,15
+38005,334,07/27/2009,2009,CAM,Garrulus glandarius,2,45,5
+38022,334,07/27/2009,2009,CAM,Garrulus glandarius,1,1190,45
+38026,334,07/27/2009,2009,CAM,Garrulus glandarius,1,1560,0
+38027,334,07/27/2009,2009,CAM,Garrulus glandarius,1,1640,0
+38034,335,07/22/2009,2009,GEN,Garrulus glandarius,1,201,45
+38037,335,07/22/2009,2009,GEN,Garrulus glandarius,1,1250,45
+38049,343,07/21/2009,2009,DIL,Garrulus glandarius,1,1920,45
+38053,344,07/21/2009,2009,CAN,Garrulus glandarius,2,301,15
+38354,320,06/30/2009,2009,CAM,Garrulus glandarius,1,137,5
+38355,320,06/30/2009,2009,CAM,Garrulus glandarius,1,247,5
+38361,320,06/30/2009,2009,CAM,Garrulus glandarius,1,924,25
+38365,320,06/30/2009,2009,CAM,Garrulus glandarius,1,998,35
+38374,320,06/30/2009,2009,CAM,Garrulus glandarius,1,1490,5
+38379,320,06/30/2009,2009,CAM,Garrulus glandarius,1,1920,5
+38430,327,06/27/2009,2009,DIL,Garrulus glandarius,1,2020,5
+38610,331,06/15/2009,2009,GEN,Garrulus glandarius,1,657,45
+38691,323,06/03/2009,2009,CAN,Garrulus glandarius,1,330,5
+38724,323,06/03/2009,2009,CAN,Garrulus glandarius,1,1390,35
+38809,312,05/22/2009,2009,DIL,Garrulus glandarius,1,735,35
+38866,313,05/18/2009,2009,CAN,Garrulus glandarius,1,1770,45
+38886,315,05/15/2009,2009,DIL,Garrulus glandarius,1,452,45
+38962,299,05/13/2009,2009,CAM,Garrulus glandarius,1,260,5
+38973,299,05/13/2009,2009,CAM,Garrulus glandarius,1,730,5
+39033,301,05/13/2009,2009,GEN,Garrulus glandarius,2,2340,5
+39116,316,05/06/2009,2009,CAN,Garrulus glandarius,1,870,35
+39143,316,05/06/2009,2009,CAN,Garrulus glandarius,2,2150,15
+39343,293,04/20/2009,2009,CAN,Garrulus glandarius,1,905,15
+39346,293,04/20/2009,2009,CAN,Garrulus glandarius,1,1130,45
+39360,293,04/20/2009,2009,CAN,Garrulus glandarius,2,1420,15
+39363,293,04/20/2009,2009,CAN,Garrulus glandarius,1,1580,15
+39415,294,04/20/2009,2009,DIL,Garrulus glandarius,1,1770,45
+39449,284,04/14/2009,2009,CAM,Garrulus glandarius,1,600,25
+39584,292,04/03/2009,2009,CAN,Garrulus glandarius,1,920,45
+39648,288,04/02/2009,2009,GEN,Garrulus glandarius,1,294,5
+39662,288,04/02/2009,2009,GEN,Garrulus glandarius,1,1050,5
+39843,280,03/17/2009,2009,GEN,Garrulus glandarius,4,2200,45
+39864,276,03/16/2009,2009,CAM,Garrulus glandarius,9,84,15
+39873,276,03/16/2009,2009,CAM,Garrulus glandarius,4,434,35
+39935,275,03/10/2009,2009,CAM,Garrulus glandarius,2,50,45
+40089,264,02/23/2009,2009,GEN,Garrulus glandarius,1,159,5
+40105,263,02/18/2009,2009,CAN,Garrulus glandarius,1,740,0
+40111,263,02/18/2009,2009,CAN,Garrulus glandarius,1,1080,0
+40179,269,02/09/2009,2009,CAM,Garrulus glandarius,1,270,15
+40213,269,02/09/2009,2009,CAM,Garrulus glandarius,1,1711,45
+40220,262,02/04/2009,2009,CAN,Garrulus glandarius,1,1140,5
+40261,251,01/28/2009,2009,CAN,Garrulus glandarius,1,1550,35
+40367,248,12/24/2008,2008,CAN,Garrulus glandarius,1,124,35
+40368,248,12/24/2008,2008,CAN,Garrulus glandarius,1,358,45
+40372,248,12/24/2008,2008,CAN,Garrulus glandarius,1,790,45
+40373,248,12/24/2008,2008,CAN,Garrulus glandarius,1,962,45
+40380,248,12/24/2008,2008,CAN,Garrulus glandarius,2,1660,5
+40387,248,12/24/2008,2008,CAN,Garrulus glandarius,1,2280,35
+40399,250,12/12/2008,2008,GEN,Garrulus glandarius,2,145,5
+40424,207,12/10/2008,2008,CAM,Garrulus glandarius,1,81,45
+40425,207,12/10/2008,2008,CAM,Garrulus glandarius,2,80,35
+40434,207,12/10/2008,2008,CAM,Garrulus glandarius,2,1320,5
+40444,247,12/10/2008,2008,CAN,Garrulus glandarius,1,106,5
+40445,247,12/10/2008,2008,CAN,Garrulus glandarius,3,148,25
+40450,247,12/10/2008,2008,CAN,Garrulus glandarius,3,320,5
+40452,247,12/10/2008,2008,CAN,Garrulus glandarius,1,440,5
+40454,247,12/10/2008,2008,CAN,Garrulus glandarius,1,627,15
+40455,247,12/10/2008,2008,CAN,Garrulus glandarius,1,660,5
+40466,247,12/10/2008,2008,CAN,Garrulus glandarius,1,2080,15
+40468,247,12/10/2008,2008,CAN,Garrulus glandarius,3,2200,15
+40476,247,12/10/2008,2008,CAN,Garrulus glandarius,1,660,15
+40543,201,11/24/2008,2008,GEN,Garrulus glandarius,1,283,5
+40544,201,11/24/2008,2008,GEN,Garrulus glandarius,1,383,5
+40598,199,11/19/2008,2008,CAM,Garrulus glandarius,1,1340,5
+40600,199,11/19/2008,2008,CAM,Garrulus glandarius,1,1420,15
+40630,246,11/18/2008,2008,DIL,Garrulus glandarius,1,600,15
+40631,246,11/18/2008,2008,DIL,Garrulus glandarius,1,650,5
+40634,246,11/18/2008,2008,DIL,Garrulus glandarius,1,740,15
+40750,198,11/09/2008,2008,CAM,Garrulus glandarius,4,25,5
+40756,198,11/09/2008,2008,CAM,Garrulus glandarius,2,270,5
+40760,198,11/09/2008,2008,CAM,Garrulus glandarius,1,500,45
+40776,241,11/06/2008,2008,CAN,Garrulus glandarius,1,106,5
+40780,241,11/06/2008,2008,CAN,Garrulus glandarius,1,193,5
+40798,241,11/06/2008,2008,CAN,Garrulus glandarius,1,1980,5
+40801,241,11/06/2008,2008,CAN,Garrulus glandarius,2,2090,15
+40820,200,11/03/2008,2008,GEN,Garrulus glandarius,4,221,5
+40822,200,11/03/2008,2008,GEN,Garrulus glandarius,2,300,45
+40828,200,11/03/2008,2008,GEN,Garrulus glandarius,1,1060,15
+40837,245,11/03/2008,2008,DIL,Garrulus glandarius,1,290,5
+40843,245,11/03/2008,2008,DIL,Garrulus glandarius,1,460,45
+40845,245,11/03/2008,2008,DIL,Garrulus glandarius,2,548,35
+40863,245,11/03/2008,2008,DIL,Garrulus glandarius,2,1570,35
+40887,179,10/29/2008,2008,DIL,Garrulus glandarius,1,500,5
+40897,180,10/29/2008,2008,CAM,Garrulus glandarius,2,30,45
+40898,180,10/29/2008,2008,CAM,Garrulus glandarius,1,140,5
+41006,192,10/21/2008,2008,GEN,Garrulus glandarius,1,240,35
+41026,192,10/21/2008,2008,GEN,Garrulus glandarius,2,2030,45
+41063,228,10/17/2008,2008,CAN,Garrulus glandarius,2,105,15
+41065,228,10/17/2008,2008,CAN,Garrulus glandarius,1,165,5
+41069,228,10/17/2008,2008,CAN,Garrulus glandarius,1,322,25
+41075,228,10/17/2008,2008,CAN,Garrulus glandarius,1,525,35
+41080,228,10/17/2008,2008,CAN,Garrulus glandarius,1,735,25
+41083,228,10/17/2008,2008,CAN,Garrulus glandarius,1,900,25
+41090,228,10/17/2008,2008,CAN,Garrulus glandarius,0,1220,35
+41144,185,10/08/2008,2008,DIL,Garrulus glandarius,1,410,5
+41145,185,10/08/2008,2008,DIL,Garrulus glandarius,1,510,15
+41151,185,10/08/2008,2008,DIL,Garrulus glandarius,1,1230,5
+41157,185,10/08/2008,2008,DIL,Garrulus glandarius,1,1450,45
+41158,191,10/08/2008,2008,GEN,Garrulus glandarius,1,294,5
+41183,191,10/08/2008,2008,GEN,Garrulus glandarius,2,2120,35
+41186,191,10/08/2008,2008,GEN,Garrulus glandarius,1,2280,25
+41260,183,10/07/2008,2008,CAM,Garrulus glandarius,1,680,5
+41261,183,10/07/2008,2008,CAM,Garrulus glandarius,2,720,5
+41269,183,10/07/2008,2008,CAM,Garrulus glandarius,2,1090,25
+41278,183,10/07/2008,2008,CAM,Garrulus glandarius,1,1370,5
+41419,220,09/24/2008,2008,CAN,Garrulus glandarius,2,1180,5
+41463,173,09/19/2008,2008,CAM,Garrulus glandarius,6,30,5
+41471,173,09/19/2008,2008,CAM,Garrulus glandarius,1,610,35
+41473,173,09/19/2008,2008,CAM,Garrulus glandarius,1,760,5
+41474,173,09/19/2008,2008,CAM,Garrulus glandarius,1,790,5
+41476,173,09/19/2008,2008,CAM,Garrulus glandarius,1,780,5
+41477,173,09/19/2008,2008,CAM,Garrulus glandarius,1,810,15
+41479,173,09/19/2008,2008,CAM,Garrulus glandarius,1,1100,5
+41480,173,09/19/2008,2008,CAM,Garrulus glandarius,2,1120,15
+41481,173,09/19/2008,2008,CAM,Garrulus glandarius,1,1140,5
+41483,173,09/19/2008,2008,CAM,Garrulus glandarius,1,1210,15
+41492,173,09/19/2008,2008,CAM,Garrulus glandarius,3,1400,5
+41494,173,09/19/2008,2008,CAM,Garrulus glandarius,1,1480,5
+41503,173,09/19/2008,2008,CAM,Garrulus glandarius,1,1650,15
+41520,173,09/19/2008,2008,CAM,Garrulus glandarius,1,2350,25
+41544,171,09/12/2008,2008,DIL,Garrulus glandarius,1,310,15
+41568,171,09/12/2008,2008,DIL,Garrulus glandarius,1,1260,5
+41574,171,09/12/2008,2008,DIL,Garrulus glandarius,1,1340,35
+41587,176,09/12/2008,2008,GEN,Garrulus glandarius,1,1660,35
+41599,176,09/12/2008,2008,GEN,Garrulus glandarius,1,2370,5
+41715,161,08/29/2008,2008,DIL,Garrulus glandarius,1,1520,15
+41717,161,08/29/2008,2008,DIL,Garrulus glandarius,1,1870,5
+41748,162,08/20/2008,2008,CAM,Garrulus glandarius,1,120,5
+41754,162,08/20/2008,2008,CAM,Garrulus glandarius,1,540,5
+41759,162,08/20/2008,2008,CAM,Garrulus glandarius,2,760,5
+41761,162,08/20/2008,2008,CAM,Garrulus glandarius,1,930,15
+41762,162,08/20/2008,2008,CAM,Garrulus glandarius,1,950,25
+41763,162,08/20/2008,2008,CAM,Garrulus glandarius,1,1020,15
+41769,162,08/20/2008,2008,CAM,Garrulus glandarius,1,1450,5
+41771,162,08/20/2008,2008,CAM,Garrulus glandarius,1,1530,5
+41772,162,08/20/2008,2008,CAM,Garrulus glandarius,1,1620,15
+41779,162,08/20/2008,2008,CAM,Garrulus glandarius,1,2170,5
+41783,162,08/20/2008,2008,CAM,Garrulus glandarius,2,2210,5
+41818,165,08/13/2008,2008,GEN,Garrulus glandarius,1,350,5
+41837,165,08/13/2008,2008,GEN,Garrulus glandarius,1,2200,5
+41838,165,08/13/2008,2008,GEN,Garrulus glandarius,1,2250,35
+41849,215,08/11/2008,2008,CAN,Garrulus glandarius,1,1285,15
+41855,215,08/11/2008,2008,CAN,Garrulus glandarius,1,2325,5
+41975,164,08/01/2008,2008,GEN,Garrulus glandarius,1,367,15
+41979,164,08/01/2008,2008,GEN,Garrulus glandarius,1,1290,25
+41985,164,08/01/2008,2008,GEN,Garrulus glandarius,1,1990,35
+41994,164,08/01/2008,2008,GEN,Garrulus glandarius,2,2280,45
+41995,164,08/01/2008,2008,GEN,Garrulus glandarius,1,2390,25
+42092,157,07/14/2008,2008,CAN,Garrulus glandarius,1,1800,5
+42100,158,07/11/2008,2008,DIL,Garrulus glandarius,1,390,45
+42107,158,07/11/2008,2008,DIL,Garrulus glandarius,1,1300,5
+42388,155,07/02/2008,2008,GEN,Garrulus glandarius,1,398,25
+42390,155,07/02/2008,2008,GEN,Garrulus glandarius,1,505,5
+42404,155,07/02/2008,2008,GEN,Garrulus glandarius,3,1800,5
+42405,155,07/02/2008,2008,GEN,Garrulus glandarius,1,1860,45
+42437,142,07/01/2008,2008,CAM,Garrulus glandarius,1,50,5
+42440,142,07/01/2008,2008,CAM,Garrulus glandarius,1,180,5
+42442,142,07/01/2008,2008,CAM,Garrulus glandarius,1,320,5
+42447,142,07/01/2008,2008,CAM,Garrulus glandarius,1,770,5
+42463,142,07/01/2008,2008,CAM,Garrulus glandarius,1,1750,15
+42516,129,06/27/2008,2008,DIL,Garrulus glandarius,1,1160,35
+42517,129,06/27/2008,2008,DIL,Garrulus glandarius,1,1170,5
+42523,129,06/27/2008,2008,DIL,Garrulus glandarius,1,1280,5
+42530,129,06/27/2008,2008,DIL,Garrulus glandarius,2,2000,45
+42691,135,06/18/2008,2008,CAN,Garrulus glandarius,1,840,45
+42697,135,06/18/2008,2008,CAN,Garrulus glandarius,2,1160,45
+42707,135,06/18/2008,2008,CAN,Garrulus glandarius,1,1680,35
+42713,135,06/18/2008,2008,CAN,Garrulus glandarius,2,2140,5
+42861,125,06/16/2008,2008,GEN,Garrulus glandarius,1,160,35
+42868,125,06/16/2008,2008,GEN,Garrulus glandarius,1,551,45
+42907,119,06/16/2008,2008,CAM,Garrulus glandarius,1,400,15
+42927,119,06/16/2008,2008,CAM,Garrulus glandarius,1,1530,45
+42943,119,06/16/2008,2008,CAM,Garrulus glandarius,1,2060,5
+43030,128,06/10/2008,2008,DIL,Garrulus glandarius,1,63,45
+43035,128,06/10/2008,2008,DIL,Garrulus glandarius,1,292,25
+43057,128,06/10/2008,2008,DIL,Garrulus glandarius,1,975,15
+43253,124,06/05/2008,2008,GEN,Garrulus glandarius,1,1870,25
+43257,124,06/05/2008,2008,GEN,Garrulus glandarius,1,1960,15
+43298,134,06/04/2008,2008,CAN,Garrulus glandarius,1,371,25
+43310,134,06/04/2008,2008,CAN,Garrulus glandarius,1,975,25
+43351,134,06/04/2008,2008,CAN,Garrulus glandarius,1,2320,15
+43358,134,06/04/2008,2008,CAN,Garrulus glandarius,1,2420,5
+43461,118,06/03/2008,2008,CAM,Garrulus glandarius,1,250,15
+43465,118,06/03/2008,2008,CAM,Garrulus glandarius,1,450,5
+43469,118,06/03/2008,2008,CAM,Garrulus glandarius,2,650,5
+43484,118,06/03/2008,2008,CAM,Garrulus glandarius,1,1210,5
+43549,98,05/28/2008,2008,DIL,Garrulus glandarius,1,466,35
+43557,98,05/28/2008,2008,DIL,Garrulus glandarius,1,690,5
+43561,98,05/28/2008,2008,DIL,Garrulus glandarius,1,740,15
+43571,98,05/28/2008,2008,DIL,Garrulus glandarius,2,970,15
+43577,98,05/28/2008,2008,DIL,Garrulus glandarius,1,1190,15
+43584,98,05/28/2008,2008,DIL,Garrulus glandarius,3,1350,25
+43589,98,05/28/2008,2008,DIL,Garrulus glandarius,1,1490,5
+43667,108,05/26/2008,2008,CAM,Garrulus glandarius,1,180,5
+43671,108,05/26/2008,2008,CAM,Garrulus glandarius,2,380,25
+43683,108,05/26/2008,2008,CAM,Garrulus glandarius,1,670,5
+43684,108,05/26/2008,2008,CAM,Garrulus glandarius,1,700,5
+43685,108,05/26/2008,2008,CAM,Garrulus glandarius,2,720,5
+43688,108,05/26/2008,2008,CAM,Garrulus glandarius,1,830,5
+43746,94,05/21/2008,2008,CAN,Garrulus glandarius,1,220,35
+43775,94,05/21/2008,2008,CAN,Garrulus glandarius,2,1240,15
+43797,94,05/21/2008,2008,CAN,Garrulus glandarius,2,2030,5
+43802,94,05/21/2008,2008,CAN,Garrulus glandarius,1,2210,5
+43983,107,05/15/2008,2008,CAM,Garrulus glandarius,2,119,45
+43987,107,05/15/2008,2008,CAM,Garrulus glandarius,2,280,45
+43988,107,05/15/2008,2008,CAM,Garrulus glandarius,1,300,25
+43990,107,05/15/2008,2008,CAM,Garrulus glandarius,1,414,5
+43991,107,05/15/2008,2008,CAM,Garrulus glandarius,1,460,5
+43996,107,05/15/2008,2008,CAM,Garrulus glandarius,1,512,45
+43998,107,05/15/2008,2008,CAM,Garrulus glandarius,2,780,25
+44024,107,05/15/2008,2008,CAM,Garrulus glandarius,1,1860,5
+44107,99,05/13/2008,2008,GEN,Garrulus glandarius,1,1550,5
+44179,97,05/12/2008,2008,DIL,Garrulus glandarius,1,1320,35
+44188,97,05/12/2008,2008,DIL,Garrulus glandarius,1,1480,5
+44212,93,05/07/2008,2008,CAN,Garrulus glandarius,1,91,25
+44215,93,05/07/2008,2008,CAN,Garrulus glandarius,1,155,35
+44228,93,05/07/2008,2008,CAN,Garrulus glandarius,1,455,5
+44246,93,05/07/2008,2008,CAN,Garrulus glandarius,1,1280,15
+44248,93,05/07/2008,2008,CAN,Garrulus glandarius,1,1300,5
+44493,90,04/25/2008,2008,DIL,Garrulus glandarius,1,685,45
+44497,90,04/25/2008,2008,DIL,Garrulus glandarius,1,790,45
+44498,90,04/25/2008,2008,DIL,Garrulus glandarius,1,868,45
+44516,90,04/25/2008,2008,DIL,Garrulus glandarius,3,1180,5
+44521,90,04/25/2008,2008,DIL,Garrulus glandarius,2,1210,5
+44539,90,04/25/2008,2008,DIL,Garrulus glandarius,1,1910,35
+44615,72,04/23/2008,2008,CAM,Garrulus glandarius,1,1920,45
+44634,86,04/22/2008,2008,CAN,Garrulus glandarius,4,300,25
+44643,86,04/22/2008,2008,CAN,Garrulus glandarius,1,580,35
+44653,86,04/22/2008,2008,CAN,Garrulus glandarius,1,975,25
+44657,86,04/22/2008,2008,CAN,Garrulus glandarius,1,1170,45
+44767,89,04/15/2008,2008,DIL,Garrulus glandarius,1,10,45
+44802,89,04/15/2008,2008,DIL,Garrulus glandarius,1,960,5
+44803,89,04/15/2008,2008,DIL,Garrulus glandarius,1,960,25
+44808,89,04/15/2008,2008,DIL,Garrulus glandarius,1,1030,15
+44823,89,04/15/2008,2008,DIL,Garrulus glandarius,2,1510,35
+44825,89,04/15/2008,2008,DIL,Garrulus glandarius,4,1720,35
+44832,89,04/15/2008,2008,DIL,Garrulus glandarius,2,2090,45
+44870,71,04/15/2008,2008,CAM,Garrulus glandarius,1,450,5
+44872,71,04/15/2008,2008,CAM,Garrulus glandarius,3,630,25
+44874,71,04/15/2008,2008,CAM,Garrulus glandarius,1,1220,5
+45003,77,04/11/2008,2008,GEN,Garrulus glandarius,2,1250,5
+45402,58,03/14/2008,2008,DIL,Garrulus glandarius,1,2020,5
+45407,58,03/14/2008,2008,DIL,Garrulus glandarius,1,2090,25
+45468,51,03/13/2008,2008,GEN,Garrulus glandarius,1,1660,45
+45600,54,03/11/2008,2008,CAN,Garrulus glandarius,1,590,25
+45756,57,03/03/2008,2008,DIL,Garrulus glandarius,1,460,25
+45765,57,03/03/2008,2008,DIL,Garrulus glandarius,2,540,15
+45772,57,03/03/2008,2008,DIL,Garrulus glandarius,2,1010,15
+45782,209,01/10/2008,2008,DIL,Garrulus glandarius,1,1720,45
+45783,209,01/10/2008,2008,DIL,Garrulus glandarius,1,1900,15
+45784,209,01/10/2008,2008,DIL,Garrulus glandarius,2,2000,35
+45789,209,01/10/2008,2008,DIL,Garrulus glandarius,1,2050,35
+45794,209,01/10/2008,2008,DIL,Garrulus glandarius,2,2130,45
+45797,7,12/27/2007,2007,CAM,Garrulus glandarius,1,10,5
+45798,7,12/27/2007,2007,CAM,Garrulus glandarius,1,400,45
+45857,35,12/18/2007,2007,GEN,Garrulus glandarius,1,300,15
+45860,35,12/18/2007,2007,GEN,Garrulus glandarius,2,2000,45
+45863,5,12/18/2007,2007,CAM,Garrulus glandarius,1,100,5
+45864,5,12/18/2007,2007,CAM,Garrulus glandarius,1,105,5
+45869,5,12/18/2007,2007,CAM,Garrulus glandarius,1,1880,5
+45870,5,12/18/2007,2007,CAM,Garrulus glandarius,1,2060,5
+45871,32,12/15/2007,2007,CAN,Garrulus glandarius,1,350,25
+45872,32,12/15/2007,2007,CAN,Garrulus glandarius,1,595,15
+45873,32,12/15/2007,2007,CAN,Garrulus glandarius,1,1040,45
+45874,32,12/15/2007,2007,CAN,Garrulus glandarius,1,1920,15
+45892,42,12/12/2007,2007,DIL,Garrulus glandarius,1,650,5
+45940,4,12/07/2007,2007,CAM,Garrulus glandarius,1,660,35
+45972,41,11/30/2007,2007,DIL,Garrulus glandarius,2,1770,5
+45976,41,11/30/2007,2007,DIL,Garrulus glandarius,2,2130,45
+45977,41,11/30/2007,2007,DIL,Garrulus glandarius,1,2130,15
+45987,31,11/29/2007,2007,CAN,Garrulus glandarius,4,170,45
+45988,31,11/29/2007,2007,CAN,Garrulus glandarius,1,345,5
+45989,31,11/29/2007,2007,CAN,Garrulus glandarius,1,345,45
+45990,31,11/29/2007,2007,CAN,Garrulus glandarius,1,890,5
+45991,31,11/29/2007,2007,CAN,Garrulus glandarius,1,1170,15
+45992,31,11/29/2007,2007,CAN,Garrulus glandarius,1,1200,5
+45993,31,11/29/2007,2007,CAN,Garrulus glandarius,1,1350,45
+45994,31,11/29/2007,2007,CAN,Garrulus glandarius,1,2360,45
+46024,30,11/20/2007,2007,CAN,Garrulus glandarius,1,150,45
+46025,30,11/20/2007,2007,CAN,Garrulus glandarius,1,1700,45
+46039,40,11/15/2007,2007,DIL,Garrulus glandarius,1,1050,15
+46046,40,11/15/2007,2007,DIL,Garrulus glandarius,2,2100,25
+46048,40,11/15/2007,2007,DIL,Garrulus glandarius,2,2130,45

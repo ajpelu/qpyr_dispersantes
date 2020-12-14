@@ -120,6 +120,8 @@ aves_robledal <- d %>%
                 specie = NOMBRE_CIEN, n= No_IND,  dis = DISTANCIA, desp = DESPLAZAMIENTO) 
 
 write_csv(aves_robledal, here::here("data/dispersantes_qp_new.csv"))
+
+g <- aves_robledal %>% filter(str_detect(specie, "Garr*")) %>% write_csv(here::here("data/garrulus.csv"))
 ```
 
 

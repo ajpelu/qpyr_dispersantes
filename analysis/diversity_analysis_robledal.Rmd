@@ -63,9 +63,6 @@ disp <- df %>%
   filter(year>2009) %>% 
   filter(year < 2018)
 
-df %>% filter(str_detect(specie, "Garr*")) %>% 
-  write_csv(here::here("data/garrulus.csv"))
-
 ```
 
 
